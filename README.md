@@ -83,6 +83,7 @@
 <span style="color:#0f0;">│</span>  <span style="color:#fff;">📧 Email:</span> <a href="mailto:your.email@example.com" style="color:#0ff;">your.email@example.com</a>                                     <span style="color:#0f0;">│</span>
 <span style="color:#0f0;">│</span>  <span style="color:#fff;">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anand-b-arjun" style="color:#0ff;">linkedin.com/in/anand-b-arjun</a>                         <span style="color:#0f0;">│</span>
 <span style="color:#0f0;">│</span>  <span style="color:#fff;">🌐 GitHub:</span> <a href="https://github.com/AnandBinuArjun" style="color:#0ff;">github.com/AnandBinuArjun</a>                               <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🌍 Website:</span> <a href="https://anandbinuarjun.live" style="color:#0ff;">anandbinuarjun.live</a>                                   <span style="color:#0f0;">│</span>
 <span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
 <span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
@@ -96,11 +97,30 @@
 </pre>
 </div>
 
+<!-- Animated Typing Effect -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Welcome+to+Anand's+Cybersecurity+Profile;Cybersecurity+Specialist+%7C+ML+Enthusiast;MSc+Cyber+Security+%40+Birmingham+City+University;Protecting+digital+worlds+one+line+at+a+time..." alt="Typing SVG" />
+</div>
+
 <style>
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes caret {
+  50% { border-color: transparent; }
+}
+
+.terminal-animation {
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+             caret 1s steps(1) 1s infinite;
 }
 </style>
 
