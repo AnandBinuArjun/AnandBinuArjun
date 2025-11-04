@@ -98,36 +98,6 @@
   <img src="https://komarev.com/ghpvc/?username=AnandBinuArjun&style=flat-square&labelColor=1e1e2c&color=00FFFF" alt="Profile Views" />
 </div>
 
-<!-- Animations -->
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-50px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes slideInRight {
-  from { opacity: 0; transform: translateX(50px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(142, 45, 226, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(142, 45, 226, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(142, 45, 226, 0); }
-}
-
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-}
-</style>
-
 <!-- Footer -->
 <div align="center">
   <p><em>Protecting digital worlds one line of code at a time...</em></p>
