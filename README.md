@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+Anand+Binu+Arjun;Cybersecurity+Specialist+%7C+ML+Enthusiast;MSc+Cyber+Security+%40+Birmingham+City+University" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=007AFF&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+Anand+Binu+Arjun;Cybersecurity+Specialist+%7C+ML+Enthusiast;MSc+Cyber+Security+%40+Birmingham+City+University" alt="Typing SVG" />
 </div>
 
 <!-- macOS-inspired Traffic Light Buttons -->
@@ -17,7 +17,7 @@
     <tr>
       <td align="center" width="50%">
         <h2>👨‍💻 About Me</h2>
-        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;">
+        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;animation: fadeInUp 1s ease-out;">
           <p>🔐 Cybersecurity Specialist</p>
           <p>🤖 Machine Learning Enthusiast</p>
           <p>🎓 MSc Cyber Security Student @ Birmingham City University</p>
@@ -26,7 +26,7 @@
       </td>
       <td align="center" width="50%">
         <h2>🛠️ Technical Skills</h2>
-        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;">
+        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;animation: fadeInUp 1s ease-out 0.2s both;">
           <p><strong>Languages:</strong> Python, JavaScript</p>
           <p><strong>Technologies:</strong> Machine Learning, Network Security, Discord Bots</p>
           <p><strong>Tools:</strong> Docker, Git, Linux</p>
@@ -44,7 +44,7 @@
   <table>
     <tr>
       <td align="center">
-        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;width:350px;margin:15px;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;">
+        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;width:350px;margin:15px;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;animation: fadeInUp 1s ease-out 0.4s both;">
           <h3>🛡️ Security Assistant</h3>
           <p>Next-Gen Discord Bot for Cybersecurity</p>
           <ul style="text-align:left;">
@@ -55,7 +55,7 @@
         </div>
       </td>
       <td align="center">
-        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;width:350px;margin:15px;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;">
+        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;width:350px;margin:15px;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;animation: fadeInUp 1s ease-out 0.6s both;">
           <h3>🧠 IDS_ML Project</h3>
           <p>Machine Learning for Network Intrusion Detection</p>
           <ul style="text-align:left;">
@@ -77,7 +77,7 @@
   <table>
     <tr>
       <td align="center" style="padding:20px;">
-        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;">
+        <div style="background:#f5f5f7;padding:25px;border-radius:20px;color:#333;box-shadow: 0 4px 12px rgba(0,0,0,0.1);border: 1px solid #ddd;animation: fadeInUp 1s ease-out 0.8s both;">
           <h3>Let's Connect!</h3>
           <p>📧 <a href="mailto:anandbinuarjun@zohomail.eu" style="color:#007AFF;">anandbinuarjun@zohomail.eu</a></p>
           <p>💼 <a href="https://linkedin.com/in/anand-b-arjun" style="color:#007AFF;">LinkedIn Profile</a></p>
@@ -92,14 +92,32 @@
 <br>
 
 <!-- Stats and Activity -->
-<div align="center">
+<div align="center" style="animation: fadeIn 1s ease-out 1s both;">
   <img src="https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&labelColor=FFFFFF&color=007AFF" alt="GitHub Stars" />
   <img src="https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&labelColor=FFFFFF&color=007AFF" alt="GitHub Followers" />
   <img src="https://komarev.com/ghpvc/?username=AnandBinuArjun&style=flat-square&labelColor=FFFFFF&color=007AFF" alt="Profile Views" />
 </div>
 
 <!-- Footer -->
-<div align="center">
+<div align="center" style="animation: fadeIn 1s ease-out 1.2s both;">
   <p><em>Protecting digital worlds one line of code at a time...</em></p>
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=007AFF&center=true&vCenter=true&width=400&lines=Happy+Coding!+%F0%9F%92%BB" alt="Typing SVG" />
 </div>
+
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
