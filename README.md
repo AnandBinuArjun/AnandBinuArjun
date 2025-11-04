@@ -98,6 +98,7 @@
   <img src="https://komarev.com/ghpvc/?username=AnandBinuArjun&style=flat-square&labelColor=1e1e2c&color=00FFFF" alt="Profile Views" />
 </div>
 
+<!-- Animations -->
 <style>
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
