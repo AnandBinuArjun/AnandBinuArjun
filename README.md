@@ -1,125 +1,111 @@
-```bash
-anand@cyberprofile:~$ cat /etc/os-release
-PRETTY_NAME="GitHub Ubuntu 20.04.6 LTS"
-NAME="Ubuntu"
-VERSION_ID="20.04"
-VERSION="20.04.6 LTS (Focal Fossa)"
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://github.com/AnandBinuArjun"
-SUPPORT_URL="https://github.com/AnandBinuArjun"
-BUG_REPORT_URL="https://github.com/AnandBinuArjun"
+<!-- Terminal Window Simulation -->
+<div align="center">
+<pre align="left" style="background-color:#000;color:#0f0;font-family:monospace;font-size:14px;line-height:1.4;">
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│ anand@cyberprofile:~$ <span style="animation: blink 1s infinite;">_</span>                                                         │
+└──────────────────────────────────────────────────────────────────────────────────┘
+</pre>
+</div>
 
-anand@cyberprofile:~$ whoami
-anand
+<!-- Fake Terminal Output -->
+<div align="center">
+<pre align="left" style="background-color:#000;color:#0f0;font-family:'Courier New',monospace;font-size:14px;line-height:1.4;padding:20px;text-align:left;width:fit-content;border-radius:5px;box-shadow:0 0 10px rgba(0,255,0,0.3);">
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">neofetch</span>
 
-anand@cyberprofile:~$ id
-uid=1000(anand) gid=1000(anand) groups=1000(anand),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lxd)
+<span style="color:#0ff;">██████████████████  ████████</span>   <span style="color:#fff;">anand@cyberprofile</span>
+<span style="color:#0ff;">██████████████████  ████████</span>   --------------------- 
+<span style="color:#0ff;">██████████████████  ████████</span>   <span style="color:#fff;">OS</span>: GitHub Ubuntu 20.04.6 LTS x86_64
+<span style="color:#0ff;">████████            ████████</span>   <span style="color:#fff;">Host</span>: GitHub Virtual Machine
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">Kernel</span>: 5.4.0-1097-aws
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">Uptime</span>: 24/7 Learning Mode
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">Shell</span>: bash 5.0.17
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">Terminal</span>: /dev/pts/0
+<span style="color:#0ff;">████████  ████████  ████████</span>   
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">Cybersecurity Specialist</span>
+<span style="color:#0ff;">████████  ████████  ████████</span>   <span style="color:#fff;">MSc Cyber Security @ Birmingham City University</span>
+<span style="color:#0ff;">████████  ████████  ████████</span>   
 
-anand@cyberprofile:~$ echo $SHELL
-/bin/bash
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">cat about.txt</span>
 
-anand@cyberprofile:~$ uname -a
-Linux cyberprofile 5.4.0-1097-aws #104~18.04.1-Ubuntu SMP x86_64 GNU/Linux
+<span style="color:#0f0;">┌── About Me ───────────────────────────────────────────────────────────────┐</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🔐 Cybersecurity Specialist</span>                                            <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🤖 Machine Learning Enthusiast</span>                                         <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🎓 MSc Cyber Security Student @ Birmingham City University</span>             <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🧠 Specializing in ML-Driven Intrusion Detection</span>                       <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
-anand@cyberprofile:~$ pwd
-/home/anand
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">ls -la projects/</span>
 
-anand@cyberprofile:~$ ls -la
-total 56
-drwxr-xr-x 1 anand anand  4096 Nov  4 15:30 .
-drwxr-xr-x 1 root  root   4096 Nov  4 15:30 ..
--rw-r--r-- 1 anand anand  3771 Nov  4 15:30 .bashrc
-drwx------ 1 anand anand  4096 Nov  4 15:30 .cache
-drwx------ 1 anand anand  4096 Nov  4 15:30 .config
-drwxr-xr-x 1 anand anand  4096 Nov  4 15:30 .local
--rw-r--r-- 1 anand anand   807 Nov  4 15:30 .profile
-drwxr-xr-x 1 anand anand  4096 Nov  4 15:30 Projects
--rw-r--r-- 1 anand anand  1234 Nov  4 15:30 README.md
-drwx------ 1 anand anand  4096 Nov  4 15:30 .ssh
+<span style="color:#0f0;">total 16</span>
+<span style="color:#0f0;">drwxr-xr-x 2 anand anand 4096 Nov  4 15:30 .</span>
+<span style="color:#0f0;">drwxr-xr-x 5 anand anand 4096 Nov  4 15:30 ..</span>
+<span style="color:#0f0;">-rw-r--r-- 1 anand anand  512 Nov  4 15:30 </span><span style="color:#ff0;">security-assistant.md</span>
+<span style="color:#0f0;">-rw-r--r-- 1 anand anand  512 Nov  4 15:30 </span><span style="color:#ff0;">ids-ml-project.md</span>
 
-anand@cyberprofile:~$ cat /proc/cpuinfo | grep "model name" | head -1
-model name      : AMD EPYC 7763 64-Core Processor
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">cat projects/security-assistant.md</span>
 
-anand@cyberprofile:~$ free -h
-              total        used        free      shared  buff/cache   available
-Mem:           30Gi       2.0Gi        25Gi       128Mi       3.0Gi        28Gi
-Swap:         2.0Gi          0B       2.0Gi
+<span style="color:#0f0;">┌── Security Assistant ─────────────────────────────────────────────────────┐</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🛡️  Next-Gen Discord Bot for Cybersecurity</span>                            <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Real-time threat detection</span>                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Automated incident response</span>                                          <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Vulnerability scanning integration</span>                                   <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
-anand@cyberprofile:~$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/root        96G   12G   84G  13% /
-tmpfs            16G     0   16G   0% /dev/shm
-/dev/nvme0n1p1  492M  4.0K  492M   1% /boot/efi
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">cat projects/ids-ml-project.md</span>
 
-anand@cyberprofile:~$ ps aux | grep anand | head -5
-anand     1234  0.0  0.0  12345  6789 ?        S    15:30   0:00 /bin/bash
-anand     1235  0.0  0.0  23456  7890 ?        S    15:30   0:00 /usr/bin/python3
-anand     1236  0.0  0.0  34567  8901 ?        S    15:30   0:00 /usr/bin/node
-anand     1237  0.0  0.0  45678  9012 ?        S    15:30   0:00 /usr/bin/docker
-anand     1238  0.0  0.0  56789  0123 ?        S    15:30   0:00 /usr/bin/git
+<span style="color:#0f0;">┌── IDS_ML Project ─────────────────────────────────────────────────────────┐</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🧠 Machine Learning for Network Intrusion Detection</span>                    <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Comparative analysis of ML algorithms</span>                                <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Real-time network traffic analysis</span>                                   <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">• Anomaly detection in network packets</span>                                 <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
-anand@cyberprofile:~$ cat /etc/passwd | grep anand
-anand:x:1000:1000:Anand Binu Arjun,,,:/home/anand:/bin/bash
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">cat skills.txt</span>
 
-anand@cyberprofile:~$ groups anand
-anand : anand adm cdrom sudo dip plugdev lxd
+<span style="color:#0f0;">┌── Technical Skills ───────────────────────────────────────────────────────┐</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">Languages:</span> Python, JavaScript                                             <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">Technologies:</span> Machine Learning, Network Security, Discord Bots         <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">Tools:</span> Docker, Git, Linux                                                 <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
-anand@cyberprofile:~$ cat ~/.profile
-# ~/.profile: executed by the command interpreter for login shells.
-# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
-# exists.
-# see /usr/share/doc/bash/examples/startup-files for examples.
-# the files are located in the bash-doc package.
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">cat contact.md</span>
 
-echo "Welcome to Anand's Cybersecurity Profile!"
-echo "MSc Cyber Security @ Birmingham City University"
+<span style="color:#0f0;">┌── Contact Information ────────────────────────────────────────────────────┐</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">📧 Email:</span> <a href="mailto:your.email@example.com" style="color:#0ff;">your.email@example.com</a>                                     <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anand-b-arjun" style="color:#0ff;">linkedin.com/in/anand-b-arjun</a>                         <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>  <span style="color:#fff;">🌐 GitHub:</span> <a href="https://github.com/AnandBinuArjun" style="color:#0ff;">github.com/AnandBinuArjun</a>                               <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">│</span>                                                                           <span style="color:#0f0;">│</span>
+<span style="color:#0f0;">└───────────────────────────────────────────────────────────────────────────┘</span>
 
-anand@cyberprofile:~$ cat ~/Projects/README.md
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">uptime</span>
 
-# Anand Binu Arjun 👨‍💻
+ <span style="color:#fff;">24/7 Learning Mode - Continuous Improvement in Cybersecurity</span>
 
-## System Information
-┌────────────────────────────────────────────────────────────────────┐
-│  ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗██████╗               │
-│  ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗████╗  ██║██╔══██╗              │
-│  ██████╔╝ ╚████╔╝ ██████╔╝███████║██╔██╗ ██║██║  ██║              │
-│  ██╔══██╗  ╚██╔╝  ██╔═══╝ ██╔══██║██║╚██╗██║██║  ██║              │
-│  ██████╔╝   ██║   ██║     ██║  ██║██║ ╚████║██████╔╝              │
-│  ╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝               │
-│                                                                   │
-│  Name: Anand Binu Arjun                                           │
-│  Title: Cybersecurity Specialist                                  │
-│  Location: India                                                  │
-│  Education: MSc Cyber Security @ Birmingham City University       │
-│  Specialization: ML-Driven Intrusion Detection                    │
-│  Languages: Python, JavaScript                                    │
-│  Technologies: Machine Learning, Network Security, Discord Bots  │
-│  Tools: Docker, Git, Linux                                        │
-│  Terminal: Bash                                                   │
-│  Shell: zsh 5.8                                                   │
-│                                                                   │
-└───────────────────────────────────────────────────────────────────┘
+<span style="color:#0ff;">anand@cyberprofile:~$</span> <span style="color:#fff;">echo "Happy Coding!" && exit</span>
 
-## Active Projects
-• Security Assistant - Next-Gen Discord Bot for Cybersecurity
-• IDS_ML - Machine Learning Project for Network Intrusion Detection
+ <span style="color:#0f0;">Happy Coding!</span>
+</pre>
+</div>
 
-## Contact Information
-📧 Email: [your.email@example.com](mailto:your.email@example.com)
-💼 LinkedIn: [linkedin.com/in/anand-b-arjun](https://linkedin.com/in/anand-b-arjun)
-🌐 GitHub: [github.com/AnandBinuArjun](https://github.com/AnandBinuArjun)
+<style>
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
 
-## System Status
-uptime: 24/7 Learning Mode - Continuous Improvement in Cybersecurity
-
-anand@cyberprofile:~$ history | tail -5
- 1230  whoami
- 1231  ls -la
- 1232  cat /proc/cpuinfo
- 1233  ps aux | grep anand
- 1234  cat ~/Projects/README.md
-
-anand@cyberprofile:~$ echo "Happy Coding!" && exit 0
-Happy Coding!
-```
+<!-- Footer -->
+<div align="center">
+<br>
+<p><em>Terminal-inspired profile README.md for GitHub</em></p>
+</div>
