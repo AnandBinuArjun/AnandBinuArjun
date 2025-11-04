@@ -35,6 +35,32 @@ anand@profile:~$ echo "Happy Coding!" && exit 0
 Happy Coding!
 ```
 
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&repeat=false&width=435&lines=anand%40profile%3A~%24+neofetch" alt="Neofetch" />
+</div>
+
+```bash
+anand@profile:~$ neofetch
+┌────────────────────────────────────────────────────────────────────┐
+│  ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗██████╗               │
+│  ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗████╗  ██║██╔══██╗              │
+│  ██████╔╝ ╚████╔╝ ██████╔╝███████║██╔██╗ ██║██║  ██║              │
+│  ██╔══██╗  ╚██╔╝  ██╔═══╝ ██╔══██║██║╚██╗██║██║  ██║              │
+│  ██████╔╝   ██║   ██║     ██║  ██║██║ ╚████║██████╔╝              │
+│  ╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝               │
+│                                                                   │
+│  Name: Anand Binu Arjun                                           │
+│  Title: Software Developer                                        │
+│  Location: India                                                  │
+│  Languages: JavaScript, Python, Java                              │
+│  Frameworks: React, Node.js, Spring Boot                          │
+│  Tools: Docker, Kubernetes, Git                                   │
+│  Terminal: Bash                                                   │
+│  Shell: zsh 5.8                                                   │
+│                                                                   │
+└───────────────────────────────────────────────────────────────────┘
+```
+
 ---
 <p align="left">
   <img src="https://img.shields.io/github/stars/yourusername?style=flat-square&labelColor=000000&color=00FF00" alt="GitHub Stars" />
@@ -42,4 +68,4 @@ Happy Coding!
   <img src="https://komarev.com/ghpvc/?username=yourusername&style=flat-square&labelColor=000000&color=00FF00" alt="Profile Views" />
 </p>
 
-*Animated terminal inspired profile README.md*
+*Highly animated terminal inspired profile README.md*
