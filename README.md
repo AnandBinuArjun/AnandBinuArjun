@@ -102,6 +102,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Welcome+to+Anand's+Cybersecurity+Profile;Cybersecurity+Specialist+%7C+ML+Enthusiast;MSc+Cyber+Security+%40+Birmingham+City+University;Protecting+digital+worlds+one+line+at+a+time..." alt="Typing SVG" />
 </div>
 
+<!-- Matrix Rain Effect Simulation -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Terminal-Matrix%20Rain-green?style=for-the-badge&color=00FF00&labelColor=000000" alt="Matrix Rain" />
+</div>
+
 <style>
 @keyframes blink {
   0% { opacity: 1; }
@@ -118,14 +123,36 @@
   50% { border-color: transparent; }
 }
 
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
 .terminal-animation {
   animation: typewriter 4s steps(40) 1s 1 normal both,
              caret 1s steps(1) 1s infinite;
 }
+
+.scanline {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #00ff00;
+  animation: scanline 8s linear infinite;
+  opacity: 0.5;
+}
 </style>
 
 <!-- Footer -->
-<div align="center">
+<div align="center" class="scanline">
 <br>
 <p><em>Terminal-inspired profile README.md for GitHub</em></p>
 </div>
