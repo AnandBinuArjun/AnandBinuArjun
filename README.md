@@ -1,46 +1,45 @@
 # Anand Binu Arjun 👨‍💻
 
 <div align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=anand%40profile%3A~%24+whoami;Linux+Enthusiast+%7C+Software+Developer;anand%40profile%3A~%24+cat+skills.sh;JavaScript%2FTypeScript+%7C+Python+%7C+Java;React%2FVue+%7C+Node.js+%7C+Spring+Boot;Docker+%7C+Kubernetes+%7C+AWS%2FAzure" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&width=435&lines=anand%40cyberprofile%3A~%24+whoami;Cybersecurity+Specialist+%7C+ML+Enthusiast;anand%40cyberprofile%3A~%24+cat+skills.sh;Python+%7C+Machine+Learning+%7C+Network+Security;Discord+Bot+Development+%7C+Intrusion+Detection;Docker+%7C+Git+%7C+Linux+Systems" alt="Typing SVG" />
 </div>
 
 ```bash
-# Interactive Terminal Experience
-anand@profile:~$ ./welcome.sh
-┌── Welcome to My Profile ───────────────────┐
-│                                           │
-│  🚀 Full-stack Development                │
-│  🌐 Open Source Contributions             │
-│  ☁️  Cloud Technologies                   │
-│  ⚙️  DevOps Practices                     │
-│  💻 System Administration                 │
-│                                           │
-└───────────────────────────────────────────┘
+# Interactive Cybersecurity Terminal Experience
+anand@cyberprofile:~$ ./welcome.sh
+┌── Welcome to My Cybersecurity Profile ───────────────────┐
+│                                                          │
+│  🔐 Cybersecurity Specialist                              │
+│  🤖 Machine Learning Enthusiast                          │
+│  🌐 Network Security Researcher                          │
+│  🛡️  Discord Bot Developer                              │
+│  🧠 MSc Cyber Security Student @ Birmingham City Univ.   │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
 
-anand@profile:~$ ps aux | grep projects
+anand@cyberprofile:~$ ps aux | grep projects
 Active Projects:
-  • Project-One    - Description here
-  • Project-Two    - Description here
-  • Project-Three  - Description here
+  • Security Assistant - Next-Gen Discord Bot for Cybersecurity
+  • IDS_ML - Machine Learning Project for Network Intrusion Detection
 
-anand@profile:~$ cat contact.md
+anand@cyberprofile:~$ cat contact.md
 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-💼 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
-🌐 GitHub: [github.com/yourusername](https://github.com/yourusername)
+💼 LinkedIn: [linkedin.com/in/anand-b-arjun](https://linkedin.com/in/anand-b-arjun)
+🌐 GitHub: [github.com/AnandBinuArjun](https://github.com/AnandBinuArjun)
 
-anand@profile:~$ uptime
-24/7 Learning Mode - Continuous Improvement
+anand@cyberprofile:~$ uptime
+24/7 Learning Mode - Continuous Improvement in Cybersecurity
 
-anand@profile:~$ echo "Happy Coding!" && exit 0
+anand@cyberprofile:~$ echo "Happy Coding!" && exit 0
 Happy Coding!
 ```
 
 <div align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&repeat=false&width=435&lines=anand%40profile%3A~%24+neofetch" alt="Neofetch" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&repeat=false&width=435&lines=anand%40cyberprofile%3A~%24+neofetch" alt="Neofetch" />
 </div>
 
 ```bash
-anand@profile:~$ neofetch
+anand@cyberprofile:~$ neofetch
 ┌────────────────────────────────────────────────────────────────────┐
 │  ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗██████╗               │
 │  ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗████╗  ██║██╔══██╗              │
@@ -50,22 +49,28 @@ anand@profile:~$ neofetch
 │  ╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝               │
 │                                                                   │
 │  Name: Anand Binu Arjun                                           │
-│  Title: Software Developer                                        │
+│  Title: Cybersecurity Specialist                                  │
 │  Location: India                                                  │
-│  Languages: JavaScript, Python, Java                              │
-│  Frameworks: React, Node.js, Spring Boot                          │
-│  Tools: Docker, Kubernetes, Git                                   │
+│  Education: MSc Cyber Security @ Birmingham City University       │
+│  Specialization: ML-Driven Intrusion Detection                    │
+│  Languages: Python, JavaScript                                    │
+│  Technologies: Machine Learning, Network Security, Discord Bots  │
+│  Tools: Docker, Git, Linux                                        │
 │  Terminal: Bash                                                   │
 │  Shell: zsh 5.8                                                   │
 │                                                                   │
 └───────────────────────────────────────────────────────────────────┘
 ```
 
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FF00&repeat=false&width=435&lines=anand%40cyberprofile%3A~%24+cat+motivation.txt;Protecting+digital+worlds+one+line+of+code+at+a+time..." alt="Motivation" />
+</div>
+
 ---
 <p align="left">
-  <img src="https://img.shields.io/github/stars/yourusername?style=flat-square&labelColor=000000&color=00FF00" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/followers/yourusername?style=flat-square&labelColor=000000&color=00FF00" alt="GitHub Followers" />
-  <img src="https://komarev.com/ghpvc/?username=yourusername&style=flat-square&labelColor=000000&color=00FF00" alt="Profile Views" />
+  <img src="https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&labelColor=000000&color=00FF00" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&labelColor=000000&color=00FF00" alt="GitHub Followers" />
+  <img src="https://komarev.com/ghpvc/?username=AnandBinuArjun&style=flat-square&labelColor=000000&color=00FF00" alt="Profile Views" />
 </p>
 
-*Highly animated terminal inspired profile README.md*
+*Live Linux terminal inspired cybersecurity profile README.md*
