@@ -1,5 +1,5 @@
 <h1 data-importer="text" align="center">Hi 👋, I'm ANAND BINU ARJUN</h1>
-<h3 align="center">Cybersecurity Engineer • Builder </h3>
+<h3 align="center">Cybersecurity Engineer • Builder • Director of IT & Cybersecurity</h3>
 
 
 ### 🔎 About Me
