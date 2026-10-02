@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090c12"/><stop offset="1" stop-color="#0d1118"/></linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="820" fill="url(#bg)"/>
+<rect x="42" y="34" width="1116" height="752" rx="18" fill="none" stroke="#27303c" stroke-width="2"/>
+<text x="78" y="105" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="800" fill="#f4f5f7">PROOF / EVIDENCE</text>
+<line x1="78" y1="137" x2="1122" y2="137" stroke="#29313c" stroke-width="2"/>
+<rect x="78" y="136" width="170" height="2" fill="#22d3ee" filter="url(#g)"><animate attributeName="x" values="78;952;78" dur="7s" repeatCount="indefinite"/></rect>
+<rect x="78" y="178" width="7" height="205" rx="3" fill="#64748b"/>
+<text x="112" y="224" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#a1a8b7"><tspan font-weight="800" fill="#aeb5c4">Proof before claim.</tspan><tspan> Repositories, working</tspan><tspan x="112" dy="48">systems, research artifacts and verified</tspan><tspan x="112" dy="48">credentials are prioritized over decorative</tspan><tspan x="112" dy="48">skill percentages.</tspan></text>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="78" y="430" width="1044" height="300" fill="none" stroke="#414955" stroke-width="2"/>
+<line x1="420" y1="430" x2="420" y2="730" stroke="#414955" stroke-width="2"/>
+<line x1="78" y1="485" x2="1122" y2="485" stroke="#414955" stroke-width="2"/>
+<line x1="78" y1="534" x2="1122" y2="534" stroke="#414955" stroke-width="2"/>
+<line x1="78" y1="583" x2="1122" y2="583" stroke="#414955" stroke-width="2"/>
+<line x1="78" y1="632" x2="1122" y2="632" stroke="#414955" stroke-width="2"/>
+<line x1="78" y1="681" x2="1122" y2="681" stroke="#414955" stroke-width="2"/>
+<text x="108" y="468" font-size="24" font-weight="800" fill="#f5f7fa">Evidence</text><text x="456" y="468" font-size="24" font-weight="800" fill="#f5f7fa">Signal</text>
+<rect x="79" y="486" width="1042" height="48" fill="#ffffff" opacity=".035"><animate attributeName="y" values="486;681;486" dur="10s" repeatCount="indefinite"/></rect>
+<text x="108" y="518" font-size="18" font-weight="800" fill="#f5f7fa">Public engineering</text><text x="456" y="518" font-size="18" fill="#eef1f5">Security tooling, applications, automation and research repositories</text>
+<text x="108" y="567" font-size="18" font-weight="800" fill="#f5f7fa">Credentials</text><text x="456" y="567" font-size="18" fill="#eef1f5">RHCSA · RHCE</text>
+<text x="108" y="616" font-size="18" font-weight="800" fill="#f5f7fa">Academic</text><text x="456" y="616" font-size="18" fill="#eef1f5">MSc Cyber Security · Birmingham City University</text>
+<text x="108" y="665" font-size="18" font-weight="800" fill="#f5f7fa">Research</text><text x="456" y="665" font-size="18" fill="#eef1f5">AI security · CTI · IoT · DFIR · automation</text>
+<text x="108" y="714" font-size="18" font-weight="800" fill="#f5f7fa">Product engineering</text><text x="456" y="714" font-size="18" fill="#eef1f5">ShieldDesk and related security systems</text></g>
+<g filter="url(#g)"><circle cx="1090" cy="518" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.2;1" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="1090" cy="567" r="5" fill="#22d3ee"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle><circle cx="1090" cy="616" r="5" fill="#a78bfa"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="1090" cy="665" r="5" fill="#f59e0b"><animate attributeName="opacity" values=".3;1;.3" dur="1.9s" repeatCount="indefinite"/></circle><circle cx="1090" cy="714" r="5" fill="#34d399"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle></g>
+<text x="78" y="764" font-family="monospace" font-size="12" fill="#64748b">EVIDENCE_LAYER // VERIFIED SIGNALS // 05 CHANNELS</text><text x="1122" y="764" text-anchor="end" font-family="monospace" font-size="12" fill="#34d399">● SYSTEM READY</text>
+</svg>
