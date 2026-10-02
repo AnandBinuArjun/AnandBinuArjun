@@ -8,7 +8,13 @@
 
 <div align="center">
 
-<sub>ABOUT · OPERATIONS · BUILDS · RESEARCH · TELEMETRY · CONNECT</sub>
+[ **ABOUT** ](#about) &nbsp; [ **SOC STATUS** ](#security-operations) &nbsp; [ **PROJECT REGISTRY** ](#featured-security-builds) &nbsp; [ **RESEARCH** ](#research-lab) &nbsp; [ **TELEMETRY** ](#github-activity--engineering-telemetry) &nbsp; [ **CONNECT** ](#connect--secure-channel)
+
+</div>
+
+<div align="center">
+
+<sub><a href="#about">ABOUT</a> · <a href="#security-operations">SOC</a> · <a href="#ai-security-core">AI CORE</a> · <a href="#featured-security-builds">BUILDS</a> · <a href="#research-lab">RESEARCH</a> · <a href="#github-activity--engineering-telemetry">TELEMETRY</a> · <a href="#connect--secure-channel">CONNECT</a></sub>
 
 </div>
 
