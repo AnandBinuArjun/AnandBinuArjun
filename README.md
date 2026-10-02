@@ -127,6 +127,10 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## TERMINAL BOOT
+
+<img src="./terminal-boot.svg?v=1" width="100%" alt="Animated security lab terminal boot sequence"/>
+
 ## CONNECT
 
 <div align="center">
