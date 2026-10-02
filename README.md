@@ -26,6 +26,18 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 ---
 
+## `// AI SECURITY CORE`
+
+<img src="./ai-security-core.svg?v=1" width="100%" alt="Animated AI security core showing detect correlate explain verify flow"/>
+
+---
+
+## `// THREAT RADAR`
+
+<img src="./threat-radar.svg?v=1" width="100%" alt="Animated conceptual cybersecurity threat radar"/>
+
+---
+
 ## `// PROJECT INTELLIGENCE`
 
 <img src="https://raw.githubusercontent.com/AnandBinuArjun/AnandBinuArjun/main/project-intelligence.svg?v=3" width="100%" alt="Animated security systems operations console"/>
@@ -120,6 +132,12 @@ Outside the terminal, I spend time on **research, open-source projects, product 
 
 ---
 
+## `// SECURITY VERIFICATION LOOP`
+
+<img src="./verification-loop.svg?v=1" width="100%" alt="Animated security verification engineering loop"/>
+
+---
+
 ## `// ENGINEERING PRINCIPLES`
 
 ```text
@@ -162,6 +180,8 @@ AI-assisted SOC control plane combining alert normalization, AI investigation, b
 ### 🛰️ SENTINEL-IoT
 IoT botnet early-warning and honeypot system that emulates vulnerable IoT services, captures attack activity, collects payload intelligence and exposes security telemetry through a dashboard/API.
 
+<img src="./iot-threat-network.svg?v=1" width="100%" alt="Animated conceptual SENTINEL-IoT threat network"/>
+
 `Python` `IoT` `Honeypot` `ML` `Threat Intelligence` · [Repository](https://github.com/AnandBinuArjun/SENTINEL-IoT)
 
 ### 🧬 CTI Analysis
@@ -180,6 +200,8 @@ Multi-tenant VMP using dynamic risk prioritization, NVD/CISA ingestion, Neo4j as
 ### 🧬 TOTAL ENTITY
 Identity Risk Intelligence System using privacy-preserving ingestion, identity graphs, blast-radius analysis and risk-based remediation prioritization.
 
+<img src="./identity-risk-graph.svg?v=1" width="100%" alt="Animated conceptual identity risk graph"/>
+
 `Identity Graph` `Risk Intelligence` `Privacy` `Security Analytics` · [Repository](https://github.com/AnandBinuArjun/TOTAL-ENTITY)
 
 ### ⚔️ CODEX CYBERSTRIKE
@@ -187,6 +209,12 @@ AI-native security orchestration platform connecting reasoning models to securit
 
 ### 🔎 Forensic Automation
 ML/data-driven forensic toolkit covering network traffic classification, Volatility 3 memory analysis and CASE-compliant evidence handling.
+
+---
+
+## `// SECURITY INTELLIGENCE GRAPH`
+
+<img src="./security-knowledge-graph.svg?v=1" width="100%" alt="Animated conceptual security knowledge graph"/>
 
 ---
 
@@ -202,7 +230,13 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// EVIDENCE LAYER`\n\n> **Evidence over decoration:** public repositories, research artifacts, certifications and working product systems are the foundation behind this profile.\n\n**Engineering:** security platforms · automation · AI-assisted analysis · systems architecture  \n**Research:** AI security · CTI · IoT security · digital forensics  \n**Credentials:** RHCSA · RHCE · MSc Cyber Security\n\n---\n\n## `// GITHUB ACTIVITY`
+## `// EVIDENCE LAYER`\n\n> **Evidence over decoration:** public repositories, research artifacts, certifications and working product systems are the foundation behind this profile.\n\n**Engineering:** security platforms · automation · AI-assisted analysis · systems architecture  \n**Research:** AI security · CTI · IoT security · digital forensics  \n**Credentials:** RHCSA · RHCE · MSc Cyber Security\n\n---\n\n## `// SECURITY EVENT STREAM`
+
+<img src="./terminal-event-stream.svg?v=1" width="100%" alt="Animated conceptual security terminal event stream"/>
+
+---
+
+## `// GITHUB ACTIVITY`
 
 <img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
