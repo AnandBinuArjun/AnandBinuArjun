@@ -1,103 +1,54 @@
 <div align="center">
 
-<img src="./hero.svg?v=4" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
-
-<img src="./soc-status.svg?v=1" width="100%" alt="Animated SOC and developer profile status"/>
+<img src="./hero.svg?v=5" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
 
 </div>
 
 <div align="center">
 
-[ **ABOUT** ](#about) &nbsp; [ **SOC STATUS** ](#security-operations) &nbsp; [ **PROJECT REGISTRY** ](#featured-security-builds) &nbsp; [ **RESEARCH** ](#research-lab) &nbsp; [ **TELEMETRY** ](#github-activity--engineering-telemetry) &nbsp; [ **CONNECT** ](#connect--secure-channel)
+[ **IDENTITY** ](#identity) · [ **SOC** ](#security-operations) · [ **STACK** ](#technology-matrix) · [ **BUILDS** ](#featured-security-builds) · [ **RESEARCH** ](#research-lab) · [ **TELEMETRY** ](#github-activity) · [ **CONNECT** ](#connect)
 
 </div>
 
-<div align="center">
+## IDENTITY
 
-<sub><a href="#about">ABOUT</a> · <a href="#security-operations">SOC</a> · <a href="#ai-security-core">AI CORE</a> · <a href="#featured-security-builds">BUILDS</a> · <a href="#research-lab">RESEARCH</a> · <a href="#github-activity--engineering-telemetry">TELEMETRY</a> · <a href="#connect--secure-channel">CONNECT</a></sub>
+**Cybersecurity Engineer · AI Security Builder · Researcher**
 
-</div>
-
-## ABOUT
-
-**Cybersecurity Engineer · Security Builder · Researcher**  
 AI security · threat intelligence · IoT/embedded security · digital forensics · secure systems
+
+<img src="./identity-life.svg?v=2" width="100%" alt="Anand Binu Arjun identity and engineering profile"/>
 
 > `BUILD → DETECT → EXPLAIN → VERIFY`
 
-<img src="./about-command.svg?v=2" width="100%" alt="Security engineering profile and life command panel"/>
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
 
 ## SECURITY OPERATIONS
 
-<img src="./current-operations.svg?v=2" width="100%" alt="Animated current security operations console"/>
+<img src="./soc-status.svg?v=2" width="100%" alt="Security operations status"/>
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## AI SECURITY CORE
-
-<img src="./ai-security-core.svg?v=2" width="100%" alt="AI security detect correlate explain verify workflow"/>
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## THREAT RADAR
-
-<img src="./threat-radar.svg?v=2" width="100%" alt="Conceptual cybersecurity threat radar"/>
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## DEVELOPER PROFILE
-
-<img src="./developer-console.svg?v=2" width="100%" alt="Developer security command console"/>
-
-`ROLE` **Cybersecurity Engineer** · `MODE` **Build / Research / Verify** · `FOCUS` **Security Systems + AI**
-
-[**PROJECTS →**](#featured-security-builds) · [**GITHUB →**](https://github.com/AnandBinuArjun) · [**PORTFOLIO →**](https://abarjun.online/)
-
-### Live profile telemetry
-
-[![GitHub followers](https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&label=followers)](https://github.com/AnandBinuArjun?tab=followers)
-[![GitHub repos](https://img.shields.io/badge/dynamic-GitHub%20repositories-22d3ee?style=flat-square)](https://github.com/AnandBinuArjun?tab=repositories)
-[![GitHub stars](https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&label=profile%20stars)](https://github.com/AnandBinuArjun?tab=stars)
-
-> Public demos are linked only when a hosted URL is verified. Repository links remain the source of truth for active work.
-
-<img src="./security-stack.svg?v=3" width="100%" alt="Cybersecurity technology stack"/>
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## SECURITY CAPABILITIES
-
-<img src="./security-capability.svg?v=2" width="100%" alt="Animated security capability matrix"/>
-
-> Security engineering · AI · automation · systems thinking
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## TECHNOLOGY STACK
-
-<img src="./tech-stack.svg?v=6" width="100%" alt="Animated cybersecurity technology stack"/>
-
-**Core:** Python · React · FastAPI · Docker · PostgreSQL · Node.js · TypeScript  
-**Security:** Kali Linux · Burp Suite · Nmap · Wireshark · Volatility 3  
-**AI / Data:** PyTorch · scikit-learn · Redis · Elasticsearch · LLM tooling
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## SECURITY IDENTITY + COMMAND CENTER
-
-<img src="./id-dashboard.svg?v=3" width="100%" alt="Security identity and command dashboard"/>
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
-
-## CURRENTLY BUILDING
-
-<img src="./current-building.svg?v=2" width="100%" alt="Current security engineering builds"/>
+<img src="./current-mission.svg?v=2" width="100%" alt="Current security engineering mission"/>
 
 > Development, research and experimentation are intentionally separated from production claims.
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
+
+## AI SECURITY CORE
+
+<img src="./ai-security-core.svg?v=3" width="100%" alt="AI security detect correlate explain verify workflow"/>
+
+<img src="./security-philosophy.svg?v=2" width="100%" alt="Security engineering methodology"/>
+
+---
+
+## TECHNOLOGY MATRIX
+
+<img src="./language-profile.svg?v=2" width="100%" alt="Engineering technology matrix"/>
+
+**Core:** Python · React · FastAPI · Docker · PostgreSQL · Node.js · TypeScript  
+**Security:** Kali Linux · Burp Suite · Nmap · Wireshark · Volatility 3 · MITRE ATT&CK  
+**AI / Data:** PyTorch · scikit-learn · Redis · Elasticsearch · LLM tooling
+
+---
 
 ## FEATURED SECURITY BUILDS
 
@@ -112,66 +63,71 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 | **CODEX CYBERSTRIKE** | Security orchestration | AI · MCP · Security tooling | — |
 | **Forensic Automation** | DFIR | ML · Volatility 3 · CASE | — |
 
-### 🛡️ ShieldDesk
+### Flagship systems
 
-AI-assisted SOC control plane for alert normalization, investigation, blast-radius analysis, remediation planning, human governance, signed fleet dispatch and evidence/audit controls.
+**🛡️ ShieldDesk** — AI-assisted SOC control plane for alert normalization, investigation, blast-radius analysis, remediation planning, human governance, signed fleet dispatch and evidence/audit controls.
 
-### 🛰️ SENTINEL-IoT
+**🛰️ SENTINEL-IoT** — IoT botnet early-warning and honeypot system that emulates vulnerable services, captures attack activity and exposes security telemetry through a dashboard/API.
 
-IoT botnet early-warning and honeypot system that emulates vulnerable services, captures attack activity and exposes security telemetry through a dashboard/API.
+**🧬 CTI Analysis** — Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extraction, knowledge-graph construction and LLM-assisted intelligence analysis.
 
-### 🧬 CTI Analysis
-
-Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extraction, knowledge-graph construction and LLM-assisted intelligence analysis.
-
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
 
 ## SECURITY SYSTEM ARCHITECTURE
 
-<img src="./security-architecture.svg?v=2" width="100%" alt="Security system architecture pipeline"/>
+<img src="./security-architecture.svg?v=3" width="100%" alt="Security system architecture pipeline"/>
 
 ## SECURITY LIFECYCLE
 
-<img src="./security-lifecycle.svg?v=2" width="100%" alt="Security lifecycle from discovery through learning"/>
+<img src="./security-lifecycle.svg?v=3" width="100%" alt="Security lifecycle from discovery through learning"/>
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
 
 ## RESEARCH LAB
 
-<img src="./research-lab.svg?v=2" width="100%" alt="Animated cybersecurity research laboratory"/>
+<img src="./security-lab.svg?v=2" width="100%" alt="Anand Security Lab"/>
 
-## SECURITY INTELLIGENCE GRAPH
+<img src="./research-lab.svg?v=3" width="100%" alt="Cybersecurity research laboratory"/>
 
-<img src="./security-knowledge-graph.svg?v=2" width="100%" alt="Animated conceptual security knowledge graph"/>
+<img src="./security-knowledge-graph.svg?v=3" width="100%" alt="Conceptual security intelligence graph"/>
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
 
 ## PROOF / EVIDENCE
 
-<img src="./proof-evidence-animated.svg?v=1" width="100%" alt="Animated proof and evidence security portfolio panel"/>
+<img src="./proof-evidence-animated.svg?v=2" width="100%" alt="Proof and evidence security portfolio panel"/>
 
+---
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+## GITHUB ACTIVITY
 
-## GITHUB ACTIVITY · ENGINEERING TELEMETRY
+<img src="./github-stats.svg?v=2" width="100%" alt="GitHub engineering telemetry snapshot"/>
 
-<img src="./github-telemetry.svg?v=3" width="100%" alt="GitHub activity and engineering telemetry"/>
+### Live profile counters
+
+[![GitHub followers](https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&label=followers)](https://github.com/AnandBinuArjun?tab=followers)
+[![GitHub repositories](https://img.shields.io/badge/dynamic-GitHub%20repositories-22d3ee?style=flat-square)](https://github.com/AnandBinuArjun?tab=repositories)
+[![GitHub stars](https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&label=profile%20stars)](https://github.com/AnandBinuArjun?tab=stars)
+
+<img src="./github-telemetry.svg?v=4" width="100%" alt="GitHub activity and engineering telemetry"/>
 
 ## CONTRIBUTION CITY
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" alt="GitHub 3D contribution city"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=4" width="100%" alt="GitHub 3D contribution city"/>
 
 > Generated from GitHub contribution activity by repository workflow.
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+---
 
-## OPEN TO
+## PROFESSIONAL FOCUS
 
-<img src="./open-to.svg?v=2" width="100%" alt="Professional focus and collaboration panel"/>
+<img src="./open-to.svg?v=3" width="100%" alt="Professional focus and collaboration panel"/>
 
-<div align="center"><sub>────────────────────────────────────────────</sub></div>
+**Focus:** Cybersecurity engineering · AI security · security automation · CTI · IoT security · secure application development
 
-## CONNECT · SECURE CHANNEL
+---
+
+## CONNECT
 
 <div align="center">
 
@@ -181,15 +137,13 @@ Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extrac
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/anand.barjun/)
 [![Email](https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:contact@abarjun.online)
 
-</div>
-
-<div align="center">
+<br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=AnandBinuArjun&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS)](https://github.com/AnandBinuArjun)
 
 </div>
 
-<img src="./connect.svg?v=2" width="100%" alt="Connect with Anand Binu Arjun"/>
+<img src="./connect.svg?v=3" width="100%" alt="Connect with Anand Binu Arjun"/>
 
 <div align="center">
 
@@ -197,11 +151,6 @@ Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extrac
 
 `Always learning. Always building.`
 
-</div>
-
-<div align="center">
-
-<img src="./assets/anand-footer.svg?v=2" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
+<img src="./assets/anand-footer.svg?v=3" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
 
 </div>
-
