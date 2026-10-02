@@ -19,51 +19,31 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 > `BUILD → DETECT → EXPLAIN → VERIFY`
 
-<img src="./about-security.svg?v=2" width="100%" alt="Security capabilities and research focus"/>
+<img src="./about-command.svg?v=2" width="100%" alt="Security engineering profile and life command panel"/>
 
-## ABOUT + LIFE COMMAND
-
-<img src="./about-command.svg?v=1" width="100%" alt="Animated security engineering about and life command panel"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## SECURITY OPERATIONS
 
-<img src="./current-operations.svg?v=1" width="100%" alt="Animated current security operations console"/>
+<img src="./current-operations.svg?v=2" width="100%" alt="Animated current security operations console"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## AI SECURITY CORE
 
-<img src="./ai-security-core.svg?v=1" width="100%" alt="Animated AI security core showing detect correlate explain verify flow"/>
+<img src="./ai-security-core.svg?v=2" width="100%" alt="AI security detect correlate explain verify workflow"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## THREAT RADAR
 
-<img src="./threat-radar.svg?v=1" width="100%" alt="Animated conceptual cybersecurity threat radar"/>
+<img src="./threat-radar.svg?v=2" width="100%" alt="Conceptual cybersecurity threat radar"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## DEVELOPER PROFILE
 
-<img src="./developer-console.svg?v=1" width="100%" alt="Animated developer command console showing engineering and security toolchains"/>
+<img src="./developer-console.svg?v=2" width="100%" alt="Developer security command console"/>
 
 `ROLE` **Cybersecurity Engineer** · `MODE` **Build / Research / Verify** · `FOCUS` **Security Systems + AI**
 
@@ -71,184 +51,94 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ### Live profile telemetry
 
-**Portfolio:** [abarjun.online](https://abarjun.online/)
-
-**Dynamic profile metrics:**  
 [![GitHub followers](https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&label=followers)](https://github.com/AnandBinuArjun?tab=followers)
 [![GitHub repos](https://img.shields.io/badge/dynamic-GitHub%20repositories-22d3ee?style=flat-square)](https://github.com/AnandBinuArjun?tab=repositories)
 [![GitHub stars](https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&label=profile%20stars)](https://github.com/AnandBinuArjun?tab=stars)
 
-> Repository stars, forks and last-commit badges above are fetched from live GitHub-backed Shields endpoints. GitHub profile statistics are also rendered dynamically below, so no manually maintained metric numbers are required.
+> Public demos are linked only when a hosted URL is verified. Repository links remain the source of truth for active work.
 
-> **Live-demo policy:** only public URLs that are actually hosted are linked as demos. No localhost or unverified deployment URL is presented as a public demo.
+<img src="./security-stack.svg?v=3" width="100%" alt="Cybersecurity technology stack"/>
 
-<img src="./security-stack.svg?v=2" width="100%" alt="Cybersecurity technology stack"/>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
-## SECURITY CAPABILITY MATRIX
+## SECURITY CAPABILITIES
 
-<img src="./security-capability.svg?v=1" width="100%" alt="Animated security capability matrix"/>
+<img src="./security-capability.svg?v=2" width="100%" alt="Animated security capability matrix"/>
 
-> **Focus:** combining security engineering, AI, automation, and systems thinking to build practical defensive technology.
+> Security engineering · AI · automation · systems thinking
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## SECURITY DOMAINS
-
-<img src="./security-domains.svg?v=1" width="100%" alt="Cybersecurity domains map"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## TECHNOLOGY STACK
 
-<img src="./tech-stack.svg?v=5" width="100%" alt="Animated cybersecurity technology stack"/>
+<img src="./tech-stack.svg?v=6" width="100%" alt="Animated cybersecurity technology stack"/>
 
-### Technology documentation
+**Core:** Python · React · FastAPI · Docker · PostgreSQL · Node.js · TypeScript  
+**Security:** Kali Linux · Burp Suite · Nmap · Wireshark · Volatility 3  
+**AI / Data:** PyTorch · scikit-learn · Redis · Elasticsearch · LLM tooling
 
-The visual stack remains intentionally clean. For documentation navigation, use the technology names below:
-
-[Python](https://www.python.org/) · [React](https://react.dev/) · [FastAPI](https://fastapi.tiangolo.com/) · [Docker](https://docs.docker.com/) · [PostgreSQL](https://www.postgresql.org/docs/) · [Node.js](https://nodejs.org/docs/latest/api/) · [TypeScript](https://www.typescriptlang.org/docs/) · [Kali Linux](https://www.kali.org/docs/) · [Burp Suite](https://portswigger.net/burp/documentation) · [Nmap](https://nmap.org/book/man.html) · [Wireshark](https://www.wireshark.org/docs/) · [PyTorch](https://pytorch.org/docs/) · [scikit-learn](https://scikit-learn.org/stable/user_guide.html) · [Redis](https://redis.io/docs/) · [Elasticsearch](https://www.elastic.co/docs/)
-
-> **Depth matters more than badge count:** Core = technologies I use regularly; Working Knowledge = tools I use hands-on when a project requires them; Exploring = technologies I am actively testing or learning.
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## SECURITY IDENTITY + COMMAND CENTER
 
-<img src="./id-dashboard.svg?v=1" width="100%" alt="Security identity and command dashboard"/>
+<img src="./id-dashboard.svg?v=2" width="100%" alt="Security identity and command dashboard"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## CURRENTLY BUILDING
 
-<img src="./current-building.svg?v=1" width="100%" alt="Animated current security building systems panel"/>
+<img src="./current-building.svg?v=2" width="100%" alt="Current security engineering builds"/>
 
-> Build state is qualitative: active development, research and experimentation are kept distinct from production claims.
+> Development, research and experimentation are intentionally separated from production claims.
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## BEYOND THE TERMINAL
-
-<img src="./beyond-terminal.svg?v=1" width="100%" alt="Animated beyond the terminal personal and creative interests panel"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## ENGINEERING PRINCIPLES
-
-<img src="./engineering-principles.svg?v=1" width="100%" alt="Animated engineering principles across security AI engineering and research"/>
-
-## SECURITY SYSTEM ARCHITECTURE
-
-<img src="./security-architecture.svg?v=1" width="100%" alt="Animated security system architecture pipeline"/>
-
-## SECURITY LIFECYCLE
-
-<img src="./security-lifecycle.svg?v=1" width="100%" alt="Animated security lifecycle from discovery through learning"/>
-
-<img src="./security-dashboard.svg?v=4" width="100%" alt="Security command center dashboard"/>
-
-## CURRENT MISSION
-
-<img src="./current-mission.svg?v=1" width="100%" alt="Animated current security mission panel"/>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## FEATURED SECURITY BUILDS
 
-<img src="./project-registry.svg?v=2" width="100%" alt="Security project registry with domains, stacks and states"/>
+| Project | Domain | Stack | Access |
+|:---|:---|:---|:---:|
+| **ShieldDesk** | AI-assisted SOC | AI · FastAPI · React · PostgreSQL | [Repo](https://github.com/Mints-ai/SHIELD-DESK) |
+| **SENTINEL-IoT** | IoT threat detection | Python · Honeypot · ML | [Repo](https://github.com/AnandBinuArjun/SENTINEL-IoT) |
+| **CTI Analysis** | Threat intelligence | Python · NLP · MITRE ATT&CK | [Repo](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis) |
+| **AI Digital Safety Assistant** | Personal security | AI · FastAPI · Android | [Repo](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant) |
+| **TOTAL ENTITY** | Identity risk | Identity Graph · Security Analytics | [Repo](https://github.com/AnandBinuArjun/TOTAL-ENTITY) |
+| **Vulnerability Management** | Exposure management | NVD/CISA · Neo4j · Risk | — |
+| **CODEX CYBERSTRIKE** | Security orchestration | AI · MCP · Security tooling | — |
+| **Forensic Automation** | DFIR | ML · Volatility 3 · CASE | — |
 
 ### 🛡️ ShieldDesk
-AI-assisted SOC control plane combining alert normalization, AI investigation, blast-radius analysis, 3-horizon remediation planning, human governance, cryptographically signed fleet dispatch and evidence/audit controls.
 
-`AI` `FastAPI` `React` `PostgreSQL` `Redis` `Docker` · [Repository](https://github.com/Mints-ai/SHIELD-DESK)
+AI-assisted SOC control plane for alert normalization, investigation, blast-radius analysis, remediation planning, human governance, signed fleet dispatch and evidence/audit controls.
 
 ### 🛰️ SENTINEL-IoT
-IoT botnet early-warning and honeypot system that emulates vulnerable IoT services, captures attack activity, collects payload intelligence and exposes security telemetry through a dashboard/API.
 
-<img src="./iot-threat-network.svg?v=1" width="100%" alt="Animated conceptual SENTINEL-IoT threat network"/>
-
-`Python` `IoT` `Honeypot` `ML` `Threat Intelligence` · [Repository](https://github.com/AnandBinuArjun/SENTINEL-IoT)
+IoT botnet early-warning and honeypot system that emulates vulnerable services, captures attack activity and exposes security telemetry through a dashboard/API.
 
 ### 🧬 CTI Analysis
+
 Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extraction, knowledge-graph construction and LLM-assisted intelligence analysis.
 
-`Python` `NLP` `MITRE ATT&CK` `Knowledge Graph` `LLM` · [Repository](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis)
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
-### 🛡️ AI Digital Safety Assistant
-Multi-platform security system spanning Android, web and browser extension components, with a FastAPI backend for message/URL analysis, breach detection and risk scoring.
+## SECURITY SYSTEM ARCHITECTURE
 
-`Python` `FastAPI` `AI` `Android` `Browser Security` · [Repository](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant)
+<img src="./security-architecture.svg?v=2" width="100%" alt="Security system architecture pipeline"/>
 
-### 🔐 Vulnerability Management Platform
-Multi-tenant VMP using dynamic risk prioritization, NVD/CISA ingestion, Neo4j asset relationships, remediation workflows and SLA tracking.
+## SECURITY LIFECYCLE
 
-### 🧬 TOTAL ENTITY
-Identity Risk Intelligence System using privacy-preserving ingestion, identity graphs, blast-radius analysis and risk-based remediation prioritization.
+<img src="./security-lifecycle.svg?v=2" width="100%" alt="Security lifecycle from discovery through learning"/>
 
-<img src="./identity-risk-graph.svg?v=1" width="100%" alt="Animated conceptual identity risk graph"/>
-
-`Identity Graph` `Risk Intelligence` `Privacy` `Security Analytics` · [Repository](https://github.com/AnandBinuArjun/TOTAL-ENTITY)
-
-### ⚔️ CODEX CYBERSTRIKE
-AI-native security orchestration platform connecting reasoning models to security tools through MCP, with a tactical web interface and modular tool/role system.
-
-### 🔎 Forensic Automation
-ML/data-driven forensic toolkit covering network traffic classification, Volatility 3 memory analysis and CASE-compliant evidence handling.
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## SECURITY INTELLIGENCE GRAPH
-
-<img src="./security-knowledge-graph.svg?v=1" width="100%" alt="Animated conceptual security knowledge graph"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## RESEARCH FOCUS
-
-<img src="./research-focus.svg?v=1" width="100%" alt="Animated cybersecurity research focus workflow"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## RESEARCH LAB
 
-<img src="./research-lab.svg?v=1" width="100%" alt="Animated cybersecurity research laboratory"/>
+<img src="./research-lab.svg?v=2" width="100%" alt="Animated cybersecurity research laboratory"/>
 
-## SECURITY PORTFOLIO MAP
+## SECURITY INTELLIGENCE GRAPH
 
-<img src="./security-achievements.svg?v=1" width="100%" alt="Security portfolio capability map"/>
+<img src="./security-knowledge-graph.svg?v=2" width="100%" alt="Animated conceptual security knowledge graph"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## PROOF / EVIDENCE
 
@@ -262,47 +152,25 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 | **Research** | AI security · CTI · IoT · DFIR · automation |
 | **Product engineering** | ShieldDesk and related security systems |
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
-
-## SECURITY EVENT STREAM · TERMINAL
-
-<img src="./terminal-event-stream.svg?v=1" width="100%" alt="Animated conceptual security terminal event stream"/>
-
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## GITHUB ACTIVITY · ENGINEERING TELEMETRY
 
-<img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
+<img src="./github-telemetry.svg?v=3" width="100%" alt="GitHub activity and engineering telemetry"/>
 
 ## CONTRIBUTION CITY
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" alt="GitHub 3D contribution city"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" alt="GitHub 3D contribution city"/>
 
-> Generated by the repository workflow from GitHub contribution activity. The image is refreshed automatically by GitHub Actions.
+> Generated from GitHub contribution activity by repository workflow.
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## OPEN TO
 
-<img src="./open-to.svg?v=1" width="100%" alt="Animated professional focus and collaboration panel"/>
+<img src="./open-to.svg?v=2" width="100%" alt="Professional focus and collaboration panel"/>
 
-<div align="center">
-
-<sub>────────────────────────────────────────────</sub>
-
-</div>
+<div align="center"><sub>────────────────────────────────────────────</sub></div>
 
 ## CONNECT · SECURE CHANNEL
 
