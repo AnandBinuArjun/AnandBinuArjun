@@ -45,6 +45,18 @@ jobs:
           echo "Verified generated 3D contribution SVG: $FILE"
           wc -c "$FILE"
 
+      - name: Refresh contribution image cache
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import os, re
+          p = Path("README.md")
+          s = p.read_text()
+          run_id = os.environ["GITHUB_RUN_ID"]
+          s = re.sub(r'(profile-3d-contrib/profile-night-view)\?v=[^)"\s]+', r'\1?v=' + run_id, s)
+          p.write_text(s)
+          PY
+
       - name: Commit generated profile assets
         run: |
           git config user.name "github-actions"
