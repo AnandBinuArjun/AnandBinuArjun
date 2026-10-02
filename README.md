@@ -16,18 +16,17 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 ---
 
-## `// FEATURED SECURITY SYSTEMS`
+## `// SECURITY OPERATIONS`
 
-| Project | Repository | Live metrics |
-|---|---|---|
-| **ShieldDesk** | [Mints-ai/SHIELD-DESK](https://github.com/Mints-ai/SHIELD-DESK) | [![stars](https://img.shields.io/github/stars/Mints-ai/SHIELD-DESK?style=flat-square&label=stars)](https://github.com/Mints-ai/SHIELD-DESK/stargazers) [![forks](https://img.shields.io/github/forks/Mints-ai/SHIELD-DESK?style=flat-square&label=forks)](https://github.com/Mints-ai/SHIELD-DESK/network/members) [![last commit](https://img.shields.io/github/last-commit/Mints-ai/SHIELD-DESK?style=flat-square)](https://github.com/Mints-ai/SHIELD-DESK/commits) |
-| **SENTINEL-IoT** | [AnandBinuArjun/SENTINEL-IOT](https://github.com/AnandBinuArjun/SENTINEL-IOT) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/SENTINEL-IOT?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/SENTINEL-IOT/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/SENTINEL-IOT?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/SENTINEL-IOT/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/SENTINEL-IOT?style=flat-square)](https://github.com/AnandBinuArjun/SENTINEL-IOT/commits) |
-| **CTI Analysis** | [AnandBinuArjun/threat-intelligence-cti-analysis](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/commits) |
-| **AI Digital Safety Assistant** | [AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/commits) |
-| **Vulnerability Management Platform** | [AnandBinuArjun/Vulnerability-Management-Platform](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/commits) |
-| **TOTAL ENTITY** | [AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/commits) |
-| **CODEX CYBERSTRIKE** | [AnandBinuArjun/CODEX-CYEBRSTIKE](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/commits) |
-| **Forensic Automation** | [AnandBinuArjun/ML---Data-Driven-Forensic-Automation](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/commits) |
+<img src="./current-operations.svg?v=1" width="100%" alt="Animated current security operations console"/>
+
+---
+
+## `// PROJECT INTELLIGENCE`
+
+<img src="./project-intelligence.svg?v=1" width="100%" alt="Animated security systems operations console"/>
+
+---
 
 ### Verified live web presence
 
@@ -148,33 +147,11 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// RESEARCH INTERESTS`
+## `// RESEARCH LAB`
 
-```text
-AI SECURITY
-├── LLM security
-├── AI security agents
-├── Security automation
-└── AI-assisted SOC workflows
+<img src="./research-lab.svg?v=1" width="100%" alt="Animated cybersecurity research laboratory"/>
 
-THREAT INTELLIGENCE
-├── IOC extraction
-├── MITRE ATT&CK
-├── Knowledge graphs
-└── Vulnerability intelligence
-
-IoT / EMBEDDED
-├── IoT security
-├── CAN bus security
-├── Automotive security
-└── Device security
-
-DIGITAL FORENSICS
-├── Network forensics
-├── Memory forensics
-├── ML-assisted investigation
-└── CASE interoperability
-```
+---
 
 ---
 
