@@ -74,6 +74,10 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ---
 
+## `// SECURITY IDENTITY + COMMAND CENTER`\n\n<img src="./id-dashboard.svg?v=1" width="100%" alt="Security identity and command dashboard"/>
+
+---
+
 ## `// CURRENTLY BUILDING`
 
 | System | Current focus |
@@ -198,7 +202,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// GITHUB ACTIVITY`
+## `// EVIDENCE LAYER`\n\n> **Evidence over decoration:** public repositories, research artifacts, certifications and working product systems are the foundation behind this profile.\n\n**Engineering:** security platforms · automation · AI-assisted analysis · systems architecture  \n**Research:** AI security · CTI · IoT security · digital forensics  \n**Credentials:** RHCSA · RHCE · MSc Cyber Security\n\n---\n\n## `// GITHUB ACTIVITY`
 
 <img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
