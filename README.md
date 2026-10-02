@@ -178,7 +178,7 @@ The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expos
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" alt="3D GitHub contribution city"/>
+<img src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" alt="3D GitHub contribution city"/>
 
 </div>
 
