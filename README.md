@@ -62,9 +62,7 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 ## `// TECHNOLOGY STACK`
 
-<img src="./tech-stack.svg?v=4" width="100%" alt="Animated cybersecurity technology stack"/>
-
-<img src="./engineering-telemetry.svg?v=1" width="100%" alt="Engineering technology signal map"/>
+<img src="./tech-stack.svg?v=5" width="100%" alt="Animated cybersecurity technology stack"/>
 
 ### Technology documentation
 
@@ -73,6 +71,17 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 [Python](https://www.python.org/) · [React](https://react.dev/) · [FastAPI](https://fastapi.tiangolo.com/) · [Docker](https://docs.docker.com/) · [PostgreSQL](https://www.postgresql.org/docs/) · [Node.js](https://nodejs.org/docs/latest/api/) · [TypeScript](https://www.typescriptlang.org/docs/) · [Kali Linux](https://www.kali.org/docs/) · [Burp Suite](https://portswigger.net/burp/documentation) · [Nmap](https://nmap.org/book/man.html) · [Wireshark](https://www.wireshark.org/docs/) · [PyTorch](https://pytorch.org/docs/) · [scikit-learn](https://scikit-learn.org/stable/user_guide.html) · [Redis](https://redis.io/docs/) · [Elasticsearch](https://www.elastic.co/docs/)
 
 > **Depth matters more than badge count:** Core = technologies I use regularly; Working Knowledge = tools I use hands-on when a project requires them; Exploring = technologies I am actively testing or learning.
+
+---
+
+## `// CURRENTLY BUILDING`
+
+| System | Current focus |
+|---|---|
+| 🛡️ **ShieldDesk** | AI-assisted security operations, evidence, remediation and governed automation |
+| 🛰️ **SENTINEL-IoT** | IoT threat detection, honeypots and attack telemetry |
+| 🧬 **Security Intelligence** | CTI extraction, ATT&CK mapping, graphs and LLM-assisted analysis |
+| ⚙️ **Security Automation** | Verification, orchestration and repeatable security workflows |
 
 ---
 
@@ -92,6 +101,18 @@ Outside the terminal, I spend time on **research, open-source projects, product 
 | ✍️ **Technical Writing** | Documenting ideas, architectures, lessons and security research |
 
 > **Beyond the terminal, the goal stays the same: learn deeply, build deliberately and leave useful things behind.**
+
+---
+
+## `// CERTIFICATIONS & TRACK RECORD`
+
+| Credential / track | Status |
+|---|---|
+| **Red Hat Certified System Administrator (RHCSA)** | Certified |
+| **Red Hat Certified Engineer (RHCE)** | Certified |
+| **MSc Cyber Security** | Birmingham City University |
+| **Open-source security engineering** | Active |
+| **Security research & product development** | Active |
 
 ---
 
@@ -132,20 +153,30 @@ RESEARCH
 ### 🛡️ ShieldDesk
 AI-assisted SOC control plane combining alert normalization, AI investigation, blast-radius analysis, 3-horizon remediation planning, human governance, cryptographically signed fleet dispatch and evidence/audit controls.
 
+`AI` `FastAPI` `React` `PostgreSQL` `Redis` `Docker` · [Repository](https://github.com/Mints-ai/SHIELD-DESK)
+
 ### 🛰️ SENTINEL-IoT
 IoT botnet early-warning and honeypot system that emulates vulnerable IoT services, captures attack activity, collects payload intelligence and exposes security telemetry through a dashboard/API.
+
+`Python` `IoT` `Honeypot` `ML` `Threat Intelligence` · [Repository](https://github.com/AnandBinuArjun/SENTINEL-IoT)
 
 ### 🧬 CTI Analysis
 Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extraction, knowledge-graph construction and LLM-assisted intelligence analysis.
 
+`Python` `NLP` `MITRE ATT&CK` `Knowledge Graph` `LLM` · [Repository](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis)
+
 ### 🛡️ AI Digital Safety Assistant
 Multi-platform security system spanning Android, web and browser extension components, with a FastAPI backend for message/URL analysis, breach detection and risk scoring.
+
+`Python` `FastAPI` `AI` `Android` `Browser Security` · [Repository](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant)
 
 ### 🔐 Vulnerability Management Platform
 Multi-tenant VMP using dynamic risk prioritization, NVD/CISA ingestion, Neo4j asset relationships, remediation workflows and SLA tracking.
 
 ### 🧬 TOTAL ENTITY
 Identity Risk Intelligence System using privacy-preserving ingestion, identity graphs, blast-radius analysis and risk-based remediation prioritization.
+
+`Identity Graph` `Risk Intelligence` `Privacy` `Security Analytics` · [Repository](https://github.com/AnandBinuArjun/TOTAL-ENTITY)
 
 ### ⚔️ CODEX CYBERSTRIKE
 AI-native security orchestration platform connecting reasoning models to security tools through MCP, with a tactical web interface and modular tool/role system.
@@ -167,17 +198,9 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
----
+## `// GITHUB ACTIVITY`
 
-## `// GITHUB TELEMETRY`
-
-<img src="./github-telemetry.svg?v=1" width="100%" alt="Animated GitHub SOC telemetry panel"/>
-
----
-
-## `// CONTRIBUTION TELEMETRY`
-
-<img src="./contribution-telemetry.svg?v=1" width="100%" alt="Animated GitHub contribution SOC telemetry panel"/>
+<img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
 ## `// CONTRIBUTION CITY`
 
