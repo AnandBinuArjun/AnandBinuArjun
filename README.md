@@ -63,6 +63,25 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ---
 
+## `// BEYOND THE TERMINAL`
+
+Security is the work. Curiosity is what keeps the work moving.
+
+Outside the terminal, I spend time on **research, open-source projects, product building, technical writing and music**. I enjoy moving between deep technical investigation and creative problem-solving — turning an idea into something people can actually use.
+
+| Beyond the terminal | What it means |
+|---|---|
+| 🎻 **Music** | Violin, listening, practice and the creative discipline that comes with it |
+| 🔬 **Research** | Exploring AI security, threat intelligence, IoT and digital forensics |
+| 🧪 **Experimentation** | Building prototypes, testing assumptions and learning from failure |
+| 🌐 **Open Source** | Sharing security tooling, experiments and reusable engineering work |
+| 🚀 **Product Building** | Turning security problems into practical systems and developer-facing products |
+| ✍️ **Technical Writing** | Documenting ideas, architectures, lessons and security research |
+
+> **Beyond the terminal, the goal stays the same: learn deeply, build deliberately and leave useful things behind.**
+
+---
+
 ## `// ENGINEERING PRINCIPLES`
 
 ```text
@@ -179,6 +198,26 @@ The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expos
 <div align="center">
 
 <img src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" alt="3D GitHub contribution city"/>
+
+</div>
+
+---
+
+## `// CONNECT`
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AnandBinuArjun)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/anand-b-arjun)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&logo=googlechrome&logoColor=22d3ee)](https://abarjun.online/)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://www.instagram.com/anand.barjun/)
+[![Email](https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:contact@abarjun.online)
+
+</div>
+
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=AnandBinuArjun&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS)](https://github.com/AnandBinuArjun)
 
 </div>
 
