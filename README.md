@@ -238,3 +238,67 @@ The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expos
 <img src="./assets/anand-footer.jpg?v=1" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
 
 </div>
+
+## `// SECURITY CAPABILITY MATRIX`
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### PRIMARY
+
+Core areas I actively build and work across.
+
+- 🛡️ **Offensive Security & VAPT**
+- 🔍 **Threat Modeling**
+- 🌐 **Network Security & Defense**
+- 🤖 **AI × Cybersecurity**
+- 💻 **Secure Software Development**
+- 🕵️ **Digital Forensics**
+- 📡 **IoT / Embedded Security**
+- ⚙️ **Security Automation**
+
+</td>
+<td width="33%" valign="top">
+
+### WORKING
+
+Areas I actively use, integrate, and continue developing.
+
+- 🧠 **Threat Intelligence**
+- 🚨 **Incident Response**
+- 🩸 **Vulnerability Management**
+- ☁️ **Cloud Security**
+- 🔐 **Security Architecture**
+- 🧬 **Attack-Path Analysis**
+- 🗂️ **Security Knowledge Graphs**
+- 🏗️ **Security Engineering**
+
+</td>
+<td width="33%" valign="top">
+
+### EXPLORING
+
+Research and emerging areas I'm actively investigating.
+
+- 🧠 **LLM & AI Agent Security**
+- 💉 **Prompt Injection & AI Abuse**
+- 🔗 **RAG Security**
+- 🤖 **Autonomous Security Operations**
+- 🧩 **AI-Assisted SOC**
+- 🧪 **Firmware & Device Security**
+- 🏭 **OT / Industrial Security**
+- 🔬 **Advanced Forensics & Detection**
+
+</td>
+</tr>
+</table>
+
+</div>
+
+> **Focus:** combining security engineering, AI, automation, and systems thinking to build practical defensive technology.
+
+---
+
