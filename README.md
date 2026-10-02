@@ -1,260 +1,193 @@
-<h1 data-importer="text" align="center">Hi 👋, I'm ANAND BINU ARJUN</h1>
-<h3 align="center">Cybersecurity Engineer • Builder • Director of IT & Cybersecurity</h3>
+<div align="center">
 
+<img src="./hero.svg?v=2" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
 
-### 🔎 About Me
+</div>
 
-I'm a cybersecurity engineer working across offensive security, GRC, and secure systems architecture. I currently lead IT & Cybersecurity at a UAE-based technology consultancy, where I run VAPT engagements, ISO 27001 / GRC programs, and secure infrastructure for enterprise clients.
+## `// ABOUT`
 
-My academic background is in **CAN bus fault injection attacks in electric vehicle architectures** (MSc Cybersecurity, Birmingham City University) — I'm drawn to the intersection of embedded systems, IoT, and adversarial security.
+I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security researcher working across offensive security, AI + security, threat intelligence, IoT/embedded security, digital forensics and secure systems architecture.
 
-Outside of client work, I build open-source security tooling and run a mid-sized online gaming community as a side project in systems administration and community infrastructure.
+> **Build systems that detect.  
+> Build systems that explain.  
+> Build systems that verify.**
+
+<img src="./about-security.svg?v=2" width="100%" alt="Security capabilities and research focus"/>
 
 ---
 
-###
+## `// FEATURED SECURITY SYSTEMS`
 
-### ⚙️ What I Work With
+| Project | Repository | Live metrics |
+|---|---|---|
+| **ShieldDesk** | [Mints-ai/SHIELD-DESK](https://github.com/Mints-ai/SHIELD-DESK) | [![stars](https://img.shields.io/github/stars/Mints-ai/SHIELD-DESK?style=flat-square&label=stars)](https://github.com/Mints-ai/SHIELD-DESK/stargazers) [![forks](https://img.shields.io/github/forks/Mints-ai/SHIELD-DESK?style=flat-square&label=forks)](https://github.com/Mints-ai/SHIELD-DESK/network/members) [![last commit](https://img.shields.io/github/last-commit/Mints-ai/SHIELD-DESK?style=flat-square)](https://github.com/Mints-ai/SHIELD-DESK/commits) |
+| **SENTINEL-IoT** | [AnandBinuArjun/SENTINEL-IOT](https://github.com/AnandBinuArjun/SENTINEL-IOT) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/SENTINEL-IOT?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/SENTINEL-IOT/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/SENTINEL-IOT?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/SENTINEL-IOT/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/SENTINEL-IOT?style=flat-square)](https://github.com/AnandBinuArjun/SENTINEL-IOT/commits) |
+| **CTI Analysis** | [AnandBinuArjun/threat-intelligence-cti-analysis](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/threat-intelligence-cti-analysis?style=flat-square)](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis/commits) |
+| **AI Digital Safety Assistant** | [AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant?style=flat-square)](https://github.com/AnandBinuArjun/AI-Powered-Personal-Digital-Safety-Assistant/commits) |
+| **Vulnerability Management Platform** | [AnandBinuArjun/Vulnerability-Management-Platform](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/Vulnerability-Management-Platform?style=flat-square)](https://github.com/AnandBinuArjun/Vulnerability-Management-Platform/commits) |
+| **TOTAL ENTITY** | [AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor?style=flat-square)](https://github.com/AnandBinuArjun/TOTAL-ENTITY-Exposure-Monitor/commits) |
+| **CODEX CYBERSTRIKE** | [AnandBinuArjun/CODEX-CYEBRSTIKE](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/CODEX-CYEBRSTIKE?style=flat-square)](https://github.com/AnandBinuArjun/CODEX-CYEBRSTIKE/commits) |
+| **Forensic Automation** | [AnandBinuArjun/ML---Data-Driven-Forensic-Automation](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation) | [![stars](https://img.shields.io/github/stars/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square&label=stars)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/stargazers) [![forks](https://img.shields.io/github/forks/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square&label=forks)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/network/members) [![last commit](https://img.shields.io/github/last-commit/AnandBinuArjun/ML---Data-Driven-Forensic-Automation?style=flat-square)](https://github.com/AnandBinuArjun/ML---Data-Driven-Forensic-Automation/commits) |
 
-`Penetration Testing` `VAPT` `ISO 27001 / GRC` `IoT & Embedded Security` `CAN Bus / Automotive Security` `Incident Response` `Digital Forensics` `Python` `Bash`
+### Verified live web presence
+
+**Portfolio / interactive security site:**  
+[https://www.abarjun.online/](https://www.abarjun.online/)
+
+**Dynamic profile metrics:**  
+[![GitHub followers](https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&label=followers)](https://github.com/AnandBinuArjun?tab=followers)
+[![GitHub repos](https://img.shields.io/badge/dynamic-GitHub%20repositories-22d3ee?style=flat-square)](https://github.com/AnandBinuArjun?tab=repositories)
+[![GitHub stars](https://img.shields.io/github/stars/AnandBinuArjun?style=flat-square&label=profile%20stars)](https://github.com/AnandBinuArjun?tab=stars)
+
+> Repository stars, forks and last-commit badges above are fetched from live GitHub-backed Shields endpoints. GitHub profile statistics are also rendered dynamically below, so no manually maintained metric numbers are required.
+
+> **Live-demo policy:** only public URLs that are actually hosted are linked as demos. No localhost or unverified deployment URL is presented as a public demo.
 
 ---
 
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&rotate=360&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark"  />
+<img src="./security-stack.svg?v=2" width="100%" alt="Cybersecurity technology stack"/>
+
+---
+
+## `// TECHNOLOGY STACK`
+
+<img src="./tech-stack.svg?v=2" width="100%" alt="Anand Binu Arjun technology depth map"/>
+
+### Technology documentation
+
+The visual stack remains intentionally clean. For documentation navigation, use the technology names below:
+
+[Python](https://www.python.org/) · [React](https://react.dev/) · [FastAPI](https://fastapi.tiangolo.com/) · [Docker](https://docs.docker.com/) · [PostgreSQL](https://www.postgresql.org/docs/) · [Node.js](https://nodejs.org/docs/latest/api/) · [TypeScript](https://www.typescriptlang.org/docs/) · [Kali Linux](https://www.kali.org/docs/) · [Burp Suite](https://portswigger.net/burp/documentation) · [Nmap](https://nmap.org/book/man.html) · [Wireshark](https://www.wireshark.org/docs/) · [PyTorch](https://pytorch.org/docs/) · [scikit-learn](https://scikit-learn.org/stable/user_guide.html) · [Redis](https://redis.io/docs/) · [Elasticsearch](https://www.elastic.co/docs/)
+
+> **Depth matters more than badge count:** Core = technologies I use regularly; Working Knowledge = tools I use hands-on when a project requires them; Exploring = technologies I am actively testing or learning.
+
+---
+
+## `// ENGINEERING PRINCIPLES`
+
+```text
+SECURITY
+├── Assume breach
+├── Minimize trust
+└── Verify continuously
+
+AI
+├── Explain the decision
+├── Bound the action
+└── Keep human control where risk matters
+
+ENGINEERING
+├── Automate repeatable work
+├── Make systems observable
+└── Prefer reproducible security evidence
+
+RESEARCH
+├── Form a hypothesis
+├── Build an experiment
+└── Measure the result
+```
+
+---
+
+<img src="./security-dashboard.svg?v=2" width="100%" alt="Security command center dashboard"/>
+
+---
+
+## `// PROJECT INTELLIGENCE`
+
+### 🛡️ ShieldDesk
+AI-assisted SOC control plane combining alert normalization, AI investigation, blast-radius analysis, 3-horizon remediation planning, human governance, cryptographically signed fleet dispatch and evidence/audit controls.
+
+### 🛰️ SENTINEL-IoT
+IoT botnet early-warning and honeypot system that emulates vulnerable IoT services, captures attack activity, collects payload intelligence and exposes security telemetry through a dashboard/API.
+
+### 🧬 CTI Analysis
+Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extraction, knowledge-graph construction and LLM-assisted intelligence analysis.
+
+### 🛡️ AI Digital Safety Assistant
+Multi-platform security system spanning Android, web and browser extension components, with a FastAPI backend for message/URL analysis, breach detection and risk scoring.
+
+### 🔐 Vulnerability Management Platform
+Multi-tenant VMP using dynamic risk prioritization, NVD/CISA ingestion, Neo4j asset relationships, remediation workflows and SLA tracking.
+
+### 🧬 TOTAL ENTITY
+Identity Risk Intelligence System using privacy-preserving ingestion, identity graphs, blast-radius analysis and risk-based remediation prioritization.
+
+### ⚔️ CODEX CYBERSTRIKE
+AI-native security orchestration platform connecting reasoning models to security tools through MCP, with a tactical web interface and modular tool/role system.
+
+### 🔎 Forensic Automation
+ML/data-driven forensic toolkit covering network traffic classification, Volatility 3 memory analysis and CASE-compliant evidence handling.
+
+---
+
+## `// RESEARCH INTERESTS`
+
+```text
+AI SECURITY
+├── LLM security
+├── AI security agents
+├── Security automation
+└── AI-assisted SOC workflows
+
+THREAT INTELLIGENCE
+├── IOC extraction
+├── MITRE ATT&CK
+├── Knowledge graphs
+└── Vulnerability intelligence
+
+IoT / EMBEDDED
+├── IoT security
+├── CAN bus security
+├── Automotive security
+└── Device security
+
+DIGITAL FORENSICS
+├── Network forensics
+├── Memory forensics
+├── ML-assisted investigation
+└── CASE interoperability
+```
+
+---
+
+## `// GITHUB METRICS`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=AnandBinuArjun&show_icons=true&cache_seconds=21600&hide_border=true&bg_color=05070b&title_color=22d3ee&icon_color=a78bfa&text_color=e2e8f0&rank_icon=github" width="49%" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnandBinuArjun&layout=compact&hide_border=true&bg_color=05070b&title_color=22d3ee&text_color=e2e8f0&langs_count=8" width="42%" alt="Top languages"/>
+
 </div>
 
-###
+### Live GitHub snapshot
 
-<div data-importer="techs" align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aarch64/aarch64-original.svg" height="40" alt="aarch64 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" height="40" alt="adonisjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" height="40" alt="aftereffects logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="40" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="40" alt="ansible logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" height="40" alt="apache logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bamboo/bamboo-original.svg" height="40" alt="bamboo logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ai" height="40" alt="adobeillustrator logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=blender" height="40" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bash" height="40" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cloudflare" height="40" alt="cloudflare logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=codepen" height="40" alt="codepen logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cs" height="40" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=d3" height="40" alt="d3js logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dart" height="40" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=discord" height="40" alt="discord logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=devto" height="40" alt="devto logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=django" height="40" alt="django logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dot-net logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=flask" height="40" alt="flask logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=flutter" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=forth" height="40" alt="forth logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=fortran" height="40" alt="fortran logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bsd" height="40" alt="freebsd logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gitlab" height="40" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="40" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gcp" height="40" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gradle" height="40" alt="gradle logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gtk" height="40" alt="gtk logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=instagram" height="40" alt="instagram logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=lit" height="40" alt="lit logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=lua" height="40" alt="lua logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=md" height="40" alt="markdown logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nginx" height="40" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=netlify" height="40" alt="netlify logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=notion" height="40" alt="notion logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postman" height="40" alt="postman logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=prisma" height="40" alt="prisma logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=pycharm" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=redis" height="40" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=replit" height="40" alt="replit logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=swift" height="40" alt="swift logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tensorflow" height="40" alt="tensorflow logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=threejs" height="40" alt="threejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=unity" height="40" alt="unity logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=unreal" height="40" alt="unrealengine logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vercel" height="40" alt="vercel logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=visualstudio" height="40" alt="visualstudio logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vite" height="40" alt="vite logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=xd" height="40" alt="xd logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=webpack" height="40" alt="webpack logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=webstorm" height="40" alt="webstorm logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=workers" height="40" alt="workers logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=wordpress" height="40" alt="wordpress logo"  />
+<div align="center">
+
+![Followers](https://img.shields.io/github/followers/AnandBinuArjun?style=for-the-badge&logo=github&label=FOLLOWERS)
+![Repositories](https://img.shields.io/badge/REPOSITORIES-LIVE-0d1117?style=for-the-badge&logo=github)
+![Profile](https://img.shields.io/github/stars/AnandBinuArjun?style=for-the-badge&logo=github&label=PROFILE%20STARS)
+
 </div>
 
-###
+The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expose the metric. The detailed repository/project metrics are intentionally badge-driven rather than hard-coded.
 
-<div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/anand-b-arjun/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://twitter.com/anandbarjun2" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=X&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="twitter logo"  />
-  </a>
-  <a href="https://discord.gg/Bk5udCfxwY" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="discord logo"  />
-  </a>
-  <a href="https://www.youtube.com/c/rdluttugaming" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="youtube logo"  />
-  </a>
-  <a href="https://instagram.com/anand.barjun" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="instagram logo"  />
-  </a>
-  <a href="https://medium.com/@anandbhari123" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="medium logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Behance&logo=behance&label=&color=1769ff&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="behance logo"  />
-  <img src="https://img.shields.io/static/v1?message=Codesandbox&logo=codesandbox&label=&color=040404&logoColor=DBDBDB&labelColor=&style=for-the-badge" height="40" alt="codesandbox logo"  />
-  <img src="https://img.shields.io/static/v1?message=Dribbble&logo=dribbble&label=&color=EA4C89&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="dribbble logo"  />
-  <img src="https://img.shields.io/static/v1?message=Visual%20Studio%20Marketplace&logo=visualstudio&label=&color=e2165e&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="visualstudio logo"  />
-  <img src="https://img.shields.io/static/v1?message=Slack&logo=slack&label=&color=4A154B&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="slack logo"  />
-  <a href="https://dev.to/anand_b_arjun" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="devto logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=TryHackMe&logo=tryhackme&label=&color=88cc14&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="tryhackme logo"  />
+---
+
+## `// CONTRIBUTION CITY`
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" alt="3D GitHub contribution city"/>
+
 </div>
 
-###
+---
 
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/AnandBinuArjun/github-stats-generator/generated/overview.svg" height="150" alt="stats graph" />
-  <img src="https://raw.githubusercontent.com/AnandBinuArjun/github-stats-generator/generated/languages.svg" height="150" alt="languages graph" />
+<img src="./connect.svg?v=2" width="100%" alt="Connect with Anand Binu Arjun"/>
+
+<div align="center">
+
+### `Building secure systems, one layer at a time.`
+
 </div>
-
-###
-
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnandBinuArjun/AnandBinuArjun/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnandBinuArjun/AnandBinuArjun/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AnandBinuArjun/AnandBinuArjun/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
-
-###
-
-<div data-importer="profile-views" align="center">
-  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=ANANDBINUARJUN.ANANDBINUARJUN&"  />
-</div>
-
-###
-
-
-### 📫 Reach Me
-
-- Portfolio: [abarjun.online](https://abarjun.online)
-- GitHub: [@AnandBinuArjun](https://github.com/AnandBinuArjun)
-
-<p align="center"><i>Building secure systems, one exploit at a time.</i></p>
