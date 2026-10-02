@@ -24,7 +24,7 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 ## `// PROJECT INTELLIGENCE`
 
-<img src="./project-intelligence.svg?v=1" width="100%" alt="Animated security systems operations console"/>
+<img src="https://raw.githubusercontent.com/AnandBinuArjun/AnandBinuArjun/main/project-intelligence.svg?v=2" width="100%" alt="Animated security systems operations console"/>
 
 ---
 
