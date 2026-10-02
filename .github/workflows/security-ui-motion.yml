@@ -1,0 +1,44 @@
+name: Generate Security UI Motion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/security_ui_motion.py"
+      - ".github/workflows/security-ui-motion.yml"
+      - "ai-security-core-live.svg"
+      - "soc-control-room.svg"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install renderer
+        run: pip install pillow cairosvg
+
+      - name: Generate animated security panels
+        run: python scripts/security_ui_motion.py
+
+      - name: Commit generated GIFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/ai-security-core.gif assets/soc-control-room.gif
+          if git diff --cached --quiet; then
+            echo "No GIF changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh animated security UI panels"
+          git push
