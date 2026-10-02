@@ -155,38 +155,15 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// GITHUB METRICS`
+## `// GITHUB TELEMETRY`
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AnandBinuArjun&show_icons=true&cache_seconds=21600&hide_border=true&bg_color=05070b&title_color=22d3ee&icon_color=a78bfa&text_color=e2e8f0&rank_icon=github" width="49%" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnandBinuArjun&layout=compact&hide_border=true&bg_color=05070b&title_color=22d3ee&text_color=e2e8f0&langs_count=8" width="42%" alt="Top languages"/>
-
-</div>
-
-### Live GitHub snapshot
-
-<div align="center">
-
-![Followers](https://img.shields.io/github/followers/AnandBinuArjun?style=for-the-badge&logo=github&label=FOLLOWERS)
-![Repositories](https://img.shields.io/badge/REPOSITORIES-LIVE-0d1117?style=for-the-badge&logo=github)
-![Profile](https://img.shields.io/github/stars/AnandBinuArjun?style=for-the-badge&logo=github&label=PROFILE%20STARS)
-
-</div>
-
-The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expose the metric. The detailed repository/project metrics are intentionally badge-driven rather than hard-coded.
+<img src="./github-telemetry.svg?v=1" width="100%" alt="Animated GitHub SOC telemetry panel"/>
 
 ---
 
-## `// CONTRIBUTION CITY`
+## `// CONTRIBUTION TELEMETRY`
 
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" alt="3D GitHub contribution city"/>
-
-</div>
-
----
+<img src="./contribution-telemetry.svg?v=1" width="100%" alt="Animated GitHub contribution SOC telemetry panel"/>
 
 ## `// CONNECT`
 
