@@ -89,7 +89,7 @@ RESEARCH
 
 ---
 
-<img src="./security-dashboard.svg?v=2" width="100%" alt="Security command center dashboard"/>
+<img src="./security-dashboard.svg?v=3" width="100%" alt="Security command center dashboard"/>
 
 ---
 
