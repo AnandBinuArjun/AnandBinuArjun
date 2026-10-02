@@ -230,3 +230,11 @@ The cards above use dynamic endpoints where GitHub/Shield-backed endpoints expos
 ### `Building secure systems, one layer at a time.`
 
 </div>
+
+---
+
+<div align="center">
+
+<img src="./assets/anand-footer.jpg?v=1" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
+
+</div>
