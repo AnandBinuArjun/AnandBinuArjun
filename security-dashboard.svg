@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
 <title>Anand Binu Arjun — Cybersecurity Developer Dashboard</title>
-<desc>Cybersecurity developer dashboard showing GitHub metrics, most-starred security projects, community and current work.</desc>
-
+<desc>Live GitHub cybersecurity developer dashboard with identity, metrics, projects and current work.</desc>
 <rect width="1200" height="560" rx="28" fill="#05070b"/>
-<rect x="1" y="1" width="1198" height="558" rx="27" fill="none" stroke="#22d3ee" stroke-opacity=".12"/>
-<rect x="18" y="95" width="1164" height="2" fill="#22d3ee" opacity=".10"><animate attributeName="y" values="95;515;95" dur="8s" repeatCount="indefinite"/></rect>
 <rect x="1" y="1" width="1198" height="558" rx="27" fill="none" stroke="#22d3ee" stroke-opacity=".65"/>
-
-<!-- decorative vertical access rail -->
 <rect x="182" y="-22" width="28" height="112" rx="8" fill="#8b5cf6"/>
 <rect x="184" y="-18" width="24" height="78" fill="#22d3ee" fill-opacity=".28"/>
 <text x="196" y="42" text-anchor="middle" transform="rotate(90 196 42)" fill="#f8fafc" font-family="monospace" font-size="7" letter-spacing="2">SECURITY OPERATIONS</text>
@@ -15,27 +10,23 @@
 <circle cx="196" cy="87" r="3" fill="#22d3ee"/>
 
 <g font-family="monospace">
-  <text x="300" y="47" fill="#a78bfa" font-size="11" letter-spacing="2">// DEVELOPER DASHBOARD</text>
-  <text x="300" y="81" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Profile at a glance</text>
-  <rect x="1034" y="34" width="132" height="25" rx="13" fill="#071b17" stroke="#34d399" stroke-opacity=".55"/>
-  <circle cx="1050" cy="46.5" r="4" fill="#34d399"><animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="1061" y="50" fill="#34d399" font-size="8" letter-spacing="1">LIVE · GITHUB</text>
+<text x="300" y="47" fill="#a78bfa" font-size="11" letter-spacing="2">// DEVELOPER DASHBOARD</text>
+<text x="300" y="81" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" font-weight="700">Profile at a glance</text>
+<rect x="1034" y="34" width="132" height="25" rx="13" fill="#071b17" stroke="#34d399" stroke-opacity=".55"/>
+<circle cx="1050" cy="46.5" r="4" fill="#34d399"/>
+<text x="1061" y="50" fill="#34d399" font-size="8" letter-spacing="1">LIVE · GITHUB</text>
 </g>
 
-<!-- ID CARD -->
 <rect x="36" y="106" width="250" height="408" rx="21" fill="#0a101a" stroke="#22d3ee" stroke-opacity=".55"/>
 <rect x="52" y="122" width="218" height="34" rx="9" fill="#08131d" stroke="#1e293b"/>
 <text x="67" y="144" fill="#22d3ee" font-family="monospace" font-size="9" letter-spacing="1.5">DEVELOPER ID</text>
-<text x="253" y="144" text-anchor="end" fill="#64748b" font-family="monospace" font-size="8">AA · 2026</text>
-
+<text x="253" y="144" text-anchor="end" fill="#64748b" font-family="monospace" font-size="8">AA · LIVE</text>
+<defs><clipPath id="idPortrait"><rect x="67" y="174" width="188" height="126" rx="16"/></clipPath></defs>
 <rect x="67" y="174" width="188" height="126" rx="16" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".7"/>
-<circle cx="161" cy="235" r="46" fill="#111827" stroke="#22d3ee" stroke-opacity=".7"/>
-<circle cx="161" cy="235" r="35" fill="#0b1220" stroke="#34d399" stroke-opacity=".4"/>
-<path d="M161 207 L181 216 L177 243 C174 258 161 267 161 267 C161 267 148 258 145 243 L141 216 Z" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee"/>
-<path d="M161 214 L173 219 L170 241 C168 250 161 256 161 256 C161 256 154 250 152 241 L149 219 Z" fill="none" stroke="#34d399" stroke-width="2"/>
-<text x="161" y="239" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13" font-weight="800">AA</text>
-<text x="161" y="279" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="7">CYBERSECURITY ENGINEER</text>
-
+<image href="assets/anand-footer.jpg" x="67" y="174" width="188" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#idPortrait)"/>
+<rect x="67" y="174" width="188" height="126" rx="16" fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+<rect x="78" y="267" width="166" height="22" rx="8" fill="#05070b" fill-opacity=".82"/>
+<text x="161" y="281" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="7">CYBERSECURITY ENGINEER</text>
 <text x="67" y="328" fill="#f8fafc" font-family="Arial, sans-serif" font-size="17" font-weight="800">ANAND BINU ARJUN</text>
 <text x="67" y="349" fill="#22d3ee" font-family="monospace" font-size="9">AI · SECURITY · IoT · FORENSICS</text>
 <line x1="67" y1="367" x2="255" y2="367" stroke="#1e293b"/>
@@ -46,70 +37,38 @@
 <text x="67" y="474" fill="#64748b" font-family="monospace" font-size="8">MODE</text>
 <text x="67" y="491" fill="#34d399" font-family="monospace" font-size="9">BUILD · RESEARCH · SHIP</text>
 
-<!-- METRICS -->
 <g font-family="monospace">
 <rect x="312" y="106" width="190" height="78" rx="14" fill="#0d1220" stroke="#334155"/>
-<rect x="329" y="121" width="20" height="3" rx="1" fill="#22d3ee"><animate attributeName="width" values="20;45;20" dur="2.6s" repeatCount="indefinite"/></rect>
+<rect x="329" y="121" width="20" height="3" rx="1" fill="#22d3ee"/>
 <text x="329" y="146" fill="#64748b" font-size="8">PUBLIC REPOS</text>
-<text x="329" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">50</text>
-
+<text x="329" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">53</text>
 <rect x="514" y="106" width="190" height="78" rx="14" fill="#0d1220" stroke="#334155"/>
-<rect x="531" y="121" width="20" height="3" rx="1" fill="#fbbf24"><animate attributeName="opacity" values="1;.35;1" dur="2.2s" repeatCount="indefinite"/></rect>
+<rect x="531" y="121" width="20" height="3" rx="1" fill="#fbbf24"/>
 <text x="531" y="146" fill="#64748b" font-size="8">TOP PROJECT</text>
 <text x="531" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">21★</text>
-
 <rect x="716" y="106" width="190" height="78" rx="14" fill="#0d1220" stroke="#334155"/>
-<rect x="733" y="121" width="20" height="3" rx="1" fill="#a78bfa"><animate attributeName="width" values="20;42;20" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="733" y="121" width="20" height="3" rx="1" fill="#a78bfa"/>
 <text x="733" y="146" fill="#64748b" font-size="8">FOLLOWERS</text>
-<text x="733" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">18</text>
-
+<text x="733" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">19</text>
 <rect x="918" y="106" width="248" height="78" rx="14" fill="#0d1220" stroke="#334155"/>
-<rect x="935" y="121" width="20" height="3" rx="1" fill="#f472b6"><animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/></rect>
+<rect x="935" y="121" width="20" height="3" rx="1" fill="#f472b6"/>
 <text x="935" y="146" fill="#64748b" font-size="8">FOLLOWING</text>
-<text x="935" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">11</text>
+<text x="935" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">10</text>
 <text x="1050" y="146" fill="#64748b" font-size="8">FOCUS</text>
 <text x="1050" y="166" fill="#34d399" font-size="8">SECURITY + AI</text>
 </g>
 
-<!-- PROJECT CHART -->
 <rect x="312" y="202" width="594" height="312" rx="18" fill="#0a101a" stroke="#334155"/>
 <text x="338" y="234" fill="#f8fafc" font-family="Arial, sans-serif" font-size="17" font-weight="700">MOST-STARRED SECURITY PROJECTS</text>
 <text x="338" y="254" fill="#64748b" font-family="monospace" font-size="8">PUBLIC REPOSITORIES · CURRENT GITHUB SNAPSHOT</text>
-
-<g font-family="monospace" font-size="9">
-<text x="338" y="294" fill="#94a3b8">SENTINEL-IoT</text>
-<rect x="472" y="283" width="360" height="15" rx="7" fill="#171e2d"/>
-<rect x="472" y="283" width="360" height="15" rx="7" fill="#34d399"/>
-<text x="846" y="295" fill="#e2e8f0">21</text>
-
-<text x="338" y="336" fill="#94a3b8">CTI Analysis</text>
-<rect x="472" y="325" width="360" height="15" rx="7" fill="#171e2d"/>
-<rect x="472" y="325" width="69" height="15" rx="7" fill="#8b5cf6"/>
-<text x="846" y="337" fill="#e2e8f0">4</text>
-
-<text x="338" y="378" fill="#94a3b8">AI Digital Safety</text>
-<rect x="472" y="367" width="360" height="15" rx="7" fill="#171e2d"/>
-<rect x="472" y="367" width="52" height="15" rx="7" fill="#8b5cf6"/>
-<text x="846" y="379" fill="#e2e8f0">3</text>
-
-<text x="338" y="420" fill="#94a3b8">TOTAL ENTITY</text>
-<rect x="472" y="409" width="360" height="15" rx="7" fill="#171e2d"/>
-<rect x="472" y="409" width="34" height="15" rx="7" fill="#22d3ee"/>
-<text x="846" y="421" fill="#e2e8f0">2</text>
-
-<text x="338" y="462" fill="#94a3b8">Portfolio</text>
-<rect x="472" y="451" width="360" height="15" rx="7" fill="#171e2d"/>
-<rect x="472" y="451" width="34" height="15" rx="7" fill="#22d3ee"/>
-<text x="846" y="463" fill="#e2e8f0">2</text>
-</g>
+<g font-family="monospace" font-size="9"><text x="338" y="294" fill="#94a3b8">SENTINEL-IoT</text><rect x="472" y="283" width="360" height="15" rx="7" fill="#171e2d"/><rect x="472" y="283" width="360" height="15" rx="7" fill="#34d399"/><text x="846" y="295" fill="#e2e8f0">21</text><text x="338" y="336" fill="#94a3b8">CTI Analysis</text><rect x="472" y="325" width="360" height="15" rx="7" fill="#171e2d"/><rect x="472" y="325" width="68" height="15" rx="7" fill="#8b5cf6"/><text x="846" y="337" fill="#e2e8f0">4</text><text x="338" y="378" fill="#94a3b8">AI Digital Safety</text><rect x="472" y="367" width="360" height="15" rx="7" fill="#171e2d"/><rect x="472" y="367" width="51" height="15" rx="7" fill="#8b5cf6"/><text x="846" y="379" fill="#e2e8f0">3</text><text x="338" y="420" fill="#94a3b8">esx-to-qb-coverstion</text><rect x="472" y="409" width="360" height="15" rx="7" fill="#171e2d"/><rect x="472" y="409" width="51" height="15" rx="7" fill="#22d3ee"/><text x="846" y="421" fill="#e2e8f0">3</text><text x="338" y="462" fill="#94a3b8">TOTAL ENTITY</text><rect x="472" y="451" width="360" height="15" rx="7" fill="#171e2d"/><rect x="472" y="451" width="34" height="15" rx="7" fill="#22d3ee"/><text x="846" y="463" fill="#e2e8f0">2</text></g>
 <text x="338" y="493" fill="#475569" font-family="monospace" font-size="7">STAR COUNT · TOP PUBLIC REPOSITORIES</text>
 
-<!-- SIDE PANELS -->
 <rect x="926" y="202" width="240" height="145" rx="18" fill="#0a101a" stroke="#334155"/>
 <text x="949" y="229" fill="#f472b6" font-family="monospace" font-size="9">COMMUNITY</text>
-<text x="949" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">18</text>
+<text x="949" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">19</text>
 <text x="949" y="284" fill="#64748b" font-family="monospace" font-size="7">FOLLOWERS</text>
-<text x="1040" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">11</text>
+<text x="1040" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">10</text>
 <text x="1040" y="284" fill="#64748b" font-family="monospace" font-size="7">FOLLOWING</text>
 <line x1="949" y1="300" x2="1143" y2="300" stroke="#1e293b"/>
 <text x="949" y="321" fill="#94a3b8" font-family="monospace" font-size="8">@AnandBinuArjun</text>
