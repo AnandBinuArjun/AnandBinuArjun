@@ -2,12 +2,13 @@
   <title>Anand Binu Arjun — Technology Stack</title>
   <desc>Technology depth map showing core technologies, working knowledge, and technologies being explored.</desc>
   <rect width="1200" height="900" rx="28" fill="#05070b"/>
+<rect x="0" y="0" width="1200" height="2" fill="#22d3ee" opacity=".28"><animate attributeName="y" values="-2;900;-2" dur="12s" repeatCount="indefinite"/></rect>
   <rect x="1" y="1" width="1198" height="898" rx="27" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.45"/>
   <text x="50" y="58" fill="#22d3ee" font-family="monospace" font-size="13">&gt; TECH_STACK / DEPTH_MAP</text>
   <text x="50" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="31" font-weight="700">TECHNOLOGY DEPTH MAP</text>
   <text x="50" y="126" fill="#64748b" font-family="monospace" font-size="11">WHAT I BUILD WITH · WHAT I WORK WITH · WHAT I'M EXPLORING</text>
   <rect x="35" y="155" width="365" height="690" rx="24" fill="#081512" stroke="#34d399" stroke-width="2"/>
-  <circle cx="67" cy="191" r="9" fill="#34d399"/>
+  <circle cx="67" cy="191" r="9" fill="#34d399"><animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/></circle>
   <text x="88" y="198" fill="#34d399" font-family="Arial, sans-serif" font-size="20" font-weight="700">CORE TECHNOLOGIES</text>
   <text x="60" y="222" fill="#64748b" font-family="monospace" font-size="10">USED REGULARLY IN PROJECTS</text>
   <g font-family="monospace" font-size="12">
@@ -32,7 +33,7 @@
     <rect x="220" y="668" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="692" fill="#e2e8f0">NLP</text>
   </g>
   <rect x="417" y="155" width="365" height="690" rx="24" fill="#100d1c" stroke="#8b5cf6" stroke-width="2"/>
-  <circle cx="449" cy="191" r="9" fill="#8b5cf6"/>
+  <circle cx="449" cy="191" r="9" fill="#8b5cf6"><animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/></circle>
   <text x="470" y="198" fill="#a78bfa" font-family="Arial, sans-serif" font-size="20" font-weight="700">WORKING KNOWLEDGE</text>
   <text x="442" y="222" fill="#64748b" font-family="monospace" font-size="10">HANDS-ON / USED AS NEEDED</text>
   <g font-family="monospace" font-size="12">
@@ -57,7 +58,7 @@
     <rect x="602" y="668" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="692" fill="#e2e8f0">Git</text>
   </g>
   <rect x="799" y="155" width="366" height="690" rx="24" fill="#0d1320" stroke="#22d3ee" stroke-width="2"/>
-  <circle cx="831" cy="191" r="9" fill="#22d3ee"/>
+  <circle cx="831" cy="191" r="9" fill="#22d3ee"><animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/></circle>
   <text x="852" y="198" fill="#22d3ee" font-family="Arial, sans-serif" font-size="20" font-weight="700">EXPLORING / LEARNING</text>
   <text x="824" y="222" fill="#64748b" font-family="monospace" font-size="10">NEXT TECHNICAL LAYER</text>
   <g font-family="monospace" font-size="12">
