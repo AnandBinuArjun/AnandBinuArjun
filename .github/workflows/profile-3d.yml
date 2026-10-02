@@ -5,6 +5,10 @@ on:
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: profile-3d-main
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -31,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Verify real profile-night-view.svg was generated
+      - name: Validate generated contribution SVG
         run: |
           set -euo pipefail
           FILE="profile-3d-contrib/profile-night-view.svg"
@@ -42,8 +46,11 @@ jobs:
             echo "Fallback SVG detected; refusing to publish it."
             exit 1
           fi
-          echo "Verified generated 3D contribution SVG: $FILE"
-          wc -c "$FILE"
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          ET.parse("profile-3d-contrib/profile-night-view.svg")
+          print("profile-night-view.svg: valid XML/SVG")
+          PY
 
       - name: Refresh contribution image cache
         run: |
