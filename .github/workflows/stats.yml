@@ -1,14 +1,16 @@
 name: Generate stats card
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
+
+concurrency:
+  group: profile-stats-output
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -18,7 +20,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate stats.svg
+      - name: Generate stats SVG
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
@@ -26,8 +28,18 @@ jobs:
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Validate generated SVG
+        run: |
+          set -euo pipefail
+          test -s dist/stats.svg
+          grep -q "<svg" dist/stats.svg
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          ET.parse("dist/stats.svg")
+          print("stats.svg: valid XML/SVG")
+          PY
 
-      - name: push stats.svg to the output branch
+      - name: Publish stats SVG
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: stats-output
