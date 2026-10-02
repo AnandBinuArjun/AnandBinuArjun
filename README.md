@@ -16,6 +16,8 @@
 
 AI security · threat intelligence · IoT/embedded security · digital forensics · secure systems
 
+<img src="./identity-security-id.svg?v=1" width="100%" alt="Animated Anand Binu Arjun security identity and engineering dashboard"/>
+
 <img src="./identity-life.svg?v=2" width="100%" alt="Anand Binu Arjun identity and engineering profile"/>
 
 > `BUILD → DETECT → EXPLAIN → VERIFY`
