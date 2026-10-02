@@ -14,9 +14,9 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 <img src="./about-security.svg?v=2" width="100%" alt="Security capabilities and research focus"/>
 
-### `// ABOUT — LIFE LAYER`
+### `// ABOUT + LIFE COMMAND`
 
-<img src="./about-life.svg?v=1" width="100%" alt="Beyond the terminal personal operating loop"/>
+<img src="./about-command.svg?v=1" width="100%" alt="Animated security engineering about and life command panel"/>
 
 ---
 
