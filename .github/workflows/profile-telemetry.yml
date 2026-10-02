@@ -1,0 +1,58 @@
+name: Refresh profile telemetry
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-profile-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh public repository count
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, re, subprocess
+          data = subprocess.check_output([
+              "gh", "api", "--paginate",
+              "/users/AnandBinuArjun/repos?per_page=100&type=public"
+          ], text=True)
+          repos = []
+          for line in data.splitlines():
+              if not line.strip():
+                  continue
+              try:
+                  value = json.loads(line)
+                  repos.extend(value if isinstance(value, list) else [])
+              except json.JSONDecodeError:
+                  pass
+          count = len(repos)
+          path = "github-stats.svg"
+          svg = open(path, encoding="utf-8").read()
+          svg, changed = re.subn(
+              r'(<text id="public-repos"[^>]*>)[0-9]+(</text>)',
+              rf'\g<1>{count}\g<2>',
+              svg,
+              count=1,
+          )
+          if changed != 1:
+              raise SystemExit("public repository metric not found")
+          open(path, "w", encoding="utf-8").write(svg)
+          print(f"Public repositories: {count}")
+          PY
+
+      - name: Commit refreshed metric
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg
+          git diff --cached --quiet || git commit -m "chore: refresh GitHub profile telemetry"
+          git push
