@@ -4,7 +4,7 @@
 
 </div>
 
-## `// ABOUT`
+## ABOUT
 
 I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security researcher working across offensive security, AI + security, threat intelligence, IoT/embedded security, digital forensics and secure systems architecture.
 
@@ -14,31 +14,31 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 <img src="./about-security.svg?v=2" width="100%" alt="Security capabilities and research focus"/>
 
-### `// ABOUT + LIFE COMMAND`
+## ABOUT + LIFE COMMAND
 
 <img src="./about-command.svg?v=1" width="100%" alt="Animated security engineering about and life command panel"/>
 
 ---
 
-## `// SECURITY OPERATIONS`
+## SECURITY OPERATIONS
 
 <img src="./current-operations.svg?v=1" width="100%" alt="Animated current security operations console"/>
 
 ---
 
-## `// AI SECURITY CORE`
+## AI SECURITY CORE
 
 <img src="./ai-security-core.svg?v=1" width="100%" alt="Animated AI security core showing detect correlate explain verify flow"/>
 
 ---
 
-## `// THREAT RADAR`
+## THREAT RADAR
 
 <img src="./threat-radar.svg?v=1" width="100%" alt="Animated conceptual cybersecurity threat radar"/>
 
 ---
 
-## `// SECURITY PROFILE`
+## SECURITY PROFILE
 
 **Cybersecurity Engineer · AI Security · Threat Intelligence · Security Automation**  
 Building systems that detect, explain, verify and automate security decisions across AI, IoT, intelligence and secure systems.
@@ -67,7 +67,7 @@ Building systems that detect, explain, verify and automate security decisions ac
 
 ---
 
-## `// SECURITY CAPABILITY MATRIX`
+## SECURITY CAPABILITY MATRIX
 
 <img src="./security-capability.svg?v=1" width="100%" alt="Animated security capability matrix"/>
 
@@ -75,13 +75,13 @@ Building systems that detect, explain, verify and automate security decisions ac
 
 ---
 
-## `// SECURITY DOMAINS`
+## SECURITY DOMAINS
 
 <img src="./security-domains.svg?v=1" width="100%" alt="Cybersecurity domains map"/>
 
 ---
 
-## `// TECHNOLOGY STACK`
+## TECHNOLOGY STACK
 
 <img src="./tech-stack.svg?v=5" width="100%" alt="Animated cybersecurity technology stack"/>
 
@@ -95,11 +95,11 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ---
 
-## `// SECURITY IDENTITY + COMMAND CENTER`\n\n<img src="./id-dashboard.svg?v=1" width="100%" alt="Security identity and command dashboard"/>
+## SECURITY IDENTITY + COMMAND CENTER\n\n<img src="./id-dashboard.svg?v=1" width="100%" alt="Security identity and command dashboard"/>
 
 ---
 
-## `// CURRENTLY BUILDING`
+## CURRENTLY BUILDING
 
 <img src="./current-building.svg?v=1" width="100%" alt="Animated current security building systems panel"/>
 
@@ -107,13 +107,13 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ---
 
-## `// BEYOND THE TERMINAL`
+## BEYOND THE TERMINAL
 
 <img src="./beyond-terminal.svg?v=1" width="100%" alt="Animated beyond the terminal personal and creative interests panel"/>
 
 ---
 
-## `// ENGINEERING PRINCIPLES`
+## ENGINEERING PRINCIPLES
 
 <img src="./engineering-principles.svg?v=1" width="100%" alt="Animated engineering principles across security AI engineering and research"/>
 
@@ -123,7 +123,7 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ---
 
-## `// PROJECT REGISTRY`
+## PROJECT REGISTRY
 
 <img src="./project-registry.svg?v=1" width="100%" alt="Security project registry with domains, stacks and states"/>
 
@@ -167,31 +167,31 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// SECURITY INTELLIGENCE GRAPH`
+## SECURITY INTELLIGENCE GRAPH
 
 <img src="./security-knowledge-graph.svg?v=1" width="100%" alt="Animated conceptual security knowledge graph"/>
 
 ---
 
-## `// RESEARCH FOCUS`
+## RESEARCH FOCUS
 
 <img src="./research-focus.svg?v=1" width="100%" alt="Animated cybersecurity research focus workflow"/>
 
 ---
 
-## `// RESEARCH LAB`
+## RESEARCH LAB
 
 <img src="./research-lab.svg?v=1" width="100%" alt="Animated cybersecurity research laboratory"/>
 
 ---
 
-## `// SECURITY PORTFOLIO MAP`
+## SECURITY PORTFOLIO MAP
 
 <img src="./security-achievements.svg?v=1" width="100%" alt="Security portfolio capability map"/>
 
 ---
 
-## `// PROOF / EVIDENCE`
+## PROOF / EVIDENCE
 
 > **Proof before claim.** Repositories, working systems, research artifacts and verified credentials are prioritized over decorative skill percentages.
 
@@ -205,27 +205,27 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ---
 
-## `// SECURITY EVENT STREAM`
+## SECURITY EVENT STREAM
 
 <img src="./terminal-event-stream.svg?v=1" width="100%" alt="Animated conceptual security terminal event stream"/>
 
 ---
 
-## `// GITHUB ACTIVITY`
+## GITHUB ACTIVITY
 
 <img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
-## `// CONTRIBUTION CITY`
+## CONTRIBUTION CITY
 
 <img src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" alt="GitHub 3D contribution city"/>
 
 > Generated by the repository workflow from GitHub contribution activity. The image is refreshed automatically by GitHub Actions.
 
-## `// OPEN TO`\n\n<img src="./open-to.svg?v=1" width="100%" alt="Animated professional focus and collaboration panel"/>
+## OPEN TO\n\n<img src="./open-to.svg?v=1" width="100%" alt="Animated professional focus and collaboration panel"/>
 
 ---
 
-## `// CONNECT`
+## CONNECT
 
 <div align="center">
 
