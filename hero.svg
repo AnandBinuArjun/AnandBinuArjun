@@ -1,56 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
 <title id="title">Anand Binu Arjun — Cybersecurity Engineer</title>
-<desc id="desc">Animated cybersecurity profile hero for Anand Binu Arjun.</desc>
+<desc id="desc">Animated cybersecurity profile hero with personal cyber-security artwork.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070b"/><stop offset=".55" stop-color="#0b1020"/><stop offset="1" stop-color="#071412"/></linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#34d399"/></linearGradient>
-  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".48" stop-color="#a78bfa"/><stop offset="1" stop-color="#34d399"/></linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="screen"><rect x="34" y="72" width="445" height="285" rx="20"/></clipPath>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05070b"/><stop offset=".55" stop-color="#0b1020"/><stop offset="1" stop-color="#071412"/></linearGradient>
+<linearGradient id="edge" x2="1"><stop stop-color="#22d3ee"/><stop offset=".52" stop-color="#8b5cf6"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<linearGradient id="name" x2="1"><stop stop-color="#22d3ee"/><stop offset=".48" stop-color="#a78bfa"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
+<clipPath id="frame"><rect x="28" y="42" width="470" height="345" rx="25"/></clipPath>
 </defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
-<rect x="0" y="0" width="1200" height="2" fill="#22d3ee" opacity=".35"><animate attributeName="y" values="-2;430;-2" dur="8s" repeatCount="indefinite"/></rect>
-<rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="url(#edge)" stroke-opacity=".65"/>
-<rect x="1" y="1" width="1198" height="428" rx="27" fill="url(#grid)"/>
-<rect x="0" y="0" width="1200" height="3" fill="#22d3ee" opacity=".45"><animate attributeName="y" values="-2;430;-2" dur="7s" repeatCount="indefinite"/></rect>
-<g>
-  <rect x="24" y="50" width="465" height="330" rx="24" fill="#071018" stroke="#22d3ee" stroke-opacity=".32"/>
-  <rect x="34" y="72" width="445" height="285" rx="20" fill="#020408"/>
-  <g clip-path="url(#screen)">
-    <rect x="34" y="72" width="445" height="285" fill="url(#grid)"/>
-    <circle cx="254" cy="210" r="92" fill="none" stroke="#22d3ee" stroke-opacity=".13"/>
-    <circle cx="254" cy="210" r="66" fill="none" stroke="#8b5cf6" stroke-opacity=".12"/>
-    <path d="M90 285 C170 170 260 310 382 145" fill="none" stroke="#34d399" stroke-opacity=".18"/>
-    <path d="M70 160 L445 160" stroke="#22d3ee" stroke-opacity=".1"/>
-    <path d="M70 260 L445 260" stroke="#22d3ee" stroke-opacity=".08"/>
-  </g>
-  <g stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"><path d="M55 96V83h16 M458 96V83h-16 M55 333v13h16 M458 333v-16"/></g>
-  <g font-family="monospace" font-size="11" fill="#94a3b8">
-    <text x="55" y="102">SECURITY_PROFILE // LIVE</text><text x="55" y="335">ANAND.BINU.ARJUN</text><text x="340" y="335">SVG / SMIL</text>
-  </g>
-  <circle cx="435" cy="101" r="5" fill="#ef4444" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></circle>
-  <text x="417" y="120" font-family="monospace" font-size="9" fill="#f87171">REC</text>
-  <rect x="55" y="350" width="390" height="2" rx="1" fill="#1e293b"/>
-  <rect x="55" y="350" width="120" height="2" rx="1" fill="#22d3ee"><animate attributeName="width" values="25;390;25" dur="5s" repeatCount="indefinite"/></rect>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="url(#edge)" stroke-opacity=".65"/>
+<rect x="0" y="0" width="1200" height="3" fill="#22d3ee" opacity=".4"><animate attributeName="y" values="-2;430;-2" dur="8s" repeatCount="indefinite"/></rect>
+
+<g clip-path="url(#frame)">
+<rect x="28" y="42" width="470" height="345" rx="25" fill="#020408" stroke="#22d3ee" stroke-opacity=".35"/>
+<image x="70" y="52" width="385" height="385" preserveAspectRatio="xMidYMid meet" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAC0ALQDASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAMBAgQFBgf/xAA7EAACAgEDAQUGAwYGAgMAAAABAgADEQQSITEFEyJBUQYUMmFxkYGhsSNCUnLB0SQlYmPh8DOCU3OS/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAIBEBAQADAAMAAwEBAAAAAAAAAAECESEDEjEiQVFCYf/aAAwDAQACEQMRAD8A8RCEJQQhCAQhCAQhCAQhLV1tY21BkwKwmg0Vo20tvYcHB/T1gDp9+BWSMY5bzgZ4TQaEfisneOo8pngEJKqzfCpP0Ev7vd/8Vn/5MJuFwjBp7GB2gEjqoYZ+0XBsQhCFEIQgEIQgEIQgEISVVm+EE/SBEJJBHUEfhIhBCEIUymrvCSeEHUxjXKqEbVzggfL/AJi24oUZPJJxKKMsAoyTIAuSNo+HOQPSbdJ2PrdcuaavD/qOI7svRMNSjONzg8LjM9a2ur0KA2AZ8kXr/wACYyys5HXDCWbryep9nu09LSbXqyF5backTGa1Ul7cFj0X+89evtZp7NUlF2nZQxxu3Zx9RieU1vcPrbPdywrblVbqAfKaxt/bl5JP8jd4ArcYPIUkfh6RnvrIPAzIAOqnEzpqStdlQGQ2DnpyIvLPkY485pxmP9jo6bVrqmVdVWLCMftCcOvPUH+8T2n2c2mJvqIs07twwHwn0I8orSUNdclSYLOcAMQAJ0dHqwtjV2qHqbwuh6ESpb63jhwm3tCkaPVtX3aNWfEjYIyp6RBrR6msqyCvxIecD1BkdJl+yYQhDYhCEAhCEAmqg7dDY+AcXJwRweG4MyzVUf8ALrR/ur+jQzldIawOuFpVSABuTPqfn/3EXn1x+Il6Rl24zzx/0GORSamJyCeQzE4/Qy6NftmCqf3fsZPcqehIkOCHOSpPqOhkqT5GROpsoI04YHO0+nrH9maO3UCy1MAJ5kH6+QkUsdwzyDwQfMTf2HqF0mqNFhJ0+oGQQeh6HOPl1mctycdPHq5arVo6rqdWK77MBl60ngj6zr29i6bW0ZVmDeQ3Tk9pOlPdJRcrCo+EqOgPl850Oz+00dQgI3Ac+k4Xf16pqcYKvZ3UaLW1arVMoqR9w2eI/LOJj7ZTSW2Jq9HWayzFbF4wTjggDp5z0mra7W2rTRqu7qC/tFUZZieg+k4Hbmn7jT7fd7ahW+0F9vjyPLA+U3jd1y8mMmN04YrOT4M8faMouepHTOFcYORmMZAvw0M6jGWBPXGZUtSOGW5D/MD+oE7PJewWGmujcHbvSxBTHAXyOYVW+EAAZznPmJXFbdLW/wDZP+ZKVgHKuvPXqINcbO0P2/ZiWsfHRaa/XKnkfYg/eYalavS22spC2Du1JHBOcn9JrvtVNJ7sBuFgV2b0PPAme6x7aUp7xlpr+FCMgHzP1hjG3Wv+skJdqiFLAhgOuPKUh3l2IQhCiWWt2GVUkdMys0o22hOEIIYeMZxyOnzhm3TOVK/ECPqI+rJ0dmOgdT+Rk7sk7Sq/IMR+s16e107O1VArQi4pliAWGM9DLGMsuMBwWIK5JPXPSNsr2L4XIzwF3/0wJSxCthyPPzjRaDYDnHz8XH5w3LtVReyrtYsBjADA/lLOtzYNiEeedoEuC2eL0bn95f7iWNRJyXrP8phm2RWlfEI7stDZrKK2BKlxjHkZKBasG1goPTPU/hNnYqLf2omn05IdqrCGP8W07fzkrEtt4ntLSd9QQpwQc5nEJ1GnfAJ4+09Tp2F67bV2seoMVboVUsEAJPQHynnmeuPoXDfXnq+09Ylm6uxg/TI6x73ay+pveWYrjADTpU6FaatfavTT6dizD+JuFH6mIPaGns07LbWEdsePBIE7Y6vXj81zx5OsV6MurZQzr4QfBnPwiKTUWhM+8YJ6qwzOhqKDbqu8rBdWThkb/T6zBWrCvg2gHPRNwm2PHluFXWM7DcUOPNFAz9pCtjkGNJGPE9efR6sfpEEYYjIPzHSHR0OzAluqTvUFgFTMFboSFJE6ltV69lrqL6K307KH7pUCqoJwCCOQZxNPa9VlN1HLVgfPkTtv2vV7l3b2KaNqgac14s4OQpb+HPn1kefKXbi9oUpptVqaa87VOBnr1EwzRfa173Wucs3iJ+ZMzw74fBCEIbEdkrVWQcEcg/jEx3BoUj904P5mGclu8sNzXWDvGYksXGd2fOXF1O7LaZR/I5H95KtZWhGx1BUAnkcEQ01YcsD6Ss75sWXVhT3LXg+jkESi3n95Eb/1x+kY+8v3G3xuQMZ6EwfSNVYUs8LLwRjnMJuUwPSMbqxz/BZ/eM1OsWjCaasAlQd7ckAzO+mavBJ2g8gNxxF6jl1/kX9JKmMlpe4s5ezczHqSes7Psi2e30sb9xHPH0nF6gTuexlYs7cCld37NjjMjs9RrOzRe/vFQClzvwOgPpKW6VUy5PJHT0ndRGOVVsA9VK5mI6YDtMI2diKLD/QfeccsO8ejDyc1XI7U0Ldn+zeqTyuTc59W3DA/ACeKzgEEZn0r2mXd7O63Ax4M4/GfNT1naTThbu7Tp9RbpW/ZsQp8vIzV73U/L0jPqp2/pMWMiWhnUaC3etiqyxW64dgR94HS6zuw/cB1OfEKwc/aZ0sKWhgAcHoZt1W+yyhVbaBUOVPQcmVyztxvPjF3LK7G2tl9RjEc1ZatPdb2ZiD+yfhvw8jLXPdWVX3hihIzv5C5lCrWqD/hrMdAGCn+kE3esj2OQVbj14AlJpuuS9gbKyHHBZW5P1zFW1hVDISVPHPkYdJS4QhDQj61/wAMx/1j9DETRpnDJ3JByzZUgZ8sdIZy+GneiYcAqcZw3yyOhlS4U5rBX5ZzNB0rVqpFlLB+gP29JU9n6ojw1FvmvMrnMpSmXunrvyW3HOfPMY17afaVQeIZ5HI+hk2aPVuF314CjABYD+sr7lc2N71DAwM2rxGz139V1FzahlZvJQufXHrF3/8AkX+Rf0moaRtu1tRTt643E/oIWaNGcH3lOFA4Rj0kXGaumEDg/Kdz2LO32iqHqrj8pgGkoU83ufpX/czpez9Saf2g0D1WF0sYqdy4KnB4kdX0PjIPnAoMl8DJwM/SVZsL159BLsPAOMwOd7QjPYGu/wDpafMTPp3brAdha7y/Yt1+k+Yk+cAHAlS3MjJxFk8nmBIOeZqqtIrVjzt4x8jMa9PnH6csCQVypHnKzlNxfU6hbAAqkDgknqcRfeIfiX7qD/aXrypJVmHHOFz94HaTjdU2fVduJWcZJOFt3WMgA/TIgw/wYP8AuY/KWsqO3IrxjzV9wkMf8Hj/AHM/lIpEIQhsR+kdVdwx270KhvQ/94/GImqhVq7plTvLWwwz0Bzxx5wzl8btUx0tNFS473uxuI528ngfP1MzAkoNwI+RjtZpNfVVvsA2r4WFZB2eeGx08+syacna2fWHPxzRsnMrmRmR2X3Sd0Q1oVgDL5gNzOh2I3+Z6cZ5W1XH4dfyM5gMdp7jRelq9UYMJR9JNrFTsTk+ZjrbGVcY5i6HF2mrtTlXUMD9ZpYfrIOJ27bY/ZGqQrjdWw/KfNmOVHzn1TtfuxobQ4LEqQFAyTkT5V02qfKBBMo0lviMmqtrrFrQZZukFulV/ONQ7XBLNuHmPKKB2npGKVI6MPUwNyUh3Hd6itGb+JivX59IyzSatHKlVux5qVs/SZFU2VqyEHHHWWpR0sdjWwwpwcevErhZZ8qDUUtBurZRnxADbx8ou0AaclRgd5wPwnV7W1Wo0mm09SMUN1YdjuycAkAY8pxrb7Lsd42cdOMQuEyurS4QhDsJ1uyDUt292rW1Kwau8OF3Z6/UCcmPqtrDJ3te4DAJyen0hjObjsJqaNFaLfe+8dee7pBw3yJOBj7zlqGCg4wWfIGOoxK2220WsmQhU/uDGfnmOQe9N3tXFo+JP4vmv9oc9es2q3BlcyD4BtPUdR6Su75w7TodFfr+Ub3di0rYUYVk7Q5HBPpmauydGuqsexyClWDs/jPp9I3tnU6nUXJQdO1VSnKIFPiPymPbunSYfj7VzwZdTN1PZ9WkoOo7U3Kp+GlWwx+vp9JyxYCePtLLKlxs+vfeyeqa/ssJuOam2EH0PSehsJxgdZ889mO107O1ji44rsXnJxgjn/ieoq9qdNqGAr0upJ68Ln9JWXS1bJTpXawZOOAOpM+T65Gp11qOu0hjx6Z5n1OnVDUq72aa6vA47xcZ+Qnz72p0l1Wv94uGO/zjHljy+2IHIcecZoQx1ShV3Eg4H4RanK4hWTXapBxg9YTKbli2qQVXkBlbPPhOQDKhyerH7RupcWKCVAYHkjjP4SiJxzCY/F0YbGBAyfMjEqGKngkfQ4kqvi8sTemn0tmhUC5F1IYk7uOPT+ssYzymP1iFlz9SXwOjeLiLtwUVwoBOQcTu1aOiimyxMM/csu4euDk/jmcFj+xX6n9BDPj8kzv4qQhCHcQhCBtqRdRSo1LirYv7Ow+Y9COv0MEp759mnFt3dgsFRegHUy1NlQNldmnFr2Kio24gp05E3CvT++irs7U+702VnL3Nt3cHOSPLI6Q4Wubfq7bgBY29Tz4gOvnz1h2boT2hrBVv2IFLu2M4UcmKbijP+vH5TT2Teun1Tb32V3VtUX/hyOD98SV1x063ZtHulC2UncXO/BOSPQTZb2ndYuwMoJ43dNs4o1F2lVluTwDngjAPy9RMz9pk/DX9zOVxtr1TySTTp6uiliX1DtaEHGW8Iluza01rk0UqtSHAIGATODfq7tSoFjeFfITvdl9v6PSaeujuCu0cs3iyfoJvHH+ueWe/j0Wi0lVNqKmmpYsw3MUBP3naayxcKgCj5CcDTe0ehba5JIrYElVIA+82N7VdnYXBs5OBtTJmnN1VHG6w4HqZ572t0L6/SB0UKteSoxyTHv7V9kqSWbVMR1HdGZdT7ZdluhRtLqXU+qqP6wPBr4WxJJx9Y7tC2i/VvZpVdEJzh8Z/KIY5gNts71hwox5qMZk9F6SiJxk/lJJB4O7MJJpo0iOz5XaFHLMwyFHzjNXfTqbLrhp0qrHCivw5PlxyPnFB2NCVKu5dx8PqfwhfU4qHe0vWtbFDg/vdTnPnK5Xt2SrIPgsev6j+0rZtFaqGDHJPH4SHQBQynIJxyMESkNyT6IQhDYhCEDbptUdLd39NyoxTb8G44IweDxJoeq5Dp1Us/WoucAnzHHr9eswwhj0Mtsd/CwChT8IGMGUXJO0c54xNPe16oAahtlw4FuMhv5h/WX0+kupc3msulY3B08S58uRBcvWFajTrQzru3Mo5PofSZsRrtuBJOcnJi+si4711EkcQAyfpLefIhpoqsrbR2VO6oxsVhuBIwAfT6yabF091T79wVwTtz0BzMxHHWWOSfSBa202WO2D4iTyfWRkleQBICnzYyQoHT7wFsmOnM29l9mjXuQ+r02mA4U3PjcflM5Xp9Z1eyatLfp7FatV1VQ3o2T4x6ESW6XGbuie0+ytV2WyjUINj/Bah3I/0Mw1sm/daW2DqF6mdGjtdwuq0+qQvpbazis/uP+6w9DmclmyAJUrSuqxYllAFDVnKYPT558zNY7S7sITpwVAsLp0Rmb+mAOJyZKsVOVJH0lc7hFz/AOLPlu/pFyz2M4AY5AlYbghCEKIQhAIQhAJoput09f7Gx0LnJ2nGRM8kMRDNmzNRc91mbG3MBjMX0GZEM5PykWTSwBxxDcR8Qk/jiRk+oMKncuOJfcIkn5YkZ9TAduXzMA6+sWCPJc/WWBY/L6CAwHzl9Lf3GrrszgBufp5xJOB8X3kAZ5MEujLbfeLnI8IZiQP0iIDg5ECcnMFEIQlBCEIBCEIBCEIBCEIBCEIAOsBCEgtnAlSc+QhCBWEIQJDEen2lg59B9oQgWHLekAxJPy+UIQKsMMRIhCUEIQgEIQgEIQgf/9k="/>
+<rect x="28" y="42" width="470" height="345" fill="#020b12" opacity=".16"/>
+<rect x="28" y="42" width="470" height="345" fill="url(#grid)" opacity=".38"/>
+<path d="M28 120H498M28 250H498" stroke="#22d3ee" stroke-opacity=".07"/>
+<circle cx="265" cy="218" r="130" fill="none" stroke="#22d3ee" stroke-opacity=".09"/>
+<rect x="28" y="42" width="3" height="345" fill="#22d3ee" opacity=".5"><animate attributeName="y" values="42;387;42" dur="6s" repeatCount="indefinite"/></rect>
 </g>
-<g font-family="Arial, Helvetica, sans-serif">
-  <rect x="535" y="52" width="630" height="42" rx="21" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".3"/>
-  <circle cx="560" cy="73" r="6" fill="#34d399"><animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="576" y="79" font-size="15" fill="#cbd5e1" letter-spacing="1.5">OPEN TO SECURITY COLLABORATIONS</text>
-  <text x="535" y="145" font-size="20" fill="#94a3b8" font-family="monospace">&gt; hello, I'm</text>
-  <text x="535" y="205" font-size="52" font-weight="800" fill="url(#name)">ANAND BINU ARJUN</text>
-  <text x="538" y="238" font-size="18" fill="#cbd5e1" font-family="monospace"><tspan>CYBERSECURITY ENGINEER</tspan><animate attributeName="opacity" values="1;.45;1" dur="3.5s" repeatCount="indefinite"/></text>
-  <g font-family="monospace" font-size="16" fill="#22d3ee">
-    <text x="538" y="274">[ AI × SECURITY ]<animate attributeName="opacity" values="1;0;0;1" dur="8s" repeatCount="indefinite"/></text>
-    <text x="538" y="274" opacity="0">[ THREAT INTELLIGENCE ]<animate attributeName="opacity" values="0;0;1;0" dur="8s" repeatCount="indefinite"/></text>
-    <text x="538" y="274" opacity="0">[ IoT / EMBEDDED SECURITY ]<animate attributeName="opacity" values="0;1;0;0" dur="8s" repeatCount="indefinite"/></text>
-  </g>
-  <text x="538" y="310" font-size="15" fill="#94a3b8">Building security systems that detect, explain and verify risk.</text>
-  <g font-family="monospace" font-size="12">
-    <rect x="535" y="334" width="190" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="552" y="351" fill="#64748b">LOCATION</text><text x="552" y="368" fill="#e2e8f0">UNITED KINGDOM</text>
-    <rect x="738" y="334" width="190" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="755" y="351" fill="#64748b">FOCUS</text><text x="755" y="368" fill="#e2e8f0">AI / CYBER / IoT</text>
-    <rect x="941" y="334" width="225" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="958" y="351" fill="#64748b">STATUS</text><text x="958" y="368" fill="#34d399">BUILDING SECURITY SYSTEMS</text>
-  </g>
+<g stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"><path d="M48 68V55h16 M478 68V55h-16 M48 361v13h16 M478 361v-13h-16"/></g>
+<g font-family="monospace" font-size="10"><text x="50" y="73" fill="#94a3b8">SECURITY_PROFILE // LIVE</text><text x="50" y="370" fill="#94a3b8">ANAND.BINU.ARJUN</text><text x="390" y="370" fill="#64748b">SVG / SMIL</text></g>
+<circle cx="462" cy="72" r="5" fill="#ef4444"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="444" y="91" font-family="monospace" font-size="8" fill="#f87171">REC</text>
+
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="535" y="52" width="630" height="42" rx="21" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".3"/>
+<circle cx="560" cy="73" r="6" fill="#34d399"><animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/></circle><text x="576" y="79" font-size="15" fill="#cbd5e1" letter-spacing="1.5">OPEN TO SECURITY COLLABORATIONS</text>
+<text x="535" y="145" font-size="20" fill="#94a3b8" font-family="monospace">&gt; hello, I'm</text>
+<text x="535" y="205" font-size="52" font-weight="800" fill="url(#name)">ANAND BINU ARJUN</text>
+<text x="538" y="238" font-size="18" fill="#cbd5e1" font-family="monospace">CYBERSECURITY ENGINEER</text>
+<text x="538" y="274" font-size="16" fill="#22d3ee" font-family="monospace">[ AI × SECURITY ]<animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></text>
+<text x="538" y="310" font-size="15" fill="#94a3b8">Building security systems that detect, explain and verify risk.</text>
+<g font-family="monospace" font-size="12"><rect x="535" y="334" width="190" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="552" y="351" fill="#64748b">LOCATION</text><text x="552" y="368" fill="#e2e8f0">UNITED KINGDOM</text><rect x="738" y="334" width="190" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="755" y="351" fill="#64748b">FOCUS</text><text x="755" y="368" fill="#e2e8f0">AI / CYBER / IoT</text><rect x="941" y="334" width="225" height="42" rx="12" fill="#0b1220" stroke="#334155"/><text x="958" y="351" fill="#64748b">STATUS</text><text x="958" y="368" fill="#34d399">BUILDING SECURITY SYSTEMS</text></g>
 </g>
 </svg>
