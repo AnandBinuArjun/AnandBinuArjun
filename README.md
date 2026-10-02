@@ -44,6 +44,10 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## HUMAN GOVERNANCE
+
+<img src="./human-governance.svg?v=1" width="100%" alt="Human governance and AI security decision model"/>
+
 ## TECHNOLOGY MATRIX
 
 <img src="./language-profile.svg?v=2" width="100%" alt="Engineering technology matrix"/>
