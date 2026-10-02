@@ -1,1 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc"><title id="title">Anand Binu Arjun security command center</title><desc id="desc">GitHub and project dashboard.</desc><defs><linearGradient id="edge"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#34d399"/></linearGradient><linearGradient id="bar" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><rect width="1200" height="610" rx="28" fill="#05070b"/><rect x="1" y="1" width="1198" height="608" rx="27" fill="none" stroke="url(#edge)" stroke-opacity=".42"/><g font-family="Arial"><text x="50" y="58" fill="#22d3ee" font-family="monospace" font-size="13" letter-spacing="2">&gt; SECURITY_COMMAND_CENTER</text><text x="50" y="94" fill="#f8fafc" font-size="30" font-weight="800">BUILD / RESEARCH / SHIP</text><rect x="45" y="120" width="1110" height="100" rx="18" fill="#0a101a" stroke="#334155"/><g font-family="monospace"><text x="72" y="150" fill="#64748b" font-size="11">GITHUB / PROJECT METRICS</text><text x="72" y="185" fill="#22d3ee" font-size="15">LIVE METRICS → README</text><text x="430" y="185" fill="#94a3b8" font-size="12">Repository stars · forks · commits · profile statistics</text></g><rect x="45" y="245" width="540" height="300" rx="18" fill="#0a101a" stroke="#334155"/><text x="72" y="282" fill="#f8fafc" font-size="20" font-weight="700">SECURITY SYSTEMS</text><g font-family="monospace" font-size="12"><rect x="70" y="305" width="490" height="42" rx="10" fill="#0f172a"/><text x="90" y="331" fill="#22d3ee">SHIELDDESK</text><text x="250" y="331" fill="#94a3b8">AI-assisted SOC control plane</text><rect x="70" y="357" width="490" height="42" rx="10" fill="#0f172a"/><text x="90" y="383" fill="#34d399">SENTINEL-IoT</text><text x="250" y="383" fill="#94a3b8">IoT honeypot / threat intelligence</text><rect x="70" y="409" width="490" height="42" rx="10" fill="#0f172a"/><text x="90" y="435" fill="#a78bfa">CTI ANALYSIS</text><text x="250" y="435" fill="#94a3b8">IOC / ATT&amp;CK / knowledge graph</text><rect x="70" y="461" width="490" height="42" rx="10" fill="#0f172a"/><text x="90" y="487" fill="#f472b6">VMP</text><text x="250" y="487" fill="#94a3b8">Risk-based vulnerability management</text><rect x="70" y="513" width="490" height="1" fill="#334155"/></g><rect x="615" y="245" width="540" height="300" rx="18" fill="#0a101a" stroke="#334155"/><text x="642" y="282" fill="#f8fafc" font-size="20" font-weight="700">OPERATING MODEL</text><g font-family="monospace" font-size="12"><rect x="640" y="305" width="490" height="54" rx="12" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".25"/><text x="660" y="328" fill="#22d3ee">01  DETECT</text><text x="660" y="347" fill="#94a3b8">Collect signal and surface meaningful anomalies.</text><rect x="640" y="373" width="490" height="54" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".25"/><text x="660" y="396" fill="#a78bfa">02  EXPLAIN</text><text x="660" y="415" fill="#94a3b8">Connect evidence, context and likely impact.</text><rect x="640" y="441" width="490" height="54" rx="12" fill="#0f172a" stroke="#34d399" stroke-opacity=".25"/><text x="660" y="464" fill="#34d399">03  VERIFY</text><text x="660" y="483" fill="#94a3b8">Test remediation before trusting the outcome.</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610">
+<title>Anand Binu Arjun — Developer Dashboard</title>
+<desc>Cybersecurity developer dashboard with profile identity, GitHub metrics, project stars and current technical focus.</desc>
+<rect width="1200" height="610" rx="28" fill="#05070b"/>
+<rect x="1" y="1" width="1198" height="608" rx="27" fill="none" stroke="#22d3ee" stroke-opacity=".55"/>
+<g font-family="monospace">
+<text x="52" y="50" fill="#a78bfa" font-size="12" letter-spacing="2">// DEVELOPER DASHBOARD</text>
+<text x="52" y="84" fill="#f8fafc" font-family="Arial, sans-serif" font-size="29" font-weight="700">Profile at a glance</text>
+<rect x="1002" y="38" width="142" height="26" rx="13" fill="#071b17" stroke="#34d399" stroke-opacity=".5"/>
+<circle cx="1018" cy="51" r="4" fill="#34d399"/><text x="1030" y="55" fill="#34d399" font-size="9" letter-spacing="1">LIVE · GITHUB</text>
+</g>
+<rect x="45" y="112" width="275" height="430" rx="22" fill="#0a101a" stroke="#22d3ee" stroke-opacity=".5"/>
+<rect x="62" y="130" width="241" height="38" rx="10" fill="#08131d" stroke="#1e293b"/>
+<text x="78" y="153" fill="#22d3ee" font-family="monospace" font-size="10" letter-spacing="1.5">DEVELOPER ID</text>
+<text x="255" y="153" text-anchor="end" fill="#64748b" font-family="monospace" font-size="9">V3.0</text>
+<rect x="78" y="187" width="209" height="135" rx="18" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".65"/>
+<circle cx="182" cy="252" r="53" fill="#111827" stroke="#22d3ee" stroke-opacity=".65"/>
+<circle cx="182" cy="252" r="40" fill="#0b1220" stroke="#34d399" stroke-opacity=".35"/>
+<text x="182" y="243" text-anchor="middle" fill="#22d3ee" font-family="Arial, sans-serif" font-size="26" font-weight="800">AA</text>
+<text x="182" y="267" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="8">SECURITY ENGINEER</text>
+<text x="78" y="350" fill="#f8fafc" font-family="Arial, sans-serif" font-size="21" font-weight="800">ANAND BINU ARJUN</text>
+<text x="78" y="373" fill="#22d3ee" font-family="monospace" font-size="10">CYBERSECURITY · AI · IoT</text>
+<line x1="78" y1="392" x2="287" y2="392" stroke="#1e293b"/>
+<text x="78" y="418" fill="#64748b" font-family="monospace" font-size="9">BASE</text>
+<text x="78" y="438" fill="#e2e8f0" font-family="monospace" font-size="11">UNITED KINGDOM</text>
+<text x="190" y="418" fill="#64748b" font-family="monospace" font-size="9">FOCUS</text>
+<text x="190" y="438" fill="#e2e8f0" font-family="monospace" font-size="11">SECURITY SYSTEMS</text>
+<text x="78" y="474" fill="#64748b" font-family="monospace" font-size="9">CURRENT MODE</text>
+<text x="78" y="495" fill="#34d399" font-family="monospace" font-size="11">BUILD · RESEARCH · SHIP</text>
+<rect x="78" y="510" width="209" height="2" fill="#1e293b"/><rect x="78" y="510" width="136" height="2" fill="#22d3ee"/>
+<g font-family="monospace">
+<rect x="345" y="112" width="185" height="82" rx="15" fill="#0d1220" stroke="#334155"/><rect x="363" y="128" width="18" height="3" rx="1" fill="#22d3ee"/><text x="363" y="153" fill="#64748b" font-size="9">PUBLIC REPOS</text><text x="363" y="181" fill="#f8fafc" font-size="26" font-family="Arial" font-weight="800">50</text>
+<rect x="548" y="112" width="185" height="82" rx="15" fill="#0d1220" stroke="#334155"/><rect x="566" y="128" width="18" height="3" rx="1" fill="#fbbf24"/><text x="566" y="153" fill="#64748b" font-size="9">TOP PROJECT</text><text x="566" y="181" fill="#f8fafc" font-size="26" font-family="Arial" font-weight="800">21★</text>
+<rect x="751" y="112" width="185" height="82" rx="15" fill="#0d1220" stroke="#334155"/><rect x="769" y="128" width="18" height="3" rx="1" fill="#a78bfa"/><text x="769" y="153" fill="#64748b" font-size="9">FOLLOWERS</text><text x="769" y="181" fill="#f8fafc" font-size="26" font-family="Arial" font-weight="800">18</text>
+<rect x="954" y="112" width="190" height="82" rx="15" fill="#0d1220" stroke="#334155"/><rect x="972" y="128" width="18" height="3" rx="1" fill="#f472b6"/><text x="972" y="153" fill="#64748b" font-size="9">FOLLOWING</text><text x="972" y="181" fill="#f8fafc" font-size="26" font-family="Arial" font-weight="800">11</text>
+</g>
+<rect x="345" y="214" width="590" height="282" rx="18" fill="#0a101a" stroke="#334155"/>
+<text x="372" y="246" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="700">MOST-STARRED PROJECTS</text>
+<text x="372" y="267" fill="#64748b" font-family="monospace" font-size="9">PUBLIC REPOSITORIES · CURRENT GITHUB SNAPSHOT</text>
+<g font-family="monospace" font-size="10">
+<text x="372" y="306" fill="#94a3b8">SENTINEL-IoT</text><rect x="500" y="294" width="350" height="16" rx="8" fill="#171e2d"/><rect x="500" y="294" width="350" height="16" rx="8" fill="#34d399"/><text x="865" y="306" fill="#e2e8f0">21</text>
+<text x="372" y="344" fill="#94a3b8">CTI Analysis</text><rect x="500" y="332" width="350" height="16" rx="8" fill="#171e2d"/><rect x="500" y="332" width="67" height="16" rx="8" fill="#8b5cf6"/><text x="865" y="344" fill="#e2e8f0">4</text>
+<text x="372" y="382" fill="#94a3b8">AI Digital Safety</text><rect x="500" y="370" width="350" height="16" rx="8" fill="#171e2d"/><rect x="500" y="370" width="50" height="16" rx="8" fill="#8b5cf6"/><text x="865" y="382" fill="#e2e8f0">3</text>
+<text x="372" y="420" fill="#94a3b8">TOTAL ENTITY</text><rect x="500" y="408" width="350" height="16" rx="8" fill="#171e2d"/><rect x="500" y="408" width="34" height="16" rx="8" fill="#22d3ee"/><text x="865" y="420" fill="#e2e8f0">2</text>
+<text x="372" y="458" fill="#94a3b8">Portfolio</text><rect x="500" y="446" width="350" height="16" rx="8" fill="#171e2d"/><rect x="500" y="446" width="34" height="16" rx="8" fill="#22d3ee"/><text x="865" y="458" fill="#e2e8f0">2</text>
+</g>
+<rect x="955" y="214" width="189" height="132" rx="18" fill="#0a101a" stroke="#334155"/>
+<text x="976" y="240" fill="#f472b6" font-family="monospace" font-size="10">COMMUNITY</text>
+<text x="976" y="275" fill="#f8fafc" font-family="Arial" font-size="23" font-weight="800">18</text><text x="976" y="292" fill="#64748b" font-family="monospace" font-size="8">FOLLOWERS</text>
+<text x="1050" y="275" fill="#f8fafc" font-family="Arial" font-size="23" font-weight="800">11</text><text x="1050" y="292" fill="#64748b" font-family="monospace" font-size="8">FOLLOWING</text>
+<text x="976" y="320" fill="#94a3b8" font-family="monospace" font-size="8">@AnandBinuArjun</text>
+<rect x="955" y="364" width="189" height="132" rx="18" fill="#0a101a" stroke="#334155"/>
+<circle cx="976" cy="389" r="4" fill="#34d399"/><text x="988" y="393" fill="#34d399" font-family="monospace" font-size="9">BUILDING</text>
+<text x="976" y="420" fill="#e2e8f0" font-family="monospace" font-size="9">SHIELDDESK</text><text x="976" y="438" fill="#94a3b8" font-family="monospace" font-size="8">AI-assisted SOC</text>
+<text x="976" y="462" fill="#e2e8f0" font-family="monospace" font-size="9">SENTINEL-IoT</text><text x="976" y="480" fill="#94a3b8" font-family="monospace" font-size="8">IoT threat intelligence</text>
+</svg>
