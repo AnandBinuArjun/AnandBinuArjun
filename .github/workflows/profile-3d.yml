@@ -11,11 +11,16 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate GitHub profile 3D contribution city
+    name: Generate profile dashboard and 3D contribution city
 
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v5
+
+      - name: Generate live developer dashboard
+        env:
+          USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/generate-dashboard.py
 
       - name: Generate 3D contribution profile
         uses: yoshi389111/github-profile-3d-contrib@latest
@@ -23,7 +28,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit generated profile
+      - name: Commit generated profile assets
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
@@ -31,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No generated changes."
           else
-            git commit -m "chore: refresh 3D contribution profile"
+            git commit -m "chore: refresh profile dashboard and 3D contribution profile"
             git push
           fi
