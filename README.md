@@ -197,7 +197,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 <div align="center">
 
-<img src="./assets/anand-footer.jpg?v=1" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
+<img src="./assets/anand-footer.svg?v=2" width="100%" alt="Anand Binu Arjun cybersecurity and software engineering footer artwork"/>
 
 </div>
 
