@@ -87,7 +87,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## SECURITY IDENTITY + COMMAND CENTER
 
-<img src="./id-dashboard.svg?v=2" width="100%" alt="Security identity and command dashboard"/>
+<img src="./id-dashboard.svg?v=3" width="100%" alt="Security identity and command dashboard"/>
 
 <div align="center"><sub>────────────────────────────────────────────</sub></div>
 
