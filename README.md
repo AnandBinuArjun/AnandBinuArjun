@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg?v=5" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
+<img src="./hero.svg?v=6" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
 
 </div>
 
