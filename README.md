@@ -26,9 +26,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## SECURITY OPERATIONS
 
-<img src="./soc-status.svg?v=2" width="100%" alt="Security operations status"/>
-
-<img src="./current-mission.svg?v=2" width="100%" alt="Current security engineering mission"/>
+<img src="./soc-control-room.svg?v=1" width="100%" alt="Unified cybersecurity SOC control room and engineering workflow"/>
 
 > Development, research and experimentation are intentionally separated from production claims.
 
