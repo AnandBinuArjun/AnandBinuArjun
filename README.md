@@ -36,6 +36,8 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## AI SECURITY CORE
 
+<img src="./ai-security-core-live.svg?v=1" width="100%" alt="Animated AI security reasoning and verification pipeline"/>
+
 <img src="./ai-security-core.svg?v=3" width="100%" alt="AI security detect correlate explain verify workflow"/>
 
 <img src="./security-philosophy.svg?v=2" width="100%" alt="Security engineering methodology"/>
