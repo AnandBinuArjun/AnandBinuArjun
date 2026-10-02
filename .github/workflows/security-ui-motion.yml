@@ -8,6 +8,8 @@ on:
       - ".github/workflows/security-ui-motion.yml"
       - "ai-security-core-live.svg"
       - "soc-control-room.svg"
+      - "security-digital-twin.svg"
+      - "security-evidence-vault.svg"
   workflow_dispatch:
 
 permissions:
@@ -35,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/ai-security-core.gif assets/soc-control-room.gif
+          git add assets/ai-security-core.gif assets/soc-control-room.gif assets/security-digital-twin.gif assets/security-evidence-vault.gif
           if git diff --cached --quiet; then
             echo "No GIF changes."
             exit 0
