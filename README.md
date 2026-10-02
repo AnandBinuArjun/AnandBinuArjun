@@ -6,6 +6,12 @@
 
 </div>
 
+<div align="center">
+
+<sub>ABOUT · OPERATIONS · BUILDS · RESEARCH · TELEMETRY · CONNECT</sub>
+
+</div>
+
 ## ABOUT
 
 **Cybersecurity Engineer · Security Builder · Researcher**  
@@ -56,6 +62,8 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 </div>
 
 ## DEVELOPER PROFILE
+
+<img src="./developer-console.svg?v=1" width="100%" alt="Animated developer command console showing engineering and security toolchains"/>
 
 `ROLE` **Cybersecurity Engineer** · `MODE` **Build / Research / Verify** · `FOCUS` **Security Systems + AI**
 
@@ -146,7 +154,19 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 <img src="./engineering-principles.svg?v=1" width="100%" alt="Animated engineering principles across security AI engineering and research"/>
 
+## SECURITY SYSTEM ARCHITECTURE
+
+<img src="./security-architecture.svg?v=1" width="100%" alt="Animated security system architecture pipeline"/>
+
+## SECURITY LIFECYCLE
+
+<img src="./security-lifecycle.svg?v=1" width="100%" alt="Animated security lifecycle from discovery through learning"/>
+
 <img src="./security-dashboard.svg?v=4" width="100%" alt="Security command center dashboard"/>
+
+## CURRENT MISSION
+
+<img src="./current-mission.svg?v=1" width="100%" alt="Animated current security mission panel"/>
 
 ## FEATURED SECURITY BUILDS
 
