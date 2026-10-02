@@ -151,27 +151,7 @@ Outside the terminal, I spend time on **research, open-source projects, product 
 
 ## `// ENGINEERING PRINCIPLES`
 
-```text
-SECURITY
-├── Assume breach
-├── Minimize trust
-└── Verify continuously
-
-AI
-├── Explain the decision
-├── Bound the action
-└── Keep human control where risk matters
-
-ENGINEERING
-├── Automate repeatable work
-├── Make systems observable
-└── Prefer reproducible security evidence
-
-RESEARCH
-├── Form a hypothesis
-├── Build an experiment
-└── Measure the result
-```
+<img src="./engineering-principles.svg?v=1" width="100%" alt="Animated engineering principles across security AI engineering and research"/>
 
 ---
 
