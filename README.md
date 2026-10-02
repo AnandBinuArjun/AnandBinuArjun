@@ -2,15 +2,16 @@
 
 <img src="./hero.svg?v=4" width="100%" alt="Anand Binu Arjun cybersecurity profile hero"/>
 
+<img src="./soc-status.svg?v=1" width="100%" alt="Animated SOC and developer profile status"/>
+
 </div>
 
 ## ABOUT
 
-I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security researcher working across offensive security, AI + security, threat intelligence, IoT/embedded security, digital forensics and secure systems architecture.
+**Cybersecurity Engineer · Security Builder · Researcher**  
+AI security · threat intelligence · IoT/embedded security · digital forensics · secure systems
 
-> **Build systems that detect.  
-> Build systems that explain.  
-> Build systems that verify.**
+> `BUILD → DETECT → EXPLAIN → VERIFY`
 
 <img src="./about-security.svg?v=2" width="100%" alt="Security capabilities and research focus"/>
 
@@ -54,17 +55,15 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 </div>
 
-## SECURITY PROFILE
+## DEVELOPER PROFILE
 
-**Cybersecurity Engineer · AI Security · Threat Intelligence · Security Automation**  
-Building systems that detect, explain, verify and automate security decisions across AI, IoT, intelligence and secure systems.
+`ROLE` **Cybersecurity Engineer** · `MODE` **Build / Research / Verify** · `FOCUS` **Security Systems + AI**
 
-[**View Projects →**](#-featured-security-builds) · [**GitHub →**](https://github.com/AnandBinuArjun) · [**Portfolio →**](https://abarjun.online/)
+[**PROJECTS →**](#featured-security-builds) · [**GITHUB →**](https://github.com/AnandBinuArjun) · [**PORTFOLIO →**](https://abarjun.online/)
 
-### Verified live web presence
+### Live profile telemetry
 
-**Portfolio / interactive security site:**  
-[https://www.abarjun.online/](https://www.abarjun.online/)
+**Portfolio:** [abarjun.online](https://abarjun.online/)
 
 **Dynamic profile metrics:**  
 [![GitHub followers](https://img.shields.io/github/followers/AnandBinuArjun?style=flat-square&label=followers)](https://github.com/AnandBinuArjun?tab=followers)
@@ -149,9 +148,9 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 <img src="./security-dashboard.svg?v=4" width="100%" alt="Security command center dashboard"/>
 
-## PROJECT REGISTRY
+## FEATURED SECURITY BUILDS
 
-<img src="./project-registry.svg?v=1" width="100%" alt="Security project registry with domains, stacks and states"/>
+<img src="./project-registry.svg?v=2" width="100%" alt="Security project registry with domains, stacks and states"/>
 
 ### 🛡️ ShieldDesk
 AI-assisted SOC control plane combining alert normalization, AI investigation, blast-radius analysis, 3-horizon remediation planning, human governance, cryptographically signed fleet dispatch and evidence/audit controls.
@@ -249,7 +248,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 </div>
 
-## SECURITY EVENT STREAM
+## SECURITY EVENT STREAM · TERMINAL
 
 <img src="./terminal-event-stream.svg?v=1" width="100%" alt="Animated conceptual security terminal event stream"/>
 
@@ -259,7 +258,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 </div>
 
-## GITHUB ACTIVITY
+## GITHUB ACTIVITY · ENGINEERING TELEMETRY
 
 <img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
@@ -285,7 +284,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 </div>
 
-## CONNECT
+## CONNECT · SECURE CHANNEL
 
 <div align="center">
 
@@ -307,7 +306,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 <div align="center">
 
-### `Building secure systems, one layer at a time.`
+### `anand@security-lab:~$ ./build-secure-systems`
 
 `Always learning. Always building.`
 
