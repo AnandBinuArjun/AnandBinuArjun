@@ -59,6 +59,39 @@ def make_ai() -> None:
     )
 
 
+def make_twin() -> None:
+    width, height = 1200, 446
+    base = render_svg("security-digital-twin.svg", width)
+    frames = []
+    points = [(154, 190), (351, 129), (553, 205), (754, 129), (960, 209), (360, 295), (763, 304), (553, 366)]
+    for i in range(FRAMES):
+        frame = base.copy()
+        draw = ImageDraw.Draw(frame, "RGBA")
+        for j in range(i % len(points) + 1):
+            x, y = points[j]
+            glow_dot(frame, x, y, 7, (34, 211, 238) if j < 5 else (52, 211, 153))
+        x, y = points[i % len(points)]
+        glow_dot(frame, x, y, 10, (52, 211, 153))
+        frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+    frames[0].save(ASSETS / "security-digital-twin.gif", save_all=True, append_images=frames[1:], duration=DURATION_MS, loop=0, optimize=True, disposal=2)
+
+
+def make_evidence() -> None:
+    width, height = 1200, 360
+    base = render_svg("security-evidence-vault.svg", width)
+    frames = []
+    points = [(210, 180), (368, 180), (525, 180), (682, 180), (970, 180)]
+    for i in range(FRAMES):
+        frame = base.copy()
+        x, y = points[i % len(points)]
+        glow_dot(frame, x, y, 9, (34, 211, 238) if i % len(points) < 4 else (52, 211, 153))
+        draw = ImageDraw.Draw(frame, "RGBA")
+        progress = ((i % FRAMES) + 1) / FRAMES
+        draw.rounded_rectangle((42, 314, 42 + int(1110 * progress), 318), radius=2, fill=(34, 211, 238, 145))
+        frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+    frames[0].save(ASSETS / "security-evidence-vault.gif", save_all=True, append_images=frames[1:], duration=DURATION_MS, loop=0, optimize=True, disposal=2)
+
+
 def make_soc() -> None:
     width, height = 1200, 429
     base = render_svg("soc-control-room.svg", width)
@@ -99,4 +132,6 @@ if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     make_ai()
     make_soc()
-    print("Generated AI Security Core and SOC Control Room GIFs.")
+    make_twin()
+    make_evidence()
+    print("Generated animated AI, SOC, Digital Twin and Evidence Vault panels.")
