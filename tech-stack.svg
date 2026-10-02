@@ -1,87 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
-  <title>Anand Binu Arjun — Technology Stack</title>
-  <desc>Technology depth map showing core technologies, working knowledge, and technologies being explored.</desc>
-  <rect width="1200" height="900" rx="28" fill="#05070b"/>
-<rect x="0" y="0" width="1200" height="2" fill="#22d3ee" opacity=".28"><animate attributeName="y" values="-2;900;-2" dur="12s" repeatCount="indefinite"/></rect>
-  <rect x="1" y="1" width="1198" height="898" rx="27" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.45"/>
-  <text x="50" y="58" fill="#22d3ee" font-family="monospace" font-size="13">&gt; TECH_STACK / DEPTH_MAP</text>
-  <text x="50" y="98" fill="#f8fafc" font-family="Arial, sans-serif" font-size="31" font-weight="700">TECHNOLOGY DEPTH MAP</text>
-  <text x="50" y="126" fill="#64748b" font-family="monospace" font-size="11">WHAT I BUILD WITH · WHAT I WORK WITH · WHAT I'M EXPLORING</text>
-  <rect x="35" y="155" width="365" height="690" rx="24" fill="#081512" stroke="#34d399" stroke-width="2"/>
-  <circle cx="67" cy="191" r="9" fill="#34d399"><animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="88" y="198" fill="#34d399" font-family="Arial, sans-serif" font-size="20" font-weight="700">CORE TECHNOLOGIES</text>
-  <text x="60" y="222" fill="#64748b" font-family="monospace" font-size="10">USED REGULARLY IN PROJECTS</text>
-  <g font-family="monospace" font-size="12">
-    <text x="60" y="258" fill="#22d3ee">SECURITY ENGINEERING</text>
-    <rect x="55" y="273" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="297" fill="#e2e8f0">Kali Linux</text>
-    <rect x="220" y="273" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="297" fill="#e2e8f0">Burp Suite</text>
-    <rect x="55" y="320" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="344" fill="#e2e8f0">Nmap</text>
-    <rect x="220" y="320" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="344" fill="#e2e8f0">Wireshark</text>
-    <rect x="55" y="367" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="391" fill="#e2e8f0">Nuclei</text>
-    <rect x="220" y="367" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="391" fill="#e2e8f0">Volatility</text>
-    <text x="60" y="432" fill="#22d3ee">PROGRAMMING</text>
-    <rect x="55" y="447" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="471" fill="#e2e8f0">Python</text>
-    <rect x="220" y="447" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="471" fill="#e2e8f0">JavaScript</text>
-    <rect x="55" y="494" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="518" fill="#e2e8f0">TypeScript</text>
-    <rect x="220" y="494" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="518" fill="#e2e8f0">Node.js</text>
-    <text x="60" y="559" fill="#22d3ee">APPLICATION / AI</text>
-    <rect x="55" y="574" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="598" fill="#e2e8f0">React</text>
-    <rect x="220" y="574" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="598" fill="#e2e8f0">FastAPI</text>
-    <rect x="55" y="621" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="645" fill="#e2e8f0">PostgreSQL</text>
-    <rect x="220" y="621" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="645" fill="#e2e8f0">Docker</text>
-    <rect x="55" y="668" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="70" y="692" fill="#e2e8f0">LLMs / RAG</text>
-    <rect x="220" y="668" width="150" height="38" rx="9" fill="#0d211c" stroke="#21483b"/><text x="235" y="692" fill="#e2e8f0">NLP</text>
-  </g>
-  <rect x="417" y="155" width="365" height="690" rx="24" fill="#100d1c" stroke="#8b5cf6" stroke-width="2"/>
-  <circle cx="449" cy="191" r="9" fill="#8b5cf6"><animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/></circle>
-  <text x="470" y="198" fill="#a78bfa" font-family="Arial, sans-serif" font-size="20" font-weight="700">WORKING KNOWLEDGE</text>
-  <text x="442" y="222" fill="#64748b" font-family="monospace" font-size="10">HANDS-ON / USED AS NEEDED</text>
-  <g font-family="monospace" font-size="12">
-    <text x="442" y="258" fill="#a78bfa">FRAMEWORKS / BACKEND</text>
-    <rect x="437" y="273" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="297" fill="#e2e8f0">Django</text>
-    <rect x="602" y="273" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="297" fill="#e2e8f0">Next.js</text>
-    <rect x="437" y="320" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="344" fill="#e2e8f0">Vue.js</text>
-    <rect x="602" y="320" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="344" fill="#e2e8f0">Laravel</text>
-    <rect x="437" y="367" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="391" fill="#e2e8f0">Tailwind CSS</text>
-    <rect x="602" y="367" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="391" fill="#e2e8f0">Vite</text>
-    <text x="442" y="432" fill="#a78bfa">DATA / INFRA</text>
-    <rect x="437" y="447" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="471" fill="#e2e8f0">MySQL</text>
-    <rect x="602" y="447" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="471" fill="#e2e8f0">Redis</text>
-    <rect x="437" y="494" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="518" fill="#e2e8f0">Elasticsearch</text>
-    <rect x="602" y="494" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="518" fill="#e2e8f0">Neo4j</text>
-    <text x="442" y="559" fill="#a78bfa">PLATFORM / ML</text>
-    <rect x="437" y="574" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="598" fill="#e2e8f0">Linux / RHCSA</text>
-    <rect x="602" y="574" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="598" fill="#e2e8f0">GitHub Actions</text>
-    <rect x="437" y="621" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="645" fill="#e2e8f0">Nginx</text>
-    <rect x="602" y="621" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="645" fill="#e2e8f0">PyTorch</text>
-    <rect x="437" y="668" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="452" y="692" fill="#e2e8f0">scikit-learn</text>
-    <rect x="602" y="668" width="150" height="38" rx="9" fill="#17122a" stroke="#382a5b"/><text x="617" y="692" fill="#e2e8f0">Git</text>
-  </g>
-  <rect x="799" y="155" width="366" height="690" rx="24" fill="#0d1320" stroke="#22d3ee" stroke-width="2"/>
-  <circle cx="831" cy="191" r="9" fill="#22d3ee"><animate attributeName="r" values="7;11;7" dur="2.8s" repeatCount="indefinite"/></circle>
-  <text x="852" y="198" fill="#22d3ee" font-family="Arial, sans-serif" font-size="20" font-weight="700">EXPLORING / LEARNING</text>
-  <text x="824" y="222" fill="#64748b" font-family="monospace" font-size="10">NEXT TECHNICAL LAYER</text>
-  <g font-family="monospace" font-size="12">
-    <text x="824" y="258" fill="#22d3ee">AI / SECURITY</text>
-    <rect x="819" y="273" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="297" fill="#e2e8f0">AI Agents</text>
-    <rect x="984" y="273" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="297" fill="#e2e8f0">MCP</text>
-    <rect x="819" y="320" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="344" fill="#e2e8f0">Local LLMs</text>
-    <rect x="984" y="320" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="344" fill="#e2e8f0">Security RAG</text>
-    <text x="824" y="385" fill="#22d3ee">CLOUD / PLATFORM</text>
-    <rect x="819" y="400" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="424" fill="#e2e8f0">AWS</text>
-    <rect x="984" y="400" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="424" fill="#e2e8f0">Azure</text>
-    <rect x="819" y="447" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="471" fill="#e2e8f0">Kubernetes</text>
-    <rect x="984" y="447" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="471" fill="#e2e8f0">Terraform</text>
-    <text x="824" y="512" fill="#22d3ee">SYSTEMS / OBSERVABILITY</text>
-    <rect x="819" y="527" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="551" fill="#e2e8f0">eBPF</text>
-    <rect x="984" y="527" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="551" fill="#e2e8f0">WASM</text>
-    <rect x="819" y="574" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="598" fill="#e2e8f0">IoT / OT</text>
-    <rect x="984" y="574" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="598" fill="#e2e8f0">Automotive</text>
-    <rect x="819" y="621" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="834" y="645" fill="#e2e8f0">OpenTelemetry</text>
-    <rect x="984" y="621" width="150" height="38" rx="9" fill="#0d1825" stroke="#1f4050"/><text x="999" y="645" fill="#e2e8f0">Prometheus</text>
-  </g>
-  <rect x="819" y="690" width="315" height="105" rx="14" fill="#08101a" stroke="#334155"/>
-  <text x="840" y="718" fill="#94a3b8" font-family="monospace" font-size="10">DEPTH NOTE</text>
-  <text x="840" y="744" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">Exploring does not mean production expertise.</text>
-  <text x="840" y="765" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12">It marks the next technical layer I'm testing.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 540" width="1400" height="540" role="img" aria-labelledby="t d">
+<title id="t">Animated Cybersecurity Technology Stack</title><desc id="d">Animated GitHub README technology stack.</desc>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.title{font-size:30px;font-weight:700;fill:#eef2ff}.micro{font-size:11px;font-weight:700;letter-spacing:2px;fill:#55e6ff}.sub,.tiny{font-size:10px;letter-spacing:1px;fill:#7890b5}.group{font-size:11px;font-weight:700;letter-spacing:1px;fill:#dce7ff}.tool{font-size:11px;font-weight:600;fill:#dce7ff}.panel{fill:#0b1220;fill-opacity:.88;stroke:#263a5c}.badge{fill:#111a2c;stroke:#334766}.o{fill:none;stroke:#17466a;stroke-width:1}.pulse{animation:p 3s ease-in-out infinite}.blink{animation:b 2s ease-in-out infinite}.dash{stroke-dasharray:5 9;animation:d 4s linear infinite}.scan{animation:s 8s linear infinite}@keyframes p{50%{opacity:1;transform:scale(1.06)}}@keyframes b{50%{opacity:1}}@keyframes d{to{stroke-dashoffset:-56}}@keyframes s{0%{transform:translateX(-1100px);opacity:0}15%{opacity:.45}85%{opacity:.45}100%{transform:translateX(1500px);opacity:0}}
+</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080d19"/><stop offset=".55" stop-color="#11182a"/><stop offset="1" stop-color="#090f1c"/></linearGradient><linearGradient id="core"><stop stop-color="#45e7ff"/><stop offset=".5" stop-color="#956cff"/><stop offset="1" stop-color="#ff65c7"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#263653" stroke-opacity=".25"/></pattern></defs>
+<rect x="1" y="1" width="1398" height="538" rx="22" fill="url(#bg)" stroke="#394765"/><rect x="2" y="2" width="1396" height="536" rx="21" fill="url(#grid)"/>
+<text x="34" y="31" class="micro">// TECH STACK</text><text x="34" y="63" class="title">Tools I build with</text><text x="34" y="84" class="sub">IDEAS → CODE → DEPLOY → REAL IMPACT</text><path d="M590 88V460" stroke="#263653"/>
+<g transform="translate(300 278)"><ellipse rx="205" ry="145" class="o"/><ellipse rx="205" ry="145" class="o" transform="rotate(60)"/><ellipse rx="205" ry="145" class="o" transform="rotate(120)"/><ellipse rx="155" ry="105" class="o" transform="rotate(25)"/>
+<circle r="72" fill="#16213b" stroke="#6e5cff" stroke-opacity=".4"/><circle r="57" fill="url(#core)" class="pulse"/><circle r="43" fill="#10182c"/><text x="-21" y="9" font-family="Arial" font-size="25" font-weight="700" fill="white">&lt;/&gt;</text>
+<g class="pulse"><circle cy="-145" r="20" fill="#101a2e" stroke="#ffe33b"/><text x="-7" y="-141" font-size="10" fill="#ffe33b">JS</text></g><g class="pulse" style="animation-delay:-1s"><circle cx="145" cy="-35" r="20" fill="#101a2e" stroke="#38bdf8"/><text x="137" y="-31" font-size="9" fill="#38bdf8">TS</text></g><g class="pulse" style="animation-delay:-2s"><circle cx="110" cy="100" r="20" fill="#101a2e" stroke="#ff6b35"/><text x="101" y="104" font-size="9" fill="#ff6b35">HTML</text></g><g class="pulse" style="animation-delay:-3s"><circle cx="-105" cy="100" r="20" fill="#101a2e" stroke="#38d9a9"/><text x="-115" y="104" font-size="9" fill="#38d9a9">PY</text></g><g class="pulse" style="animation-delay:-4s"><circle cx="-145" cy="-35" r="20" fill="#101a2e" stroke="#61dafb"/><text x="-154" y="-31" font-size="9" fill="#61dafb">RE</text></g>
+<circle r="4" fill="#65e7ff"><animateMotion dur="5s" repeatCount="indefinite" path="M-195,0 C-70,-150 70,-150 195,0 C70,150 -70,150 -195,0Z"/></circle><circle r="3" fill="#ff67d4"><animateMotion dur="6s" repeatCount="indefinite" path="M0,-140 C180,-80 180,80 0,140 C-180,80 -180,-80 0,-140Z"/></circle></g>
+<g class="tiny"><rect x="45" y="145" width="115" height="62" rx="8" fill="#0c1323" stroke="#1c9fd0"/><text x="58" y="166">BUILD</text><text x="58" y="181">DEVELOP</text><text x="58" y="196">INNOVATE</text><rect x="45" y="376" width="115" height="62" rx="8" fill="#0c1323" stroke="#2c6cff"/><text x="58" y="397">SECURE</text><text x="58" y="412">AUTOMATE</text><text x="58" y="427">SCALE</text><rect x="438" y="145" width="115" height="62" rx="8" fill="#0c1323" stroke="#8d6cff"/><text x="451" y="166">FRONTEND</text><text x="451" y="181">BACKEND</text><text x="451" y="196">AI &amp; DATA</text><rect x="438" y="376" width="115" height="62" rx="8" fill="#0c1323" stroke="#1ad9a0"/><text x="451" y="397">DEPLOY</text><text x="451" y="412">MONITOR</text><text x="451" y="427">IMPROVE</text></g>
+<g transform="translate(620 100)">
+<g><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#42d9ff" class="blink"/><text x="32" y="23" class="group">FRONTEND</text><text x="32" y="39" class="tiny">INTERFACES &amp; COMPONENT SYSTEMS</text><text x="250" y="33" class="tool">HTML5 · CSS · JavaScript · TypeScript · React · Bootstrap</text></g>
+<g transform="translate(0 64)"><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#9c76ff" class="blink"/><text x="32" y="23" class="group">MOTION &amp; 3D</text><text x="32" y="39" class="tiny">INTERACTIVE EXPERIENCES</text><text x="250" y="33" class="tool">GSAP · Framer · Three.js · Tailwind · Vite</text></g>
+<g transform="translate(0 128)"><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#f3c74a" class="blink"/><text x="32" y="23" class="group">BACKEND &amp; DATA</text><text x="32" y="39" class="tiny">SERVICES &amp; STORAGE</text><text x="250" y="33" class="tool">Python · Node.js · Django · FastAPI · Laravel · SQL · PostgreSQL</text></g>
+<g transform="translate(0 192)"><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#d76cff" class="blink"/><text x="32" y="23" class="group">AI &amp; WORKFLOW</text><text x="32" y="39" class="tiny">REASONING &amp; AUTOMATION</text><text x="250" y="33" class="tool">Claude · Copilot · OpenAI · AI Prompting · n8n · LangChain</text></g>
+<g transform="translate(0 256)"><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#ff9652" class="blink"/><text x="32" y="23" class="group">DEVOPS &amp; INFRA</text><text x="32" y="39" class="tiny">BUILD · DEPLOY · OPERATE</text><text x="250" y="33" class="tool">Git · GitHub · Docker · Linux · Nginx · AWS · Cloudflare</text></g>
+<g transform="translate(0 320)"><rect width="740" height="54" rx="11" class="panel"/><circle cx="18" cy="27" r="4" fill="#32e7a0" class="blink"/><text x="32" y="23" class="group">SECURITY &amp; TESTING</text><text x="32" y="39" class="tiny">DEFEND · TEST · OBSERVE</text><text x="250" y="33" class="tool">Kali Linux · Metasploit · Burp Suite · Nmap · Wireshark · OWASP</text></g></g>
+<rect x="22" y="88" width="3" height="372" fill="#65e7ff" opacity=".18" class="scan"/>
+<text x="34" y="515" class="tiny">anand@dev:~$</text><rect x="127" y="503" width="9" height="14" fill="#32e7a0" class="blink"/><path d="M190 511H510" stroke="#243b61" class="dash"/><text x="575" y="515" class="sub">SAME TOOLS • HIGHER POSSIBILITIES</text><circle cx="1110" cy="511" r="4" fill="#32e7a0" class="blink"/><text x="1125" y="515" class="tiny">CONTINUOUSLY LEARNING</text>
 </svg>
