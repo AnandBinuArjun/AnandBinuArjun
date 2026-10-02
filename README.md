@@ -101,51 +101,15 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 ## `// CURRENTLY BUILDING`
 
-| System | State | Current focus |
-|:---|:---:|:---|
-| 🛡️ **ShieldDesk** | `● ACTIVE` | AI-assisted SOC operations, evidence, verification and governed remediation |
-| 🛰️ **SENTINEL-IoT** | `● BUILDING` | IoT honeypots, botnet telemetry and threat intelligence |
-| 🧬 **CTI Analysis** | `◐ RESEARCH` | IOC extraction, ATT&CK mapping, graphs and LLM-assisted analysis |
-| 🧬 **TOTAL ENTITY** | `◐ DEVELOPMENT` | Identity risk, relationship intelligence and blast-radius analysis |
+<img src="./current-building.svg?v=1" width="100%" alt="Animated current security building systems panel"/>
 
-> **Build state is qualitative:** active development, research and experimentation are kept distinct from production claims.
+> Build state is qualitative: active development, research and experimentation are kept distinct from production claims.
 
 ---
 
 ## `// BEYOND THE TERMINAL`
 
-Security is the work. Curiosity is what keeps the work moving.
-
-Outside the terminal, I spend time on **research, open-source projects, product building, technical writing and music**. I enjoy moving between deep technical investigation and creative problem-solving — turning an idea into something people can actually use.
-
-| Beyond the terminal | What it means |
-|---|---|
-| 🎻 **Music** | Violin, listening, practice and the creative discipline that comes with it |
-| 🔬 **Research** | Exploring AI security, threat intelligence, IoT and digital forensics |
-| 🧪 **Experimentation** | Building prototypes, testing assumptions and learning from failure |
-| 🌐 **Open Source** | Sharing security tooling, experiments and reusable engineering work |
-| 🚀 **Product Building** | Turning security problems into practical systems and developer-facing products |
-| ✍️ **Technical Writing** | Documenting ideas, architectures, lessons and security research |
-
-> **Beyond the terminal, the goal stays the same: learn deeply, build deliberately and leave useful things behind.**
-
----
-
-## `// CERTIFICATIONS & TRACK RECORD`
-
-| Credential / track | Status |
-|---|---|
-| **Red Hat Certified System Administrator (RHCSA)** | Certified |
-| **Red Hat Certified Engineer (RHCE)** | Certified |
-| **MSc Cyber Security** | Birmingham City University |
-| **Open-source security engineering** | Active |
-| **Security research & product development** | Active |
-
----
-
-## `// SECURITY VERIFICATION LOOP`
-
-<img src="./verification-loop.svg?v=1" width="100%" alt="Animated security verification engineering loop"/>
+<img src="./beyond-terminal.svg?v=1" width="100%" alt="Animated beyond the terminal personal and creative interests panel"/>
 
 ---
 
@@ -211,13 +175,7 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 ## `// RESEARCH FOCUS`
 
-| Area | Focus |
-|:---|:---|
-| **AI Security** | Explainable AI-assisted analysis and controlled automation |
-| **Security Verification** | Testing whether security actions produce intended outcomes |
-| **Threat Intelligence** | IOC extraction, ATT&CK mapping, relationship analysis and knowledge graphs |
-| **IoT / Embedded Security** | Honeypots, telemetry and adversarial behaviour |
-| **Digital Forensics** | Evidence-aware automation and repeatable investigation workflows |
+<img src="./research-focus.svg?v=1" width="100%" alt="Animated cybersecurity research focus workflow"/>
 
 ---
 
