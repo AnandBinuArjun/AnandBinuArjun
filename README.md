@@ -18,34 +18,24 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 <img src="./about-command.svg?v=1" width="100%" alt="Animated security engineering about and life command panel"/>
 
----
-
-## SECURITY OPERATIONS
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## SECURITY OPERATIONS
 
 <img src="./current-operations.svg?v=1" width="100%" alt="Animated current security operations console"/>
 
----
-
-## AI SECURITY CORE
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## AI SECURITY CORE
 
 <img src="./ai-security-core.svg?v=1" width="100%" alt="Animated AI security core showing detect correlate explain verify flow"/>
 
----
-
-## THREAT RADAR
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## THREAT RADAR
 
 <img src="./threat-radar.svg?v=1" width="100%" alt="Animated conceptual cybersecurity threat radar"/>
 
----
-
-## SECURITY PROFILE
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## SECURITY PROFILE
 
 **Cybersecurity Engineer · AI Security · Threat Intelligence · Security Automation**  
 Building systems that detect, explain, verify and automate security decisions across AI, IoT, intelligence and secure systems.
 
 [**View Projects →**](#-featured-security-builds) · [**GitHub →**](https://github.com/AnandBinuArjun) · [**Portfolio →**](https://abarjun.online/)
-
----
 
 ### Verified live web presence
 
@@ -61,11 +51,7 @@ Building systems that detect, explain, verify and automate security decisions ac
 
 > **Live-demo policy:** only public URLs that are actually hosted are linked as demos. No localhost or unverified deployment URL is presented as a public demo.
 
----
-
 <img src="./security-stack.svg?v=2" width="100%" alt="Cybersecurity technology stack"/>
-
----
 
 ## SECURITY CAPABILITY MATRIX
 
@@ -73,15 +59,11 @@ Building systems that detect, explain, verify and automate security decisions ac
 
 > **Focus:** combining security engineering, AI, automation, and systems thinking to build practical defensive technology.
 
----
-
-## SECURITY DOMAINS
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## SECURITY DOMAINS
 
 <img src="./security-domains.svg?v=1" width="100%" alt="Cybersecurity domains map"/>
 
----
-
-## TECHNOLOGY STACK
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## TECHNOLOGY STACK
 
 <img src="./tech-stack.svg?v=5" width="100%" alt="Animated cybersecurity technology stack"/>
 
@@ -93,35 +75,23 @@ The visual stack remains intentionally clean. For documentation navigation, use 
 
 > **Depth matters more than badge count:** Core = technologies I use regularly; Working Knowledge = tools I use hands-on when a project requires them; Exploring = technologies I am actively testing or learning.
 
----
-
 ## SECURITY IDENTITY + COMMAND CENTER\n\n<img src="./id-dashboard.svg?v=1" width="100%" alt="Security identity and command dashboard"/>
 
----
-
-## CURRENTLY BUILDING
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## CURRENTLY BUILDING
 
 <img src="./current-building.svg?v=1" width="100%" alt="Animated current security building systems panel"/>
 
 > Build state is qualitative: active development, research and experimentation are kept distinct from production claims.
 
----
-
-## BEYOND THE TERMINAL
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## BEYOND THE TERMINAL
 
 <img src="./beyond-terminal.svg?v=1" width="100%" alt="Animated beyond the terminal personal and creative interests panel"/>
 
----
-
-## ENGINEERING PRINCIPLES
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## ENGINEERING PRINCIPLES
 
 <img src="./engineering-principles.svg?v=1" width="100%" alt="Animated engineering principles across security AI engineering and research"/>
 
----
-
 <img src="./security-dashboard.svg?v=4" width="100%" alt="Security command center dashboard"/>
-
----
 
 ## PROJECT REGISTRY
 
@@ -165,33 +135,23 @@ AI-native security orchestration platform connecting reasoning models to securit
 ### 🔎 Forensic Automation
 ML/data-driven forensic toolkit covering network traffic classification, Volatility 3 memory analysis and CASE-compliant evidence handling.
 
----
-
-## SECURITY INTELLIGENCE GRAPH
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## SECURITY INTELLIGENCE GRAPH
 
 <img src="./security-knowledge-graph.svg?v=1" width="100%" alt="Animated conceptual security knowledge graph"/>
 
----
-
-## RESEARCH FOCUS
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## RESEARCH FOCUS
 
 <img src="./research-focus.svg?v=1" width="100%" alt="Animated cybersecurity research focus workflow"/>
 
----
-
-## RESEARCH LAB
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## RESEARCH LAB
 
 <img src="./research-lab.svg?v=1" width="100%" alt="Animated cybersecurity research laboratory"/>
-
----
 
 ## SECURITY PORTFOLIO MAP
 
 <img src="./security-achievements.svg?v=1" width="100%" alt="Security portfolio capability map"/>
 
----
-
-## PROOF / EVIDENCE
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## PROOF / EVIDENCE
 
 > **Proof before claim.** Repositories, working systems, research artifacts and verified credentials are prioritized over decorative skill percentages.
 
@@ -203,15 +163,11 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 | **Research** | AI security · CTI · IoT · DFIR · automation |
 | **Product engineering** | ShieldDesk and related security systems |
 
----
-
-## SECURITY EVENT STREAM
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## SECURITY EVENT STREAM
 
 <img src="./terminal-event-stream.svg?v=1" width="100%" alt="Animated conceptual security terminal event stream"/>
 
----
-
-## GITHUB ACTIVITY
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## GITHUB ACTIVITY
 
 <img src="./github-telemetry.svg?v=2" width="100%" alt="Animated GitHub activity and engineering telemetry panel"/>
 
@@ -221,13 +177,11 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 > Generated by the repository workflow from GitHub contribution activity. The image is refreshed automatically by GitHub Actions.
 
-## OPEN TO
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## OPEN TO
 
 <img src="./open-to.svg?v=1" width="100%" alt="Animated professional focus and collaboration panel"/>
 
----
-
-## CONNECT
+<div align="center">\n\n<sub>────────────────────────────────────────────</sub>\n\n</div>\n\n## CONNECT
 
 <div align="center">
 
@@ -245,8 +199,6 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 
 </div>
 
----
-
 <img src="./connect.svg?v=2" width="100%" alt="Connect with Anand Binu Arjun"/>
 
 <div align="center">
@@ -256,8 +208,6 @@ ML/data-driven forensic toolkit covering network traffic classification, Volatil
 `Always learning. Always building.`
 
 </div>
-
----
 
 <div align="center">
 
