@@ -11,7 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate profile dashboard and 3D contribution city
+    name: Generate profile dashboard and real 3D contribution city
 
     steps:
       - name: Checkout profile repository
@@ -22,11 +22,28 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
         run: python3 scripts/generate-dashboard.py
 
-      - name: Generate 3D contribution profile
-        uses: yoshi389111/github-profile-3d-contrib@latest
+      - name: Remove stale contribution fallback
+        run: rm -f profile-3d-contrib/profile-night-view.svg
+
+      - name: Generate real 3D contribution profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Verify real profile-night-view.svg was generated
+        run: |
+          set -euo pipefail
+          FILE="profile-3d-contrib/profile-night-view.svg"
+          test -s "$FILE"
+          test "$(wc -c < "$FILE")" -gt 50000
+          grep -q "<svg" "$FILE"
+          if grep -qi "fallback rendered safely" "$FILE"; then
+            echo "Fallback SVG detected; refusing to publish it."
+            exit 1
+          fi
+          echo "Verified generated 3D contribution SVG: $FILE"
+          wc -c "$FILE"
 
       - name: Commit generated profile assets
         run: |
