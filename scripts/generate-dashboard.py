@@ -89,13 +89,12 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" view
 <rect x="52" y="122" width="218" height="34" rx="9" fill="#08131d" stroke="#1e293b"/>
 <text x="67" y="144" fill="#22d3ee" font-family="monospace" font-size="9" letter-spacing="1.5">DEVELOPER ID</text>
 <text x="253" y="144" text-anchor="end" fill="#64748b" font-family="monospace" font-size="8">AA · LIVE</text>
+<defs><clipPath id="idPortrait"><rect x="67" y="174" width="188" height="126" rx="16"/></clipPath></defs>
 <rect x="67" y="174" width="188" height="126" rx="16" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".7"/>
-<circle cx="161" cy="235" r="46" fill="#111827" stroke="#22d3ee" stroke-opacity=".7"/>
-<circle cx="161" cy="235" r="35" fill="#0b1220" stroke="#34d399" stroke-opacity=".4"/>
-<path d="M161 207 L181 216 L177 243 C174 258 161 267 161 267 C161 267 148 258 145 243 L141 216 Z" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee"/>
-<path d="M161 214 L173 219 L170 241 C168 250 161 256 161 256 C161 256 154 250 152 241 L149 219 Z" fill="none" stroke="#34d399" stroke-width="2"/>
-<text x="161" y="239" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13" font-weight="800">AA</text>
-<text x="161" y="279" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="7">CYBERSECURITY ENGINEER</text>
+<image href="assets/anand-footer.jpg" x="67" y="174" width="188" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#idPortrait)"/>
+<rect x="67" y="174" width="188" height="126" rx="16" fill="none" stroke="#22d3ee" stroke-opacity=".35"/>
+<rect x="78" y="267" width="166" height="22" rx="8" fill="#05070b" fill-opacity=".82"/>
+<text x="161" y="281" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="7">CYBERSECURITY ENGINEER</text>
 <text x="67" y="328" fill="#f8fafc" font-family="Arial, sans-serif" font-size="17" font-weight="800">ANAND BINU ARJUN</text>
 <text x="67" y="349" fill="#22d3ee" font-family="monospace" font-size="9">AI · SECURITY · IoT · FORENSICS</text>
 <line x1="67" y1="367" x2="255" y2="367" stroke="#1e293b"/>
