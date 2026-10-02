@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/assets/hero.svg" width="100%" alt="Anand Binu Arjun cybersecurity engineer profile hero"/>
+<img src="./assets/hero.svg" width="100%" alt="Anand Binu Arjun cybersecurity engineer profile hero"/>
 
 </div>
 
@@ -26,7 +26,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## SECURITY OPERATIONS
 
-<img src="./assets/soc-control-room.gif?v=1" width="100%" alt="Animated unified cybersecurity SOC control room and engineering workflow"/>
+<img src="./soc-control-room.svg?v=2" width="100%" alt="Animated unified cybersecurity SOC control room and engineering workflow"/>
 
 > Development, research and experimentation are intentionally separated from production claims.
 
@@ -34,7 +34,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## AI SECURITY CORE
 
-<img src="./assets/ai-security-core.gif?v=1" width="100%" alt="Animated AI security reasoning and verification pipeline"/>
+<img src="./ai-security-core-live.svg?v=2" width="100%" alt="Animated AI security reasoning and verification pipeline"/>
 
 <img src="./ai-security-core.svg?v=3" width="100%" alt="AI security detect correlate explain verify workflow"/>
 
@@ -85,7 +85,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## SECURITY DIGITAL TWIN
 
-<img src="./assets/security-digital-twin.gif?v=1" width="100%" alt="Animated conceptual security digital twin"/>
+<img src="./security-digital-twin.svg?v=2" width="100%" alt="Animated conceptual security digital twin"/>
 
 ## SECURITY SYSTEM ARCHITECTURE
 
@@ -111,7 +111,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## PROOF / EVIDENCE
 
-<img src="./assets/security-evidence-vault.gif?v=1" width="100%" alt="Animated security evidence vault"/>
+<img src="./security-evidence-vault.svg?v=2" width="100%" alt="Animated security evidence vault"/>
 
 <img src="./proof-evidence-animated.svg?v=2" width="100%" alt="Proof and evidence security portfolio panel"/>
 
