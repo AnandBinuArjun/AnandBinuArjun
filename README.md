@@ -26,7 +26,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## SECURITY OPERATIONS
 
-<img src="./soc-control-room.svg?v=1" width="100%" alt="Unified cybersecurity SOC control room and engineering workflow"/>
+<img src="./assets/soc-control-room.gif?v=1" width="100%" alt="Animated unified cybersecurity SOC control room and engineering workflow"/>
 
 > Development, research and experimentation are intentionally separated from production claims.
 
@@ -34,7 +34,7 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ## AI SECURITY CORE
 
-<img src="./ai-security-core-live.svg?v=1" width="100%" alt="Animated AI security reasoning and verification pipeline"/>
+<img src="./assets/ai-security-core.gif?v=1" width="100%" alt="Animated AI security reasoning and verification pipeline"/>
 
 <img src="./ai-security-core.svg?v=3" width="100%" alt="AI security detect correlate explain verify workflow"/>
 
