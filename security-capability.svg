@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Anand Binu Arjun — Security Capability Matrix</title>
+<desc id="desc">Animated cybersecurity capability matrix grouped into primary, working and exploring areas.</desc>
+<defs>
+<linearGradient id="edge" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".05"/></pattern>
+</defs>
+<rect width="1200" height="560" rx="28" fill="#05070b"/>
+<rect x="1" y="1" width="1198" height="558" rx="27" fill="url(#grid)" stroke="url(#edge)" stroke-opacity=".5"/>
+<rect x="0" y="0" width="1200" height="2" fill="#22d3ee" opacity=".35"><animate attributeName="y" values="-2;560;-2" dur="9s" repeatCount="indefinite"/></rect>
+<text x="48" y="48" fill="#22d3ee" font-family="monospace" font-size="12" letter-spacing="2">&gt; SECURITY_OS / CAPABILITY_MATRIX</text>
+<text x="48" y="82" fill="#f8fafc" font-family="Arial" font-size="28" font-weight="800">SECURITY CAPABILITY MATRIX</text>
+<text x="48" y="106" fill="#64748b" font-family="monospace" font-size="10">PRIMARY · WORKING · EXPLORING</text>
+<g font-family="Arial">
+<rect x="38" y="132" width="356" height="350" rx="20" fill="#071713" stroke="#34d399" stroke-opacity=".65"/>
+<circle cx="65" cy="160" r="7" fill="#34d399"><animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/></circle><text x="84" y="166" fill="#34d399" font-size="18" font-weight="800">PRIMARY</text><text x="58" y="190" fill="#64748b" font-family="monospace" font-size="9">CORE SECURITY ENGINEERING</text>
+<g font-family="monospace" font-size="11" fill="#e2e8f0"><text x="58" y="224">01  Offensive Security &amp; VAPT</text><text x="58" y="254">02  Threat Modeling</text><text x="58" y="284">03  Network Security &amp; Defense</text><text x="58" y="314">04  AI × Cybersecurity</text><text x="58" y="344">05  Secure Software Development</text><text x="58" y="374">06  Digital Forensics</text><text x="58" y="404">07  IoT / Embedded Security</text><text x="58" y="434">08  Security Automation</text></g>
+<rect x="410" y="132" width="356" height="350" rx="20" fill="#100d1c" stroke="#8b5cf6" stroke-opacity=".7"/>
+<circle cx="437" cy="160" r="7" fill="#8b5cf6"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/></circle><text x="456" y="166" fill="#a78bfa" font-size="18" font-weight="800">WORKING</text><text x="430" y="190" fill="#64748b" font-family="monospace" font-size="9">HANDS-ON / INTEGRATION</text>
+<g font-family="monospace" font-size="11" fill="#e2e8f0"><text x="430" y="224">01  Threat Intelligence</text><text x="430" y="254">02  Incident Response</text><text x="430" y="284">03  Vulnerability Management</text><text x="430" y="314">04  Cloud Security</text><text x="430" y="344">05  Security Architecture</text><text x="430" y="374">06  Attack-Path Analysis</text><text x="430" y="404">07  Security Knowledge Graphs</text><text x="430" y="434">08  Security Engineering</text></g>
+<rect x="782" y="132" width="380" height="350" rx="20" fill="#0a121c" stroke="#22d3ee" stroke-opacity=".65"/>
+<circle cx="809" cy="160" r="7" fill="#22d3ee"><animate attributeName="r" values="6;10;6" dur="2.8s" repeatCount="indefinite"/></circle><text x="828" y="166" fill="#22d3ee" font-size="18" font-weight="800">EXPLORING</text><text x="802" y="190" fill="#64748b" font-family="monospace" font-size="9">NEXT TECHNICAL LAYER</text>
+<g font-family="monospace" font-size="11" fill="#e2e8f0"><text x="802" y="224">01  LLM &amp; AI Agent Security</text><text x="802" y="254">02  Prompt Injection &amp; AI Abuse</text><text x="802" y="284">03  RAG Security</text><text x="802" y="314">04  Autonomous Security Operations</text><text x="802" y="344">05  AI-Assisted SOC</text><text x="802" y="374">06  Firmware &amp; Device Security</text><text x="802" y="404">07  OT / Industrial Security</text><text x="802" y="434">08  Advanced Forensics &amp; Detection</text></g>
+<rect x="48" y="505" width="1104" height="30" rx="10" fill="#08101a" stroke="#1e293b"/><text x="68" y="525" fill="#94a3b8" font-family="monospace" font-size="9">SECURITY OS PRINCIPLE</text><text x="280" y="525" fill="#e2e8f0" font-family="monospace" font-size="9">Observe → Understand → Verify → Remediate</text>
+</g></svg>
