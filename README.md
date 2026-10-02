@@ -51,7 +51,7 @@ I'm **Anand Binu Arjun** — a cybersecurity engineer, builder and security rese
 
 ## `// TECHNOLOGY STACK`
 
-<img src="./tech-stack.svg?v=2" width="100%" alt="Anand Binu Arjun technology depth map"/>
+<img src="./tech-stack.svg?v=3" width="100%" alt="Anand Binu Arjun technology depth map"/>
 
 ### Technology documentation
 
