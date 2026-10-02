@@ -113,6 +113,10 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## SECURITY TELEMETRY LOOP
+
+<img src="./security-telemetry-loop.svg?v=1" width="100%" alt="Security telemetry collection correlation prioritization and learning loop"/>
+
 ## GITHUB ACTIVITY
 
 <img src="./github-stats.svg?v=2" width="100%" alt="GitHub engineering telemetry snapshot"/>
