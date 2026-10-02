@@ -83,6 +83,10 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## SECURITY DIGITAL TWIN
+
+<img src="./assets/security-digital-twin.gif?v=1" width="100%" alt="Animated conceptual security digital twin"/>
+
 ## SECURITY SYSTEM ARCHITECTURE
 
 <img src="./security-architecture.svg?v=3" width="100%" alt="Security system architecture pipeline"/>
@@ -106,6 +110,8 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 ---
 
 ## PROOF / EVIDENCE
+
+<img src="./assets/security-evidence-vault.gif?v=1" width="100%" alt="Animated security evidence vault"/>
 
 <img src="./proof-evidence-animated.svg?v=2" width="100%" alt="Proof and evidence security portfolio panel"/>
 
