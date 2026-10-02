@@ -1,10 +1,15 @@
 name: generate pacman game
+
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
+
+concurrency:
+  group: profile-pacman-output
+  cancel-in-progress: true
 
 jobs:
   generate:
@@ -13,11 +18,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: generate pacman-contribution-graph.svg
+      - name: Generate pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-      - name: push to output branch
+
+      - name: Validate generated assets
+        run: |
+          set -euo pipefail
+          test -d dist
+          test -n "$(find dist -type f -size +0c -print -quit)"
+          find dist -type f \( -name "*.svg" -o -name "*.html" \) -print0 | while IFS= read -r -d "" f; do
+            grep -q "<svg\|<html\|<!DOCTYPE" "$f" || { echo "Unexpected generated asset: $f"; exit 1; }
+          done
+
+      - name: Publish pacman assets
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: pacman-output
