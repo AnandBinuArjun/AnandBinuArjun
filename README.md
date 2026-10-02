@@ -50,6 +50,10 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## FLAGSHIP SYSTEMS
+
+<img src="./project-showcase.svg?v=1" width="100%" alt="Animated flagship security systems showcase"/>
+
 ## FEATURED SECURITY BUILDS
 
 | Project | Domain | Stack | Access |
@@ -84,6 +88,8 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 ---
 
 ## RESEARCH LAB
+
+<img src="./security-graph-live.svg?v=1" width="100%" alt="Animated conceptual security knowledge graph"/>
 
 <img src="./security-lab.svg?v=2" width="100%" alt="Anand Security Lab"/>
 
