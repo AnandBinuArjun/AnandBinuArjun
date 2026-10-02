@@ -148,15 +148,8 @@ Automated CTI pipeline for IOC extraction, MITRE ATT&CK mapping, relation extrac
 
 ## PROOF / EVIDENCE
 
-> **Proof before claim.** Repositories, working systems, research artifacts and verified credentials are prioritized over decorative skill percentages.
+<img src="./proof-evidence-animated.svg?v=1" width="100%" alt="Animated proof and evidence security portfolio panel"/>
 
-| Evidence | Signal |
-|:---|:---|
-| **Public engineering** | Security tooling, applications, automation and research repositories |
-| **Credentials** | RHCSA · RHCE |
-| **Academic** | MSc Cyber Security · Birmingham City University |
-| **Research** | AI security · CTI · IoT · DFIR · automation |
-| **Product engineering** | ShieldDesk and related security systems |
 
 <div align="center"><sub>────────────────────────────────────────────</sub></div>
 
