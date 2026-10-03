@@ -10,6 +10,64 @@
 
 </div>
 
+## SECURITY COMMAND CENTER
+
+| SYSTEM | CURRENT STATE | SCOPE |
+|:---|:---|:---|
+| **ROLE** | Director · IT & Cyber Security | Mints Global |
+| **PRIMARY MODE** | BUILD → DETECT → EXPLAIN → VERIFY | Security engineering |
+| **ACTIVE DOMAINS** | AI Security · CTI · IoT · DFIR · SOC | Research + engineering |
+| **PUBLIC PROJECTS** | **53** | GitHub public repositories |
+| **OPERATING PRINCIPLE** | Evidence before claim · Verify before action | Human-governed security |
+
+**Mission:** Build practical security systems that turn telemetry, intelligence and automation into explainable, verifiable decisions.
+
+---
+
+## EXPERIENCE
+
+### Mints Global · Director — IT & Cyber Security
+**Current**
+
+Leading cybersecurity engineering, security product development and technical security initiatives across:
+
+- **Offensive Security** — assessment, validation and security testing
+- **Incident Response** — investigation, containment and recovery workflows
+- **Cloud / Application Security** — secure systems and application engineering
+- **OT / IoT Security** — embedded and connected-system security
+- **AI Security** — AI-assisted security analysis and automation
+- **Security Products** — ShieldDesk and related security engineering systems
+
+> Engineering focus: security automation, AI-assisted analysis, evidence-driven decision making and production-minded architecture.
+
+---
+
+## SECURITY CAPABILITY MATRIX
+
+| Capability | Engineering Focus | Representative Systems |
+|:---|:---|:---|
+| **SOC / Detection** | Alert normalization · investigation · response | ShieldDesk |
+| **Threat Intelligence** | IOC extraction · ATT&CK mapping · knowledge graphs | CTI Analysis |
+| **IoT Security** | Honeypots · telemetry · botnet detection | SENTINEL-IoT |
+| **AI Security** | LLM workflows · verification · human governance | ShieldDesk · AI research |
+| **DFIR** | Evidence handling · forensic automation · analysis | Forensic Automation |
+| **Identity Security** | Identity graphs · risk analytics | TOTAL ENTITY |
+| **Security Automation** | APIs · orchestration · agents · MCP | CODEX CYBERSTRIKE |
+| **Secure Engineering** | Backend · infrastructure · access control · auditability | Python · FastAPI · Docker |
+
+---
+
+## NOW / NEXT / EXPLORING
+
+| NOW | NEXT | EXPLORING |
+|:---|:---|:---|
+| ShieldDesk | Security knowledge graph | Agentic SOC |
+| AI security research | Autonomous security validation | LLM security |
+| Security automation | Remediation workflows | Advanced DFIR |
+| CTI engineering | MCP security tooling | Security digital twins |
+
+---
+
 ## IDENTITY
 
 **Cybersecurity Engineer · AI Security Builder · Researcher**
