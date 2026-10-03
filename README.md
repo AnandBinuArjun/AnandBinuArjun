@@ -235,6 +235,20 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 ---
 
+## SECURITY INTELLIGENCE GRID
+
+<img src="./assets/threat-radar.gif?v=1" width="100%" alt="Animated cybersecurity threat radar"/>
+
+<img src="./assets/security-knowledge-graph.gif?v=1" width="100%" alt="Animated security knowledge graph"/>
+
+<img src="./assets/attack-surface.gif?v=1" width="100%" alt="Animated attack surface visualization"/>
+
+<img src="./assets/ai-security-brain.gif?v=1" width="100%" alt="Animated AI security reasoning brain"/>
+
+> Four distinct visual systems: radar detection, relationship intelligence, attack-path analysis and AI reasoning.
+
+---
+
 ## CONTRIBUTION CITY
 
 <img src="./profile-3d-contrib/profile-night-view.svg?v=4" width="100%" alt="GitHub 3D contribution city"/>
