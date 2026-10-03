@@ -404,6 +404,94 @@ def make_unique_panels() -> None:
             frames.append(panel_frame(kind,i).convert("P",palette=Image.Palette.ADAPTIVE,colors=128))
         frames[0].save(ASSETS/name,save_all=True,append_images=frames[1:],duration=DURATION_MS,loop=0,optimize=True,disposal=2)
 
+def iso_building(draw, x, y, w, h, depth, palette, label=None, window_seed=0):
+    """Draw a compact isometric security-system building."""
+    top, left, right = palette
+    draw.polygon([(x, y-h), (x+w, y-h-18), (x+w, y-depth), (x, y)], fill=left)
+    draw.polygon([(x+w, y-h-18), (x+w+w//2, y-h-18-depth//2), (x+w+w//2, y-depth//2), (x+w, y-depth)], fill=right)
+    draw.polygon([(x, y-h), (x+w, y-h-18), (x+w+w//2, y-h-18-depth//2), (x+w//2, y-h-depth//2)], fill=top)
+    cx = x + w//2
+    draw.line((cx, y-h-depth//2, cx, y-h-depth//2-28), fill=(52, 211, 153, 190), width=2)
+    draw.ellipse((cx-3, y-h-depth//2-32, cx+3, y-h-depth//2-26), fill=(52, 211, 153, 230))
+    for row in range(2):
+        for col in range(3):
+            wx = x + 12 + col * max(18, (w-30)//3)
+            wy = y - h + 16 + row * 22
+            if (row + col + window_seed) % 3 != 0:
+                draw.rectangle((wx, wy, wx+7, wy+5), fill=(34, 211, 238, 145))
+    if label:
+        draw.text((x-2, y+12), label, fill=(148, 163, 184, 220))
+
+
+def make_security_city() -> None:
+    """Generate an isometric Security Operations City inspired by the contribution-city geometry."""
+    width, height = 1200, 470
+    frames = []
+    zones = [
+        (150, 300, "SOC", (20, 53, 91, 255)),
+        (335, 270, "AI CORE", (19, 66, 62, 255)),
+        (520, 315, "CTI", (24, 48, 78, 255)),
+        (705, 275, "IoT", (21, 62, 58, 255)),
+        (885, 310, "DFIR", (31, 46, 73, 255)),
+        (1010, 245, "IDENTITY", (27, 56, 72, 255)),
+    ]
+    for i in range(FRAMES):
+        frame = Image.new("RGBA", (width, height), (0, 5, 12, 255))
+        d = ImageDraw.Draw(frame, "RGBA")
+        origin_x, origin_y = 600, 112
+        for gx in range(-8, 9):
+            x1 = origin_x + gx * 55
+            d.line((x1, 410, origin_x + gx * 55 + 230, 295), fill=(18, 38, 58, 210), width=1)
+        for gy in range(0, 8):
+            y = 170 + gy * 35
+            d.line((70, y, 1130, y-105), fill=(18, 38, 58, 210), width=1)
+        d.text((34, 24), "// SECURITY OPERATIONS CITY", fill=(34, 211, 238, 255))
+        d.text((34, 51), "ANAND / SECURITY ENGINEERING SYSTEM MAP", fill=(226, 232, 240, 235))
+        d.text((1010, 30), "LIVE MAP", fill=(52, 211, 153, 255))
+        road = (14, 27, 43, 255)
+        d.polygon([(75, 365), (600, 120), (1135, 345), (610, 445)], fill=road)
+        d.line((85, 365, 610, 135, 1130, 345), fill=(34, 211, 238, 90), width=2)
+        d.line((120, 392, 610, 176, 1095, 370), fill=(52, 211, 153, 70), width=2)
+        for idx, (x, y, label, base) in enumerate(zones):
+            pulse = 0.5 + 0.5 * math.sin((i + idx * 4) * math.tau / FRAMES)
+            glow = int(65 + 70 * pulse)
+            iso_building(
+                d, x, y, 92 if idx != 5 else 78,
+                110 + (idx % 3) * 24,
+                54,
+                ((34, 64 + idx*3, 96, 255), base, (10, 28 + idx*2, 46, 255)),
+                label, i + idx
+            )
+            cx = x + (46 if idx != 5 else 39)
+            cy = y - (110 + (idx % 3) * 24) - 55
+            d.ellipse((cx-4, cy-4, cx+4, cy+4), fill=(34, 211, 238, glow))
+        routes = [
+            ((100, 360), (1080, 345)),
+            ((240, 325), (790, 185)),
+            ((430, 390), (1030, 270)),
+        ]
+        for ridx, (a, b) in enumerate(routes):
+            q = (i / FRAMES + ridx / len(routes)) % 1.0
+            px = a[0] + (b[0] - a[0]) * q
+            py = a[1] + (b[1] - a[1]) * q
+            glow_dot(frame, px, py, 6, (52, 211, 153) if ridx == 1 else (34, 211, 238))
+        d.rounded_rectangle((34, 420, 1166, 451), radius=8, fill=(6, 13, 22, 235), outline=(38, 54, 79, 255), width=1)
+        rail = ["SOC", "AI", "CTI", "IoT", "DFIR", "IDENTITY", "AUTOMATION"]
+        for idx, name in enumerate(rail):
+            x = 52 + idx * 157
+            d.ellipse((x, 431, x+7, 438), fill=(52, 211, 153, 230) if (i+idx) % 7 < 4 else (34, 211, 238, 170))
+            d.text((x+14, 425), name, fill=(148, 163, 184, 230))
+        frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+    frames[0].save(
+        ASSETS / "security-city.gif",
+        save_all=True,
+        append_images=frames[1:],
+        duration=DURATION_MS,
+        loop=0,
+        optimize=True,
+        disposal=2,
+    )
+
 
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
@@ -411,5 +499,6 @@ if __name__ == "__main__":
     make_soc()
     make_twin()
     make_evidence()
+    make_security_city()
     make_unique_panels()
     print("Generated animated security portfolio panels with dedicated visual systems.")
