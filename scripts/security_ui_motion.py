@@ -493,6 +493,87 @@ def make_security_city() -> None:
     )
 
 
+def make_next_generation_panels() -> None:
+    """Generate the next visual layer: radar, graph, attack surface and AI brain."""
+    specs = [
+        ("threat-radar.gif", "THREAT RADAR"),
+        ("security-knowledge-graph.gif", "SECURITY KNOWLEDGE GRAPH"),
+        ("attack-surface.gif", "ATTACK SURFACE"),
+        ("ai-security-brain.gif", "AI SECURITY BRAIN"),
+    ]
+    for filename, title in specs:
+        frames = []
+        for i in range(FRAMES):
+            p = i / (FRAMES - 1)
+            img = Image.new("RGBA", (1200, 430), (3, 6, 12, 255))
+            d = ImageDraw.Draw(img, "RGBA")
+            d.rounded_rectangle((8, 8, 1192, 422), 20, fill=(5, 9, 16, 255), outline=(38, 54, 79, 255), width=2)
+            d.text((32, 25), "// " + title, fill=(34, 211, 238, 255))
+            d.text((32, 52), "ANAND / SECURITY ENGINEERING OS", fill=(148, 163, 184, 220))
+
+            if filename == "threat-radar.gif":
+                cx, cy, rr = 600, 235, 145
+                for r in (45, 95, rr):
+                    d.ellipse((cx-r, cy-r, cx+r, cy+r), outline=(34, 211, 238, 60), width=2)
+                for a in range(0, 360, 45):
+                    rad=math.radians(a)
+                    d.line((cx,cy,cx+rr*math.cos(rad),cy+rr*math.sin(rad)), fill=(34,211,238,35), width=1)
+                ang=p*math.tau
+                d.line((cx,cy,cx+rr*math.cos(ang),cy+rr*math.sin(ang)),fill=(52,211,153,210),width=3)
+                threats=[(0.28,0.32),(0.63,0.22),(0.74,0.61),(0.38,0.68),(0.58,0.48)]
+                for j,(tx,ty) in enumerate(threats):
+                    pulse=7+int(4*(0.5+0.5*math.sin((i+j*4)*math.tau/FRAMES)))
+                    glow_dot(img,cx+(tx-.5)*260,cy+(ty-.5)*260,pulse,(239,68,68) if j%2==0 else (34,211,238))
+                d.text((405,390),"DETECT  •  CORRELATE  •  PRIORITIZE",fill=(148,163,184,230))
+            elif filename == "security-knowledge-graph.gif":
+                nodes=[(190,210),(360,115),(555,190),(755,110),(970,205),(760,320),(470,330),(280,315)]
+                edges=[(0,1),(1,2),(2,3),(3,4),(2,5),(5,6),(6,7),(7,0),(2,6),(1,7)]
+                for a,b in edges:
+                    d.line((*nodes[a],*nodes[b]),fill=(34,211,238,75),width=2)
+                active=i%len(edges)
+                for j,(x,y) in enumerate(nodes):
+                    glow_dot(img,x,y,9,(52,211,153) if j==active else (34,211,238))
+                q=p
+                a,b=edges[active]
+                x=nodes[a][0]+(nodes[b][0]-nodes[a][0])*q
+                y=nodes[a][1]+(nodes[b][1]-nodes[a][1])*q
+                glow_dot(img,x,y,6,(52,211,153))
+                labels=["SOC","IOC","ATT&CK","AI","CASE","DFIR","PROJECT","IDENTITY"]
+                for (x,y),lab in zip(nodes,labels): d.text((x+14,y-8),lab,fill=(226,232,240,220))
+            elif filename == "attack-surface.gif":
+                cx,cy=600,225
+                layers=[210,160,110,62]
+                for j,r in enumerate(layers):
+                    d.ellipse((cx-r,cy-r,cx+r,cy+r),outline=(34,211,238,70+j*25),width=2)
+                d.text((548,215),"CORE",fill=(52,211,153,255))
+                paths=[[(250,340),(390,290),(470,225),(600,225)],[(950,340),(820,290),(730,245),(600,225)],[(300,100),(430,145),(520,190),(600,225)],[(900,100),(760,150),(680,190),(600,225)]]
+                for j,path in enumerate(paths):
+                    d.line(path,fill=(239,68,68,150),width=3)
+                    q=(p+j*.21)%1
+                    seg=int(q*(len(path)-1)); t=q*(len(path)-1)-seg
+                    if seg<len(path)-1:
+                        x=path[seg][0]+(path[seg+1][0]-path[seg][0])*t
+                        y=path[seg][1]+(path[seg+1][1]-path[seg][1])*t
+                        glow_dot(img,x,y,7,(239,68,68))
+                for x,y,label in [(230,350,"WEB"),(930,350,"CLOUD"),(280,85,"IDENTITY"),(880,85,"API")]:
+                    d.rounded_rectangle((x-45,y-18,x+45,y+18),8,fill=(10,16,25,255),outline=(239,68,68,120),width=1)
+                    d.text((x-25,y-7),label,fill=(226,232,240,230))
+            else:
+                # Neural security brain: layered lobes, synaptic links and travelling signal.
+                nodes=[(410,150),(500,100),(610,130),(700,95),(790,155),(440,250),(540,300),(650,275),(750,300),(830,235)]
+                links=[(0,1),(1,2),(2,3),(3,4),(0,5),(5,6),(6,7),(7,8),(8,9),(4,9),(1,6),(3,8),(2,7)]
+                for a,b in links: d.line((*nodes[a],*nodes[b]),fill=(34,211,238,75),width=2)
+                for j,(x,y) in enumerate(nodes): glow_dot(img,x,y,8,(52,211,153) if j in (2,7) else (34,211,238))
+                active=i%len(links); a,b=links[active]; q=p
+                x=nodes[a][0]+(nodes[b][0]-nodes[a][0])*q
+                y=nodes[a][1]+(nodes[b][1]-nodes[a][1])*q
+                glow_dot(img,x,y,6,(52,211,153))
+                d.ellipse((350,60,890,350),outline=(34,211,238,45),width=2)
+                d.text((505,365),"REASON  →  VERIFY  →  GOVERN",fill=(148,163,184,230))
+            frames.append(img.convert("P",palette=Image.Palette.ADAPTIVE,colors=128))
+        frames[0].save(ASSETS/filename,save_all=True,append_images=frames[1:],duration=DURATION_MS,loop=0,optimize=True,disposal=2)
+
+
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     make_ai()
@@ -501,4 +582,5 @@ if __name__ == "__main__":
     make_evidence()
     make_security_city()
     make_unique_panels()
+    make_next_generation_panels()
     print("Generated animated security portfolio panels with dedicated visual systems.")
