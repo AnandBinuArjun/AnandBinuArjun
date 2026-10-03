@@ -128,10 +128,117 @@ def make_soc() -> None:
     )
 
 
+
+
+def make_portfolio_panel(filename: str, title: str, subtitle: str, columns: list[tuple[str, str, str]]) -> None:
+    width, height = 1200, 360
+    frames = []
+    for i in range(FRAMES):
+        frame = Image.new("RGBA", (width, height), (5, 7, 11, 255))
+        draw = ImageDraw.Draw(frame, "RGBA")
+        draw.rounded_rectangle((12, 12, width-12, height-12), radius=22, outline=(38, 54, 79, 255), width=2)
+        draw.text((42, 34), "// " + title.upper(), fill=(34, 211, 238, 255))
+        draw.text((42, 68), subtitle, fill=(226, 232, 240, 255))
+
+        gap = 18
+        left = 42
+        card_w = (width - 84 - gap * (len(columns)-1)) // len(columns)
+        for idx, (label, value, detail) in enumerate(columns):
+            x = left + idx * (card_w + gap)
+            y = 132
+            active = (i + idx * 5) % 18
+            border = (34, 211, 238, 220) if active < 5 else (38, 54, 79, 255)
+            draw.rounded_rectangle((x, y, x+card_w, y+160), radius=16, fill=(9, 16, 25, 235), outline=border, width=2)
+            draw.text((x+18, y+20), f"{idx+1:02d}", fill=(34, 211, 238, 255))
+            draw.text((x+18, y+54), label.upper(), fill=(226, 232, 240, 255))
+            draw.text((x+18, y+84), value, fill=(52, 211, 153, 255))
+            draw.text((x+18, y+118), detail, fill=(148, 163, 184, 255))
+            if active < 5:
+                glow_dot(frame, x+card_w-26, y+25, 7, (52, 211, 153))
+        progress = (i % FRAMES) / (FRAMES - 1)
+        draw.rounded_rectangle((42, 318, 42 + int((width-84)*progress), 322), radius=2, fill=(34, 211, 238, 150))
+        frames.append(frame.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+    frames[0].save(ASSETS / filename, save_all=True, append_images=frames[1:], duration=DURATION_MS, loop=0, optimize=True, disposal=2)
+
+
+def make_case_files() -> None:
+    make_portfolio_panel(
+        "case-files.gif",
+        "CASE FILES // SECURITY ENGINEERING",
+        "PROBLEM → APPROACH → SECURITY MODEL → EVIDENCE",
+        [
+            ("001", "SHIELDDESK", "AI SOC / governance"),
+            ("002", "SENTINEL-IoT", "honeypot / telemetry"),
+            ("003", "CTI ANALYSIS", "IOC / ATT&CK / graph"),
+        ],
+    )
+
+
+def make_command_center() -> None:
+    make_portfolio_panel(
+        "security-command-center.gif",
+        "SECURITY COMMAND CENTER",
+        "BUILD → DETECT → EXPLAIN → VERIFY",
+        [
+            ("ROLE", "DIRECTOR", "IT / CYBER SECURITY"),
+            ("DOMAINS", "AI · CTI · IoT", "DFIR · SOC"),
+            ("MODE", "BUILDING", "research + engineering"),
+            ("PRINCIPLE", "VERIFY", "evidence before claim"),
+        ],
+    )
+
+
+def make_experience() -> None:
+    make_portfolio_panel(
+        "experience-timeline.gif",
+        "EXPERIENCE // MINTS GLOBAL",
+        "CYBERSECURITY ENGINEERING · PRODUCT · RESEARCH",
+        [
+            ("SECURITY", "OFFENSIVE", "assessment / validation"),
+            ("RESPONSE", "IR", "investigate / contain"),
+            ("ENGINEERING", "AI + CLOUD", "secure systems"),
+            ("PRODUCTS", "SHIELDDESK", "security platform"),
+        ],
+    )
+
+
+def make_capabilities() -> None:
+    make_portfolio_panel(
+        "capability-matrix.gif",
+        "SECURITY CAPABILITY MATRIX",
+        "DETECTION · INTELLIGENCE · AUTOMATION · DEFENSE",
+        [
+            ("SOC", "DETECT", "alerts / response"),
+            ("CTI", "CORRELATE", "IOC / ATT&CK"),
+            ("IoT", "OBSERVE", "honeypots / telemetry"),
+            ("DFIR", "PROVE", "evidence / analysis"),
+        ],
+    )
+
+
+def make_roadmap() -> None:
+    make_portfolio_panel(
+        "roadmap.gif",
+        "NOW / NEXT / EXPLORING",
+        "CURRENT WORKSTREAMS · FORWARD DIRECTION · RESEARCH",
+        [
+            ("NOW", "SHIELDDESK", "AI security"),
+            ("NEXT", "KNOWLEDGE GRAPH", "validation"),
+            ("EXPLORE", "AGENTIC SOC", "LLM security"),
+            ("LAB", "DFIR", "advanced research"),
+        ],
+    )
+
+
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     make_ai()
     make_soc()
     make_twin()
     make_evidence()
-    print("Generated animated AI, SOC, Digital Twin and Evidence Vault panels.")
+    make_case_files()
+    make_command_center()
+    make_experience()
+    make_capabilities()
+    make_roadmap()
+    print("Generated animated security portfolio panels.")
