@@ -10,6 +10,11 @@ on:
       - "soc-control-room.svg"
       - "security-digital-twin.svg"
       - "security-evidence-vault.svg"
+      - "assets/security-command-center.gif"
+      - "assets/experience-timeline.gif"
+      - "assets/capability-matrix.gif"
+      - "assets/roadmap.gif"
+      - "assets/case-files.gif"
   workflow_dispatch:
 
 permissions:
