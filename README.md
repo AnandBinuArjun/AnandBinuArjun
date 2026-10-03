@@ -12,6 +12,11 @@
 
 ## SECURITY COMMAND CENTER
 
+<img src="./assets/security-command-center.gif?v=1" width="100%" alt="Animated cybersecurity command center showing role, domains, operating mode and engineering principles"/>
+
+<details>
+<summary><b>▸ COMMAND CENTER DATA</b></summary>
+
 | SYSTEM | CURRENT STATE | SCOPE |
 |:---|:---|:---|
 | **ROLE** | Director · IT & Cyber Security | Mints Global |
@@ -20,29 +25,28 @@
 | **PUBLIC PROJECTS** | **53** | GitHub public repositories |
 | **OPERATING PRINCIPLE** | Evidence before claim · Verify before action | Human-governed security |
 
-**Mission:** Build practical security systems that turn telemetry, intelligence and automation into explainable, verifiable decisions.
+</details>
+
+> **MISSION:** Build practical security systems that turn telemetry, intelligence and automation into explainable, verifiable decisions.
 
 ---
 
 ## EXPERIENCE
 
+<img src="./assets/experience-timeline.gif?v=1" width="100%" alt="Animated cybersecurity engineering experience timeline"/>
+
 ### Mints Global · Director — IT & Cyber Security
 **Current**
 
-Leading cybersecurity engineering, security product development and technical security initiatives across:
+Leading cybersecurity engineering, security product development and technical security initiatives across offensive security, incident response, cloud/application security, OT/IoT security, AI security and security products including ShieldDesk.
 
-- **Offensive Security** — assessment, validation and security testing
-- **Incident Response** — investigation, containment and recovery workflows
-- **Cloud / Application Security** — secure systems and application engineering
-- **OT / IoT Security** — embedded and connected-system security
-- **AI Security** — AI-assisted security analysis and automation
-- **Security Products** — ShieldDesk and related security engineering systems
-
-> Engineering focus: security automation, AI-assisted analysis, evidence-driven decision making and production-minded architecture.
+> Engineering focus: security automation · AI-assisted analysis · evidence-driven decisions · production-minded architecture.
 
 ---
 
 ## SECURITY CAPABILITY MATRIX
+
+<img src="./assets/capability-matrix.gif?v=1" width="100%" alt="Animated security capability matrix"/>
 
 | Capability | Engineering Focus | Representative Systems |
 |:---|:---|:---|
@@ -59,12 +63,44 @@ Leading cybersecurity engineering, security product development and technical se
 
 ## NOW / NEXT / EXPLORING
 
+<img src="./assets/roadmap.gif?v=1" width="100%" alt="Animated now next and exploring cybersecurity roadmap"/>
+
 | NOW | NEXT | EXPLORING |
 |:---|:---|:---|
 | ShieldDesk | Security knowledge graph | Agentic SOC |
 | AI security research | Autonomous security validation | LLM security |
 | Security automation | Remediation workflows | Advanced DFIR |
 | CTI engineering | MCP security tooling | Security digital twins |
+
+---
+
+## CASE FILES
+
+<img src="./assets/case-files.gif?v=1" width="100%" alt="Animated cybersecurity case files interface"/>
+
+### CASE FILE 001 · SHIELDDESK
+**AI-assisted SOC control plane**
+
+**Problem** → Security telemetry and investigations need structured analysis, evidence and controlled action.  
+**Approach** → Alert normalization · investigation · blast-radius analysis · remediation planning.  
+**Security model** → Human governance · RBAC · audit trail · evidence controls · signed dispatch.  
+**Access** → [Repository](https://github.com/Mints-ai/SHIELD-DESK)
+
+### CASE FILE 002 · SENTINEL-IoT
+**IoT threat detection & honeypot system**
+
+**Problem** → Detect and understand hostile activity against exposed IoT-style services.  
+**Approach** → Vulnerable-service emulation · attack capture · telemetry · dashboard/API.  
+**Security model** → Isolated experimentation · observable attack activity · detection-focused analysis.  
+**Access** → [Repository](https://github.com/AnandBinuArjun/SENTINEL-IoT)
+
+### CASE FILE 003 · CTI ANALYSIS
+**Threat intelligence analysis pipeline**
+
+**Problem** → Convert unstructured threat intelligence into actionable security relationships.  
+**Approach** → IOC extraction · MITRE ATT&CK mapping · relation extraction · knowledge graph.  
+**Security model** → Evidence-linked intelligence with LLM-assisted analysis.  
+**Access** → [Repository](https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis)
 
 ---
 
