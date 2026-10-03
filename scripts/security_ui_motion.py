@@ -323,6 +323,88 @@ def make_portfolio_panels() -> None:
     )
 
 
+def panel_frame(kind: str, i: int, total: int = FRAMES, width: int = 1200, height: int = 340) -> Image.Image:
+    p = i / (total - 1)
+    img = Image.new("RGBA", (width, height), (4, 7, 12, 255))
+    d = ImageDraw.Draw(img, "RGBA")
+    d.rounded_rectangle((8,8,width-8,height-8), 18, fill=(5,9,15,255), outline=(38,54,79,255), width=2)
+    if kind == "command":
+        # HUD: concentric radar + rotating sweep + status chips
+        cx, cy = 100, 175
+        for rr in (35,65,95): d.ellipse((cx-rr,cy-rr,cx+rr,cy+rr), outline=(34,211,238,45), width=2)
+        ang = p * math.tau
+        x, y = cx + 90*math.cos(ang), cy + 90*math.sin(ang)
+        d.line((cx,cy,x,y), fill=(34,211,238,180), width=3)
+        for j,(lab,val) in enumerate([("ROLE","DIRECTOR"),("MODE","BUILD/VERIFY"),("DOMAINS","AI · CTI · IoT"),("STATUS","ONLINE")]):
+            x0=230+j*235
+            d.rounded_rectangle((x0,90,x0+210,250),14,fill=(8,15,24,255),outline=(38,54,79,255),width=2)
+            d.text((x0+16,112),lab,fill=(34,211,238,255)); d.text((x0+16,155),val,fill=(226,232,240,255))
+            d.ellipse((x0+16,214,x0+24,222),fill=(52,211,153,255))
+        d.text((35,32),"// COMMAND CENTER",fill=(34,211,238,255)); d.text((230,35),"SECURITY ENGINEERING OS",fill=(226,232,240,255))
+    elif kind == "experience":
+        # Vertical timeline with traveling node
+        d.text((35,32),"// EXPERIENCE TIMELINE",fill=(34,211,238,255))
+        d.line((120,75,120,285),fill=(38,54,79,255),width=4)
+        stages=[("MINTS GLOBAL","DIRECTOR · IT & CYBER"),("OFFENSIVE","ASSESS / VALIDATE"),("RESPONSE","INVESTIGATE / CONTAIN"),("PRODUCT","BUILD / SHIP")]
+        active=int(p*len(stages))%len(stages)
+        for j,(a,b) in enumerate(stages):
+            y=82+j*67
+            on=j==active
+            d.ellipse((108,y-8,132,y+16),fill=(52,211,153,255) if on else (10,18,28,255),outline=(34,211,238,255),width=2)
+            d.text((160,y-5),a,fill=(226,232,240,255)); d.text((430,y-5),b,fill=(148,163,184,255))
+            if on: d.line((145,y+4,700,y+4),fill=(52,211,153,90),width=2)
+        d.rounded_rectangle((760,78,1145,278),16,fill=(7,13,21,255),outline=(38,54,79,255),width=2)
+        d.text((790,108),"CURRENT FOCUS",fill=(34,211,238,255)); d.text((790,150),"SECURITY PRODUCT",fill=(226,232,240,255)); d.text((790,190),"AI + AUTOMATION",fill=(52,211,153,255))
+    elif kind == "capability":
+        # Matrix of hex-ish capability tiles with signal bars
+        d.text((35,32),"// CAPABILITY MATRIX",fill=(34,211,238,255))
+        caps=[("SOC","DETECT"),("CTI","CORRELATE"),("IoT","OBSERVE"),("AI","VERIFY"),("DFIR","RECOVER"),("IDENTITY","CONTROL")]
+        for j,(a,b) in enumerate(caps):
+            row,col=divmod(j,3); x=40+col*380; y=78+row*115
+            d.rounded_rectangle((x,y,x+350,y+92),14,fill=(7,13,21,255),outline=(38,54,79,255),width=2)
+            d.text((x+18,y+17),a,fill=(34,211,238,255)); d.text((x+110,y+17),b,fill=(226,232,240,255))
+            seg=int(((math.sin(p*math.tau+j)+1)/2)*9)+1
+            for k in range(10): d.rounded_rectangle((x+18+k*30,y+60,x+40+k*30,y+65),2,fill=(52,211,153,220) if k<seg else (22,34,46,255))
+    elif kind == "roadmap":
+        # Three-column terminal roadmap with animated cursor and route
+        d.text((35,32),"// ROADMAP",fill=(34,211,238,255))
+        cols=[("NOW",(52,211,153)),("NEXT",(34,211,238)),("EXPLORING",(148,163,184))]
+        items=[["ShieldDesk","AI security","Automation"],["Knowledge graph","Validation","Remediation"],["Agentic SOC","LLM security","Advanced DFIR"]]
+        for j,(lab,col) in enumerate(cols):
+            x=45+j*380
+            d.rounded_rectangle((x,75,x+335,285),16,fill=(6,11,18,255),outline=col,width=2)
+            d.text((x+20,98),lab,fill=col)
+            for k,item in enumerate(items[j]):
+                yy=145+k*42
+                d.text((x+22,yy),">",fill=col); d.text((x+48,yy),item,fill=(226,232,240,255))
+            if j==int(p*3)%3:
+                d.rectangle((x+20,248,x+20+int(280*((p*3)%1)),252),fill=col)
+    elif kind == "cases":
+        # Case-file dossier: folder tabs, animated evidence beam, severity stamp
+        d.text((35,32),"// CASE FILES",fill=(34,211,238,255))
+        cases=[("001","SHIELDDESK","AI SOC"),("002","SENTINEL-IoT","IoT DETECTION"),("003","CTI","THREAT INTEL")]
+        for j,(num,name,typ) in enumerate(cases):
+            x=45+j*380
+            d.rounded_rectangle((x,92,x+335,270),10,fill=(8,13,20,255),outline=(38,54,79,255),width=2)
+            d.rounded_rectangle((x+15,75,x+105,105),7,fill=(10,20,30,255),outline=(34,211,238,255),width=2)
+            d.text((x+30,83),f"CASE {num}",fill=(34,211,238,255))
+            d.text((x+20,130),name,fill=(226,232,240,255)); d.text((x+20,160),typ,fill=(148,163,184,255))
+            d.line((x+20,205,x+310,205),fill=(38,54,79,255),width=2)
+            beam=x+20+int(270*p)
+            d.ellipse((beam-5,198,beam+5,208),fill=(52,211,153,255))
+            d.text((x+20,230),"EVIDENCE  →  VERIFY",fill=(52,211,153,255))
+        d.text((1020,32),"AUDIT",fill=(52,211,153,255))
+    return img
+
+def make_unique_panels() -> None:
+    configs=[("security-command-center.gif","command"),("experience-timeline.gif","experience"),("capability-matrix.gif","capability"),("roadmap.gif","roadmap"),("case-files.gif","cases")]
+    for name,kind in configs:
+        frames=[]
+        for i in range(FRAMES):
+            frames.append(panel_frame(kind,i).convert("P",palette=Image.Palette.ADAPTIVE,colors=128))
+        frames[0].save(ASSETS/name,save_all=True,append_images=frames[1:],duration=DURATION_MS,loop=0,optimize=True,disposal=2)
+
+
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     make_ai()
