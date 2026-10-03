@@ -41,7 +41,13 @@ jobs:
         run: pip install pillow cairosvg
 
       - name: Generate animated security panels
-        run: python scripts/security_ui_motion.py
+        run: |
+          python scripts/security_ui_motion.py
+          test -s assets/security-command-center.gif
+          test -s assets/experience-timeline.gif
+          test -s assets/capability-matrix.gif
+          test -s assets/roadmap.gif
+          test -s assets/case-files.gif
 
       - name: Commit generated GIFs
         run: |
