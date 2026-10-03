@@ -227,28 +227,6 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 <img src="./github-telemetry.svg?v=4" width="100%" alt="GitHub activity and engineering telemetry"/>
 
-## SECURITY OPERATIONS CITY
-
-<img src="./assets/security-city.gif?v=1" width="100%" alt="Animated isometric security operations city showing SOC, AI, CTI, IoT, DFIR, identity and automation systems"/>
-
-> An isometric system map inspired by the contribution-city concept: each building represents a security capability, while animated data packets represent the flow between systems.
-
----
-
-## SECURITY INTELLIGENCE GRID
-
-<img src="./assets/threat-radar.gif?v=1" width="100%" alt="Animated cybersecurity threat radar"/>
-
-<img src="./assets/security-knowledge-graph.gif?v=1" width="100%" alt="Animated security knowledge graph"/>
-
-<img src="./assets/attack-surface.gif?v=1" width="100%" alt="Animated attack surface visualization"/>
-
-<img src="./assets/ai-security-brain.gif?v=1" width="100%" alt="Animated AI security reasoning brain"/>
-
-> Four distinct visual systems: radar detection, relationship intelligence, attack-path analysis and AI reasoning.
-
----
-
 ## CONTRIBUTION CITY
 
 <img src="./profile-3d-contrib/profile-night-view.svg?v=4" width="100%" alt="GitHub 3D contribution city"/>
