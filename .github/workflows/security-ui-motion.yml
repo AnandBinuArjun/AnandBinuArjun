@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/ai-security-core.gif assets/soc-control-room.gif assets/security-digital-twin.gif assets/security-evidence-vault.gif
+          git add assets/ai-security-core.gif assets/soc-control-room.gif assets/security-digital-twin.gif assets/security-evidence-vault.gif assets/security-command-center.gif assets/experience-timeline.gif assets/capability-matrix.gif assets/roadmap.gif assets/case-files.gif
           if git diff --cached --quiet; then
             echo "No GIF changes."
             exit 0
