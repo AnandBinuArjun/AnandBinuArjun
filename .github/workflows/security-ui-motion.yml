@@ -15,6 +15,7 @@ on:
       - "assets/capability-matrix.gif"
       - "assets/roadmap.gif"
       - "assets/case-files.gif"
+      - "scripts/security_ui_motion.py"
       - "assets/security-command-center.svg"
       - "assets/experience-timeline.svg"
       - "assets/capability-matrix.svg"
@@ -48,12 +49,13 @@ jobs:
           test -s assets/capability-matrix.gif
           test -s assets/roadmap.gif
           test -s assets/case-files.gif
+          test -s assets/security-city.gif
 
       - name: Commit generated GIFs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/ai-security-core.gif assets/soc-control-room.gif assets/security-digital-twin.gif assets/security-evidence-vault.gif assets/security-command-center.gif assets/experience-timeline.gif assets/capability-matrix.gif assets/roadmap.gif assets/case-files.gif
+          git add assets/ai-security-core.gif assets/soc-control-room.gif assets/security-digital-twin.gif assets/security-evidence-vault.gif assets/security-command-center.gif assets/experience-timeline.gif assets/capability-matrix.gif assets/roadmap.gif assets/case-files.gif assets/security-city.gif
           if git diff --cached --quiet; then
             echo "No GIF changes."
             exit 0
