@@ -15,6 +15,11 @@ on:
       - "assets/capability-matrix.gif"
       - "assets/roadmap.gif"
       - "assets/case-files.gif"
+      - "assets/security-command-center.svg"
+      - "assets/experience-timeline.svg"
+      - "assets/capability-matrix.svg"
+      - "assets/roadmap.svg"
+      - "assets/case-files.svg"
   workflow_dispatch:
 
 permissions:
