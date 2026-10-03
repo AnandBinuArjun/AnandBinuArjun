@@ -12,7 +12,7 @@
 
 ## SECURITY COMMAND CENTER
 
-<img src="./assets/security-command-center.svg?v=3" width="100%" alt="Animated cybersecurity command center showing role, domains, operating mode and engineering principles"/>
+<img src="./assets/security-command-center.gif?v=4" width="100%" alt="Animated cybersecurity command center showing role, domains, operating mode and engineering principles"/>
 
 <details>
 <summary><b>▸ COMMAND CENTER DATA</b></summary>
@@ -33,7 +33,7 @@
 
 ## EXPERIENCE
 
-<img src="./assets/experience-timeline.svg?v=3" width="100%" alt="Animated cybersecurity engineering experience timeline"/>
+<img src="./assets/experience-timeline.gif?v=4" width="100%" alt="Animated cybersecurity engineering experience timeline"/>
 
 ### Mints Global · Director — IT & Cyber Security
 **Current**
@@ -46,7 +46,7 @@ Leading cybersecurity engineering, security product development and technical se
 
 ## SECURITY CAPABILITY MATRIX
 
-<img src="./assets/capability-matrix.svg?v=3" width="100%" alt="Animated security capability matrix"/>
+<img src="./assets/capability-matrix.gif?v=4" width="100%" alt="Animated security capability matrix"/>
 
 | Capability | Engineering Focus | Representative Systems |
 |:---|:---|:---|
@@ -63,7 +63,7 @@ Leading cybersecurity engineering, security product development and technical se
 
 ## NOW / NEXT / EXPLORING
 
-<img src="./assets/roadmap.svg?v=3" width="100%" alt="Animated now next and exploring cybersecurity roadmap"/>
+<img src="./assets/roadmap.gif?v=4" width="100%" alt="Animated now next and exploring cybersecurity roadmap"/>
 
 | NOW | NEXT | EXPLORING |
 |:---|:---|:---|
@@ -76,7 +76,7 @@ Leading cybersecurity engineering, security product development and technical se
 
 ## CASE FILES
 
-<img src="./assets/case-files.svg?v=3" width="100%" alt="Animated cybersecurity case files interface"/>
+<img src="./assets/case-files.gif?v=4" width="100%" alt="Animated cybersecurity case files interface"/>
 
 ### CASE FILE 001 · SHIELDDESK
 **AI-assisted SOC control plane**
