@@ -230,6 +230,99 @@ def make_roadmap() -> None:
     )
 
 
+def ui_frame(title: str, subtitle: str, cards: list[tuple[str, str, str]], progress: float, width: int = 1200, height: int = 320) -> Image.Image:
+    img = Image.new("RGBA", (width, height), (5, 7, 11, 255))
+    draw = ImageDraw.Draw(img, "RGBA")
+    for x in range(0, width, 40):
+        draw.line((x, 0, x, height), fill=(13, 24, 35, 255), width=1)
+    for y in range(0, height, 40):
+        draw.line((0, y, width, y), fill=(13, 24, 35, 255), width=1)
+    draw.rounded_rectangle((8, 8, width-8, height-8), 18, fill=(5, 7, 11, 245), outline=(38, 54, 79, 255), width=2)
+    draw.text((34, 26), title, fill=(34, 211, 238, 255), font=None)
+    draw.text((34, 57), subtitle, fill=(226, 232, 240, 255), font=None)
+    card_w = (width - 100) // len(cards)
+    for idx, (label, value, accent) in enumerate(cards):
+        x = 34 + idx * (card_w + 8)
+        y = 112
+        draw.rounded_rectangle((x, y, x+card_w, y+128), 14, fill=(9, 16, 25, 255), outline=(38, 54, 79, 255), width=2)
+        draw.text((x+16, y+16), label, fill=(34, 211, 238, 255), font=None)
+        draw.text((x+16, y+52), value, fill=(226, 232, 240, 255), font=None)
+        draw.rounded_rectangle((x+16, y+101, x+card_w-16, y+106), 2, fill=(24, 35, 48, 255))
+        draw.rounded_rectangle((x+16, y+101, x+16+int((card_w-32)*progress), y+106), 2, fill=accent)
+    sx = 34 + int((width-68) * progress)
+    draw.line((sx, 270, min(sx+100, width-34), 270), fill=(52, 211, 153, 210), width=3)
+    return img
+
+def make_portfolio_ui(name: str, title: str, subtitle: str, cards: list[tuple[str, str, tuple[int,int,int]]]) -> None:
+    frames = []
+    for i in range(FRAMES):
+        p = i / (FRAMES - 1)
+        im = ui_frame(title, subtitle, [(a,b,c) for a,b,c in cards], p)
+        # animated scan/pulse overlay
+        draw = ImageDraw.Draw(im, "RGBA")
+        x = 20 + int((1160 * p))
+        draw.rectangle((x, 96, min(x+2, 1180), 250), fill=(34, 211, 238, 55))
+        frames.append(im.convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
+    frames[0].save(ASSETS / name, save_all=True, append_images=frames[1:], duration=DURATION_MS, loop=0, optimize=True, disposal=2)
+
+def make_portfolio_panels() -> None:
+    make_portfolio_ui(
+        "security-command-center.gif",
+        "// SECURITY COMMAND CENTER",
+        "ANAND / SECURITY ENGINEERING OS",
+        [
+            ("ROLE", "DIRECTOR · IT & CYBER", (34, 211, 238)),
+            ("MODE", "BUILD → VERIFY", (52, 211, 153)),
+            ("DOMAINS", "AI · CTI · IoT · DFIR", (34, 211, 238)),
+            ("PUBLIC", "53 REPOSITORIES", (52, 211, 153)),
+        ],
+    )
+    make_portfolio_ui(
+        "experience-timeline.gif",
+        "// EXPERIENCE TIMELINE",
+        "MINTS GLOBAL / DIRECTOR — IT & CYBER SECURITY",
+        [
+            ("OFFENSIVE", "ASSESS", (34, 211, 238)),
+            ("IR", "INVESTIGATE", (52, 211, 153)),
+            ("CLOUD / APP", "HARDEN", (34, 211, 238)),
+            ("OT / IoT", "DETECT", (52, 211, 153)),
+        ],
+    )
+    make_portfolio_ui(
+        "capability-matrix.gif",
+        "// SECURITY CAPABILITY MATRIX",
+        "ENGINEERING DOMAINS / REPRESENTATIVE SYSTEMS",
+        [
+            ("SOC", "SHIELDDESK", (34, 211, 238)),
+            ("CTI", "CTI ANALYSIS", (52, 211, 153)),
+            ("IoT", "SENTINEL-IoT", (34, 211, 238)),
+            ("AI", "VERIFY / GOVERN", (52, 211, 153)),
+        ],
+    )
+    make_portfolio_ui(
+        "roadmap.gif",
+        "// SECURITY ROADMAP",
+        "NOW / NEXT / EXPLORING",
+        [
+            ("NOW", "SHIELDDESK", (52, 211, 153)),
+            ("NEXT", "KNOWLEDGE GRAPH", (34, 211, 238)),
+            ("EXPLORE", "AGENTIC SOC", (34, 211, 238)),
+            ("BUILD", "MCP SECURITY", (52, 211, 153)),
+        ],
+    )
+    make_portfolio_ui(
+        "case-files.gif",
+        "// CASE FILES / SECURITY BUILDS",
+        "PROBLEM → APPROACH → EVIDENCE → SYSTEM",
+        [
+            ("001", "SHIELDDESK", (34, 211, 238)),
+            ("002", "SENTINEL-IoT", (52, 211, 153)),
+            ("003", "CTI ANALYSIS", (34, 211, 238)),
+            ("PROOF", "RETEST", (52, 211, 153)),
+        ],
+    )
+
+
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     make_ai()
