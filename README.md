@@ -227,6 +227,20 @@ AI security · threat intelligence · IoT/embedded security · digital forensics
 
 <img src="./github-telemetry.svg?v=4" width="100%" alt="GitHub activity and engineering telemetry"/>
 
+## SECURITY OPERATIONS CITY
+
+<img src="./assets/security-operations-city.svg?v=1" width="100%" alt="Animated isometric security operations city"/>
+
+## SECURITY INTELLIGENCE
+
+<img src="./assets/threat-radar.svg?v=1" width="100%" alt="Animated threat intelligence radar"/>
+
+<img src="./assets/security-knowledge-graph.svg?v=1" width="100%" alt="Animated security knowledge graph"/>
+
+<img src="./assets/attack-surface.svg?v=1" width="100%" alt="Animated attack surface map"/>
+
+<img src="./assets/ai-security-brain.svg?v=1" width="100%" alt="Animated AI security brain"/>
+
 ## CONTRIBUTION CITY
 
 <img src="./profile-3d-contrib/profile-night-view.svg?v=4" width="100%" alt="GitHub 3D contribution city"/>
