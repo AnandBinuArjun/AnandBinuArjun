@@ -53,7 +53,7 @@
 <rect x="918" y="106" width="248" height="78" rx="14" fill="#0d1220" stroke="#334155"/>
 <rect x="935" y="121" width="20" height="3" rx="1" fill="#f472b6"/>
 <text x="935" y="146" fill="#64748b" font-size="8">FOLLOWING</text>
-<text x="935" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">11</text>
+<text x="935" y="173" fill="#f8fafc" font-family="Arial" font-size="25" font-weight="800">12</text>
 <text x="1050" y="146" fill="#64748b" font-size="8">FOCUS</text>
 <text x="1050" y="166" fill="#34d399" font-size="8">SECURITY + AI</text>
 </g>
@@ -68,7 +68,7 @@
 <text x="949" y="229" fill="#f472b6" font-family="monospace" font-size="9">COMMUNITY</text>
 <text x="949" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">20</text>
 <text x="949" y="284" fill="#64748b" font-family="monospace" font-size="7">FOLLOWERS</text>
-<text x="1040" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">11</text>
+<text x="1040" y="267" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="800">12</text>
 <text x="1040" y="284" fill="#64748b" font-family="monospace" font-size="7">FOLLOWING</text>
 <line x1="949" y1="300" x2="1143" y2="300" stroke="#1e293b"/>
 <text x="949" y="321" fill="#94a3b8" font-family="monospace" font-size="8">@AnandBinuArjun</text>
